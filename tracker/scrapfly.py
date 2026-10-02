@@ -59,12 +59,14 @@ class ScrapflySession:
         fmt = res.get("format")
         enc = res.get("content_encoding")
         if fmt == "blob":
-            # Large binary offloaded: content is a download URL (needs the key).
+            # Very large binary offloaded: content is a download URL (needs key).
             dl = self.api.get(content, params={"key": self.token},
                               timeout=timeout or self.timeout)
             dl.raise_for_status()
             return ScrapflyResponse(status, dl.content)
-        if enc == "base64":
+        # Binary (e.g. a PDF) comes back base64 in content with format "binary";
+        # note content_encoding reports the envelope ("utf-8"), not the content.
+        if fmt == "binary" or enc == "base64":
             return ScrapflyResponse(status, base64.b64decode(content))
         return ScrapflyResponse(status, content.encode("utf-8"))
 
