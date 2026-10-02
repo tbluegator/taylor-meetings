@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T00:15-04:00",
+ "generated": "2026-10-02T00:21-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -220,6 +220,24 @@
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "perry:20260811",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.08.11",
+   "start": "2026-08-11T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260811",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
   },
   {
    "id": "school:DWTKZX545B9B",
@@ -623,6 +641,24 @@
    "agenda_first_seen": ""
   },
   {
+   "id": "perry:20260825",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.08.25",
+   "start": "2026-08-25T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260825",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
+  },
+  {
    "id": "bocc:171",
    "source": "bocc",
    "body": "Board of County Commissioners",
@@ -675,6 +711,24 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "perry:20260908",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.09.08",
+   "start": "2026-09-08T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260908",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
   },
   {
    "id": "school:DXGQHW69737F",
@@ -1283,6 +1337,24 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "perry:20260922",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.09.22",
+   "start": "2026-09-22T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260922",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
   },
   {
    "id": "school:DXWQVP6B2DF2",
@@ -2081,6 +2153,24 @@
    "agenda_first_seen": "2026-10-01T23:48-04:00"
   },
   {
+   "id": "perry:20261013",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.10.13",
+   "start": "2026-10-13T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261013",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
+  },
+  {
    "id": "tcda:20261015",
    "source": "tcda",
    "body": "Taylor County Development Authority",
@@ -2122,6 +2212,24 @@
    "agenda_first_seen": ""
   },
   {
+   "id": "perry:20261027",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.10.27",
+   "start": "2026-10-27T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261027",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
+  },
+  {
    "id": "bocc:173",
    "source": "bocc",
    "body": "Board of County Commissioners",
@@ -2155,6 +2263,24 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "perry:20261110",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.11.10",
+   "start": "2026-11-10T17:00:00-05:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261110",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
    "agenda_first_seen": ""
   },
   {
@@ -2199,6 +2325,24 @@
    "agenda_first_seen": ""
   },
   {
+   "id": "perry:20261124",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.11.24",
+   "start": "2026-11-24T17:00:00-05:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261124",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
+  },
+  {
    "id": "bocc:149",
    "source": "bocc",
    "body": "Board of County Commissioners",
@@ -2214,6 +2358,24 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "perry:20261208",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.12.08",
+   "start": "2026-12-08T17:00:00-05:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261208",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T00:21-04:00",
    "agenda_first_seen": ""
   }
  ]
