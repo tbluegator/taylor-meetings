@@ -11,11 +11,8 @@ only when a source sets `unlocker: {zone: ...}` in config AND the
 BRIGHTDATA_API_KEY env var is present, so local runs and tests fall back to the
 normal session untouched.
 
-Docs: POST https://api.brightdata.com/request with {zone, url, format}.
-- format "json" returns {"status", "headers", "body"} so we can pass the
-  TARGET site's status through (Perry treats a 404 as "no meeting that day").
-- format "raw" returns the body bytes directly; used for PDF agendas, where a
-  JSON-string body would corrupt the binary.
+Docs: POST https://api.brightdata.com/request with {zone, url, format:"raw"},
+which returns the target page body directly (HTML or PDF bytes).
 """
 from __future__ import annotations
 
@@ -50,31 +47,26 @@ class UnlockerSession:
     def __init__(self, zone: str, token: str, timeout: int = 60):
         self.zone = zone
         self.timeout = timeout
+        self._dumped = 0
         self.api = requests.Session()
         self.api.headers["Authorization"] = f"Bearer {token}"
 
     def get(self, url: str, timeout: int | None = None, **_) -> UnlockerResponse:
-        # Binary targets (PDFs) need the raw body as bytes; HTML pages use the
-        # json wrapper so the target's own status code survives.
-        binary = "/media/" in url or url.lower().endswith(".pdf")
-        payload = {"zone": self.zone, "url": url, "format": "raw" if binary else "json"}
+        # format=raw returns the target page body directly (bytes), which is the
+        # documented primary pattern and avoids guessing a JSON wrapper shape.
+        payload = {"zone": self.zone, "url": url, "format": "raw"}
         r = self.api.post(API, json=payload, timeout=timeout or self.timeout)
         # A non-2xx from the API itself (bad key, bad zone) is a real failure.
         r.raise_for_status()
-        if binary:
-            resp = UnlockerResponse(200, r.content)
-        else:
-            try:
-                data = r.json()
-            except ValueError:
-                data = None
-            if isinstance(data, dict) and "body" in data:
-                body = data.get("body") or ""
-                body = body.encode("utf-8") if isinstance(body, str) else bytes(body)
-                resp = UnlockerResponse(int(data.get("status") or 200), body)
-            else:
-                # Unexpected shape: fall back to the raw API body.
-                resp = UnlockerResponse(200, r.content)
+        # One-time verbose dump of the first couple of responses, so the Actions
+        # log shows exactly what Bright Data returns if something looks wrong.
+        if self._dumped < 2:
+            self._dumped += 1
+            ctype = r.headers.get("content-type", "?")
+            preview = r.text[:200].replace("\n", " ")
+            print(f"[unlocker:dump] api_status={r.status_code} ctype={ctype} "
+                  f"len={len(r.content)} preview={preview!r}", file=sys.stderr)
+        resp = UnlockerResponse(r.status_code, r.content)
         print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B  {url}",
               file=sys.stderr)
         return resp
