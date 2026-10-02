@@ -11,8 +11,9 @@ from zoneinfo import ZoneInfo
 import requests
 
 TZ = ZoneInfo("America/New_York")
-USER_AGENT = "TaylorMeetings/1.0 (personal civic project; polite, a few requests per run)"
-
+USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36")
+CONTACT = "Taylor Meetings (personal civic project) tblue.gator@gmail.com"
 
 @dataclass
 class Document:
@@ -65,6 +66,7 @@ class Meeting:
 def session() -> requests.Session:
     s = requests.Session()
     s.headers["User-Agent"] = USER_AGENT
+    s.headers["From"] = CONTACT
     return s
 
 
