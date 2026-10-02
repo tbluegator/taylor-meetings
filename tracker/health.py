@@ -15,6 +15,8 @@ def check(cfg: dict, meetings: list[Meeting], status: dict, now: dt.datetime) ->
     for src in cfg["sources"]:
         sid, name = src["id"], src["name"]
         st = status.get(sid, {})
+        if st.get("paused"):
+            continue
         if not st.get("ok"):
             problems.append({"level": "error", "source": sid,
                              "message": f"{name}: could not fetch ({st.get('error', 'unknown error')}). Showing the last data we had."})

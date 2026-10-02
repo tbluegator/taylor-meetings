@@ -213,7 +213,7 @@ footer p { margin: 0; }
       <h2 id="up-h">Coming up</h2>
       <div class="filters" role="group" aria-label="Show boards">
         <button type="button" id="f-all" data-f="all" aria-pressed="true">All boards</button>
-        {%- for b in boards %}
+        {%- for b in boards if b.enabled is not false %}
         <button type="button" id="f-{{ b.id }}" data-f="{{ b.id }}" aria-pressed="false"><i aria-hidden="true"></i>{{ b.short }}</button>
         {%- endfor %}
         <button type="button" id="f-watch" data-f="watch" aria-pressed="false">Watched topics only</button>
@@ -247,7 +247,7 @@ footer p { margin: 0; }
                 {% elif s.cfg.type == 'boarddocs' %}<a href="https://go.boarddocs.com/{{ s.cfg.site }}/Board.nsf/Public" rel="noopener">BoardDocs</a>
                 {% elif s.cfg.type == 'perry_civicplus' %}<a href="{{ s.cfg.base }}/meetings" rel="noopener">cityofperry.net</a>
                 {% else %}<a href="{{ s.cfg.info_url }}" rel="noopener">tcdaperry.com</a> <span class="msg">(schedule only)</span>{% endif %}</td>
-            <td><span class="dot{% if errs %} err{% elif s.problems %} warn{% endif %}"></span>{% if s.st.ok %}OK{% else %}Failed{% endif %}
+            <td>{% if s.st.paused %}<span class="dot warn"></span>Paused<p class="msg">Not checked right now. See the official site.</p>{% else %}<span class="dot{% if errs %} err{% elif s.problems %} warn{% endif %}"></span>{% if s.st.ok %}OK{% else %}Failed{% endif %}{% endif %}
               {%- for p in s.problems %}<p class="msg">{{ p.message }}</p>{% endfor %}</td>
           </tr>
         {%- endfor %}

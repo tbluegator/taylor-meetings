@@ -42,6 +42,9 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
     fresh: dict[str, Meeting] = {}
     status: dict[str, dict] = {}
     for src in cfg["sources"]:
+        if src.get("enabled", True) is False:
+            status[src["id"]] = {"ok": True, "paused": True, "count": 0, "checked": stamp}
+            continue
         try:
             got = FETCHERS[src["type"]](src, start, end, http=http)
             if src.get("youtube_channel_id"):
@@ -70,10 +73,12 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
         merged[mid] = m
     # Drop future placeholders the source no longer lists (cancelled/rescheduled).
     for mid, m in list(merged.items()):
-        if mid not in fresh and status.get(m.source, {}).get("ok") and m.start_dt.date() >= now.date():
+        st = status.get(m.source, {})
+        if mid not in fresh and st.get("ok") and m.start_dt.date() >= now.date():
             del merged[mid]
 
-    meetings = sorted(merged.values(), key=lambda m: m.start)
+    paused = {s["id"] for s in cfg["sources"] if s.get("enabled", True) is False}
+    meetings = sorted((m for m in merged.values() if m.source not in paused), key=lambda m: m.start)
     topics.tag(meetings, cfg.get("topics", {}))
     problems = health.check(cfg, [m for m in meetings if start <= m.start_dt.date() <= end], status, now)
 

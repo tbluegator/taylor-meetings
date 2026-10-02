@@ -38,6 +38,7 @@ sources:
     expect_agenda_days_before: 3     # Florida practice: packets out ~72 hours ahead
 
   - id: perry
+    enabled: false        # paused: city site blocks cloud servers. Set to true (or delete this line) to resume.
     type: perry_civicplus
     name: "Perry City Council"
     short: "City"

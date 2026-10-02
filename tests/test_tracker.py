@@ -13,7 +13,11 @@ from tracker.sources import boarddocs, civicclerk, perry, recurring
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FIX = ROOT / "tests" / "fixtures"
+LIVE_CFG = yaml.safe_load((ROOT / "config.yaml").read_text())
+# Tests exercise every source, even ones paused in the live config.
 CFG = yaml.safe_load((ROOT / "config.yaml").read_text())
+for _s in CFG["sources"]:
+    _s.pop("enabled", None)
 SRC = {s["id"]: s for s in CFG["sources"]}
 START, END = dt.date(2026, 8, 2), dt.date(2026, 12, 15)
 
@@ -129,3 +133,25 @@ def test_watchdog_flags_parser_drift(tmp_path):
     status = json.loads((tmp_path / "data" / "status.json").read_text())
     assert code == 1
     assert any(p["source"] == "perry" and p["level"] == "error" for p in status["problems"])
+
+
+def test_paused_source_is_skipped_quietly(tmp_path):
+    """A source with enabled: false is not fetched, not health-checked, and not shown."""
+    import copy
+    cfg = copy.deepcopy(CFG)
+    next(s for s in cfg["sources"] if s["id"] == "perry")["enabled"] = False
+
+    class NoPerry(FixtureSession):
+        def get(self, url, **kw):
+            assert "cityofperry" not in url, "paused source was fetched"
+            return super().get(url, **kw)
+    now = dt.datetime(2026, 10, 1, 21, 0, tzinfo=TZ)
+    code = build.run(cfg, now, NoPerry(FIX), tmp_path / "data", tmp_path / "site")
+    assert code == 0
+    status = json.loads((tmp_path / "data" / "status.json").read_text())
+    assert status["sources"]["perry"]["paused"] is True
+    assert not any(p["source"] == "perry" for p in status["problems"])
+    data = json.loads((tmp_path / "data" / "meetings.json").read_text())
+    assert not any(m["source"] == "perry" for m in data["meetings"])
+    html = (tmp_path / "site" / "index.html").read_text()
+    assert "Paused" in html and 'id="f-perry"' not in html
