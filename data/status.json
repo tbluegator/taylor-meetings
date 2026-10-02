@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-02T00:55-04:00",
+ "generated": "2026-10-02T07:09-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-02T00:55-04:00",
-   "last_ok": "2026-10-02T00:55-04:00"
+   "checked": "2026-10-02T07:09-04:00",
+   "last_ok": "2026-10-02T07:09-04:00"
   },
   "perry": {
    "ok": false,
-   "error": "HTTPError: Web Unlocker error [client_10000]: Invalid authentication: check credentials and retry. Bright Data credentials include your account ID, zone name and password",
-   "checked": "2026-10-02T00:55-04:00",
+   "error": "HTTPError: Web Unlocker error [?]: Access denied: www.cityofperry.net is classified as Government and blocked by Bright Data as it might breach Bright Data usage policy. For more details review the following: https://docs.brightdata.com/proxy-networks/residential/network-access#residential-proxy-net",
+   "checked": "2026-10-02T07:09-04:00",
    "last_ok": "2026-10-02T00:51-04:00"
   },
   "school": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-02T00:55-04:00",
-   "last_ok": "2026-10-02T00:55-04:00"
+   "checked": "2026-10-02T07:09-04:00",
+   "last_ok": "2026-10-02T07:09-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-02T00:55-04:00",
-   "last_ok": "2026-10-02T00:55-04:00"
+   "checked": "2026-10-02T07:09-04:00",
+   "last_ok": "2026-10-02T07:09-04:00"
   }
  },
  "problems": [
   {
    "level": "error",
    "source": "perry",
-   "message": "Perry City Council: could not fetch (HTTPError: Web Unlocker error [client_10000]: Invalid authentication: check credentials and retry. Bright Data credentials include your account ID, zone name and password). Showing the last data we had."
+   "message": "Perry City Council: could not fetch (HTTPError: Web Unlocker error [?]: Access denied: www.cityofperry.net is classified as Government and blocked by Bright Data as it might breach Bright Data usage policy. For more details review the following: https://docs.brightdata.com/proxy-networks/residential/network-access#residential-proxy-net). Showing the last data we had."
   }
  ]
 }
