@@ -48,6 +48,7 @@ class UnlockerSession:
         self.zone = zone
         self.timeout = timeout
         self._dumped = 0
+        self.log: list[dict] = []
         self.api = requests.Session()
         self.api.headers["Authorization"] = f"Bearer {token}"
 
@@ -68,10 +69,14 @@ class UnlockerSession:
                   f"len={len(r.content)} preview={preview!r}", file=sys.stderr)
         resp = UnlockerResponse(r.status_code, r.content)
         low = resp.content[:300000].lower()
-        has_media = "Y" if b"/media/" in low else "N"
-        has_agenda = "Y" if b"agenda" in low else "N"
+        has_media = b"/media/" in low
+        has_agenda = b"agenda" in low
+        self.log.append({"url": url, "status": resp.status_code,
+                         "bytes": len(resp.content), "media": has_media,
+                         "agenda": has_agenda})
         print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B "
-              f"media={has_media} agenda={has_agenda}  {url}", file=sys.stderr)
+              f"media={'Y' if has_media else 'N'} agenda={'Y' if has_agenda else 'N'}"
+              f"  {url}", file=sys.stderr)
         return resp
 
 

@@ -63,6 +63,8 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             for m in got:
                 fresh[m.id] = m
             status[src["id"]] = {"ok": True, "count": len(got), "checked": stamp}
+            if isinstance(src_http, unlocker.UnlockerSession):
+                status[src["id"]]["fetches"] = src_http.log   # TEMP diagnostic
         except Exception as e:
             traceback.print_exc()
             last_ok = (load_status(data_dir).get(src["id"], {}) or {}).get("last_ok", "")
