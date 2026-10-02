@@ -36,7 +36,13 @@ def parse_rss(xml: str) -> list[str]:
     import xml.etree.ElementTree as ET
     from urllib.parse import urlparse
     out = []
-    for item in ET.fromstring(xml).iter("item"):
+    if not xml or not xml.strip():
+        return out                      # empty feed: fall back to other paths
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        return out                      # not XML (challenge page, truncated): skip
+    for item in root.iter("item"):
         link = (item.findtext("link") or "").strip()
         if SLUG.search(link):
             out.append(urlparse(link).path)

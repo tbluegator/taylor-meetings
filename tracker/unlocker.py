@@ -20,6 +20,7 @@ Docs: POST https://api.brightdata.com/request with {zone, url, format}.
 from __future__ import annotations
 
 import os
+import sys
 
 import requests
 
@@ -61,12 +62,22 @@ class UnlockerSession:
         # A non-2xx from the API itself (bad key, bad zone) is a real failure.
         r.raise_for_status()
         if binary:
-            return UnlockerResponse(200, r.content)
-        data = r.json()
-        body = data.get("body", "")
-        if isinstance(body, str):
-            body = body.encode("utf-8")
-        return UnlockerResponse(int(data.get("status", 200)), body)
+            resp = UnlockerResponse(200, r.content)
+        else:
+            try:
+                data = r.json()
+            except ValueError:
+                data = None
+            if isinstance(data, dict) and "body" in data:
+                body = data.get("body") or ""
+                body = body.encode("utf-8") if isinstance(body, str) else bytes(body)
+                resp = UnlockerResponse(int(data.get("status") or 200), body)
+            else:
+                # Unexpected shape: fall back to the raw API body.
+                resp = UnlockerResponse(200, r.content)
+        print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B  {url}",
+              file=sys.stderr)
+        return resp
 
 
 def session_for(cfg: dict) -> UnlockerSession | None:
