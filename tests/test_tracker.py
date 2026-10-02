@@ -77,9 +77,12 @@ def test_boarddocs_parse_time():
         dt.datetime(2026, 1, 1, h, mnt, tzinfo=TZ)
 
 
+PERRY_NOW = dt.datetime(2026, 10, 1, 21, 0, tzinfo=TZ)   # matches the fixture capture
+
+
 def test_perry_finds_special_meeting_via_feed():
     fix = FixtureSession(FIX)
-    ms = perry.fetch(SRC["perry"], START, END, http=fix, page_solver=fix, pdf_solver=fix)
+    ms = perry.fetch(SRC["perry"], START, END, http=fix, page_solver=fix, pdf_solver=fix, now=PERRY_NOW)
     ids = {m.id for m in ms}
     assert "perry:20260910" in ids        # a Thursday, off the regular schedule
     assert "perry:20260908" not in ids    # regular date not in the feed, not invented
@@ -95,7 +98,7 @@ def test_perry_feed_only_without_solver():
 
 def test_perry_documents_and_agenda_pdf():
     fix = FixtureSession(FIX)
-    ms = perry.fetch(SRC["perry"], START, END, http=fix, page_solver=fix, pdf_solver=fix)
+    ms = perry.fetch(SRC["perry"], START, END, http=fix, page_solver=fix, pdf_solver=fix, now=PERRY_NOW)
     sep22 = next(m for m in ms if m.id == "perry:20260922")
     labels = [d.label for d in sep22.documents]
     assert labels == ["Agenda Packet (Dropbox)", "Agenda"]

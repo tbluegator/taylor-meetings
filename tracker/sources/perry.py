@@ -160,8 +160,14 @@ def _feed_only(cfg: dict, day: dt.date, path: str, title: str) -> Meeting:
     )
 
 
+# Meetings further out than this don't have agendas yet, so don't spend a paid
+# page fetch on them each run — just list them from the feed. Agendas post ~3
+# days ahead (expect_agenda_days_before), so two weeks is plenty of lead time.
+FUTURE_FETCH_DAYS = 14
+
+
 def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
-          page_solver=None, pdf_solver=None, known=None) -> list[Meeting]:
+          page_solver=None, pdf_solver=None, known=None, now=None) -> list[Meeting]:
     """Discover from the /calendar feed and read meeting pages via page_solver
     (a cheap CF-clearing HTML fetcher, e.g. ScraperAPI); fetch the agenda PDFs
     via pdf_solver (e.g. Scrapfly, which returns binary). Everything on the site
@@ -170,6 +176,8 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
     fall mostly on new agendas."""
     http = http or session()
     known = known or {}
+    today = (now or dt.datetime.now(TZ)).date()
+    future_cutoff = today + dt.timedelta(days=FUTURE_FETCH_DAYS)
     # ScraperAPI clears Cloudflare for HTML documents but not for the JSON feed
     # endpoint (CF challenges an XHR path harder), so fetch the feed through the
     # more robust pdf_solver (Scrapfly) when available.
@@ -186,8 +194,10 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
         if prev is not None and prev.agenda_posted and prev.agenda_items:
             meetings.append(prev)
             continue
-        if page_solver is None:
-            meetings.append(_feed_only(cfg, day, path, title))
+        if page_solver is None or day > future_cutoff:
+            # No solver, or too far out to have an agenda yet: list from the feed
+            # (reusing prior data if we have it) without a paid page fetch.
+            meetings.append(prev or _feed_only(cfg, day, path, title))
             continue
         r = page_solver.get(urljoin(cfg["base"], path), timeout=70)
         if getattr(r, "status_code", 0) == 404 or not r.ok:

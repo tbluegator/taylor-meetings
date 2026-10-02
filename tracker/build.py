@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import pathlib
 import sys
 import traceback
@@ -47,13 +48,19 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             continue
         try:
             if src["type"] == "perry_civicplus":
-                # The whole site is behind Cloudflare. Scrapfly clears it
-                # reliably for the feed, meeting pages and agenda PDFs (ScraperAPI
-                # was inconsistent here). In tests the fixture serves all of it.
+                # The whole site is behind Cloudflare, cleared via Scrapfly (paid
+                # credits). Refresh Perry once a day (the first scheduled run,
+                # hour 10 UTC) and reuse stored data on the other runs; always
+                # refresh in tests, when forced, or when nothing is stored yet.
                 solver = http if getattr(http, "is_fixture", False) else scrapfly.session_for(src)
-                got = perry.fetch(src, start, end, http=http,
-                                  page_solver=solver, pdf_solver=solver,
-                                  known=previous)
+                prev_perry = [m for m in previous.values() if m.source == src["id"]]
+                refresh = (getattr(http, "is_fixture", False) or now.hour == 10
+                           or not prev_perry or os.environ.get("PERRY_REFRESH"))
+                if refresh:
+                    got = perry.fetch(src, start, end, http=http, page_solver=solver,
+                                      pdf_solver=solver, known=previous, now=now)
+                else:
+                    got = prev_perry
             else:
                 got = FETCHERS[src["type"]](src, start, end, http=http)
             if src.get("youtube_channel_id"):
