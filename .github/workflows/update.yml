@@ -38,7 +38,7 @@ jobs:
       - name: Fetch sources and build site
         id: build
         env:
-          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+          SCRAPFLY_KEY: ${{ secrets.SCRAPFLY_KEY }}
         run: |
           python -m tracker.build || echo "health_failed=1" >> "$GITHUB_OUTPUT"
 

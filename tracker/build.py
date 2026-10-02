@@ -14,7 +14,7 @@ import traceback
 
 import yaml
 
-from . import health, render, scraperapi, topics
+from . import health, render, scrapfly, topics
 from .models import TZ, Meeting, session
 from .sources import boarddocs, civicclerk, perry, recurring, youtube
 
@@ -49,7 +49,7 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             if src["type"] == "perry_civicplus":
                 # Discovery via the free /calendar feed (http); agenda pages via a
                 # Cloudflare-solving service. In tests the fixture serves both.
-                solver = http if getattr(http, "is_fixture", False) else scraperapi.session_for(src)
+                solver = http if getattr(http, "is_fixture", False) else scrapfly.session_for(src)
                 got = perry.fetch(src, start, end, http=http, solver=solver, known=previous)
             else:
                 got = FETCHERS[src["type"]](src, start, end, http=http)
