@@ -1,36 +1,30 @@
 {
- "generated": "2026-10-01T23:40-04:00",
+ "generated": "2026-10-01T23:48-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-01T23:40-04:00",
-   "last_ok": "2026-10-01T23:40-04:00"
+   "checked": "2026-10-01T23:48-04:00",
+   "last_ok": "2026-10-01T23:48-04:00"
   },
   "perry": {
    "ok": true,
    "paused": true,
    "count": 0,
-   "checked": "2026-10-01T23:40-04:00"
+   "checked": "2026-10-01T23:48-04:00"
   },
   "school": {
-   "ok": false,
-   "error": "ValueError: hour must be in 0..23",
-   "checked": "2026-10-01T23:40-04:00",
-   "last_ok": ""
+   "ok": true,
+   "count": 5,
+   "checked": "2026-10-01T23:48-04:00",
+   "last_ok": "2026-10-01T23:48-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-01T23:40-04:00",
-   "last_ok": "2026-10-01T23:40-04:00"
+   "checked": "2026-10-01T23:48-04:00",
+   "last_ok": "2026-10-01T23:48-04:00"
   }
  },
- "problems": [
-  {
-   "level": "error",
-   "source": "school",
-   "message": "School Board of Taylor County: could not fetch (ValueError: hour must be in 0..23). Showing the last data we had."
-  }
- ]
+ "problems": []
 }

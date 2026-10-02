@@ -1,6 +1,168 @@
 {
- "generated": "2026-10-01T23:40-04:00",
+ "generated": "2026-10-01T23:48-04:00",
  "meetings": [
+  {
+   "id": "school:DWDKES517CB4",
+   "source": "school",
+   "body": "School Board of Taylor County",
+   "body_short": "School Board",
+   "title": "August 4, 2026 Regular School Board Meeting, Public Hearing and Executive Session",
+   "start": "2026-08-04T17:15:00-04:00",
+   "location": "Administrative Complex, School Board Meeting Room, 318 North Clark Street, Perry FL",
+   "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWDKES517CB4",
+   "documents": [
+    {
+     "label": "Agenda (BoardDocs)",
+     "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWDKES517CB4"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.01",
+     "text": "Roll Call (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.02",
+     "text": "Prayer and Pledge (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.03",
+     "text": "Adoption of the Agenda (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.04",
+     "text": "Approval of Minutes (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.06",
+     "text": "Presentations/Reports: (Presentation)",
+     "topics": []
+    },
+    {
+     "section": "Items of Concern By Public",
+     "number": "3.01",
+     "text": "Items of Concern by the Public (Information)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.01",
+     "text": "Purchase Orders/P-Card Purchases (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Programs/Plans",
+     "number": "7.02",
+     "text": "Approval of Plan(s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Agreement/Contracts",
+     "number": "8.01",
+     "text": "Approval of Agreement/Contracts (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.04",
+     "text": "Other Requests (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.01",
+     "text": "Routine Personnel Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.02",
+     "text": "Substitute Listing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.07",
+     "text": "Reappointment of Non-Instructional Personnel (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.08",
+     "text": "Reappointment of Annual Contract Personnel (Teachers) (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.17",
+     "text": "Termination of Employment (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.24",
+     "text": "Approval/Acknowledgement of Out of Field Teachers",
+     "topics": []
+    },
+    {
+     "section": "Public Hearing",
+     "number": "15.01",
+     "text": "Approval of Plan and Authorization to Advertise for a Public Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Public Hearing",
+     "number": "15.02",
+     "text": "Public Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Items of Interest/Request By Board and Superintendent",
+     "number": "30.01",
+     "text": "Items of Interest/Request by Board and Superintendent",
+     "topics": []
+    },
+    {
+     "section": "Adjournment",
+     "number": "40.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Executive Session",
+     "number": "42.01",
+     "text": "Executive Session",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Executive Session",
+     "number": "44.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Signatures",
+     "number": "50.01",
+     "text": "Signatures",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T23:48-04:00",
+   "agenda_first_seen": "2026-10-01T23:48-04:00"
+  },
   {
    "id": "bocc:208",
    "source": "bocc",
@@ -58,6 +220,192 @@
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "school:DWTKZX545B9B",
+   "source": "school",
+   "body": "School Board of Taylor County",
+   "body_short": "School Board",
+   "title": "August 18, 2026 Regular School Board Meeting, Executive Session and Public Hearing",
+   "start": "2026-08-18T17:15:00-04:00",
+   "location": "Administrative Complex, School Board Meeting Room, 318 North Clark Street, Perry FL",
+   "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWTKZX545B9B",
+   "documents": [
+    {
+     "label": "Agenda (BoardDocs)",
+     "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWTKZX545B9B"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.01",
+     "text": "Roll Call (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.02",
+     "text": "Prayer and Pledge (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.03",
+     "text": "Adoption of the Agenda (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.04",
+     "text": "Approval of Minutes (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.06",
+     "text": "Presentations/Reports: (Presentation)",
+     "topics": []
+    },
+    {
+     "section": "Items of Concern By Public",
+     "number": "3.01",
+     "text": "Items of Concern by the Public (Information)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.01",
+     "text": "Purchase Orders/P-Card Purchases (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.02",
+     "text": "Award of Bid (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.06",
+     "text": "Financial Report (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.10",
+     "text": "Misc. Financial Items (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Resolutions",
+     "number": "5.01",
+     "text": "Resolution (Action)",
+     "topics": []
+    },
+    {
+     "section": "Programs/Plans",
+     "number": "7.02",
+     "text": "Approval of Plan(s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Agreement/Contracts",
+     "number": "8.01",
+     "text": "Approval of Agreement/Contracts (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.01",
+     "text": "Routine Personnel Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.02",
+     "text": "Substitute Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.13",
+     "text": "Establishment of Position (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.15",
+     "text": "Job Description Approval (Action)",
+     "topics": []
+    },
+    {
+     "section": "Facilities",
+     "number": "13.07",
+     "text": "Approval of Five-year Plan (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Public Hearing",
+     "number": "15.01",
+     "text": "Approval of Policy and Authorization to Advertise for a Public Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Public Hearing",
+     "number": "15.02",
+     "text": "Public Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Acknowledgement of Items",
+     "number": "18.01",
+     "text": "Acknowledgement of Item(s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Items of Interest/Request By Board and Superintendent",
+     "number": "30.01",
+     "text": "Items of Interest/Request by Board and Superintendent",
+     "topics": []
+    },
+    {
+     "section": "Adjournment",
+     "number": "40.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Executive Session",
+     "number": "42.01",
+     "text": "Executive Session",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Closed Hearing",
+     "number": "43.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Executive Session",
+     "number": "44.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Signatures",
+     "number": "50.01",
+     "text": "Signatures",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T23:48-04:00",
+   "agenda_first_seen": "2026-10-01T23:48-04:00"
   },
   {
    "id": "bocc:158",
@@ -327,6 +675,192 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "school:DXGQHW69737F",
+   "source": "school",
+   "body": "School Board of Taylor County",
+   "body_short": "School Board",
+   "title": "Special School Board Meeting, Executive Session and Public Hearing",
+   "start": "2026-09-08T17:15:00-04:00",
+   "location": "Administrative Complex, School Board Meeting Room, 318 North Clark Street, Perry FL",
+   "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F",
+   "documents": [
+    {
+     "label": "Agenda (BoardDocs)",
+     "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.01",
+     "text": "Roll Call (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.02",
+     "text": "Prayer and Pledge (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.03",
+     "text": "Adoption of the Agenda (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.04",
+     "text": "Approval of Minutes (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.06",
+     "text": "Presentations (Presentation)",
+     "topics": []
+    },
+    {
+     "section": "Items of Concern By Public",
+     "number": "3.01",
+     "text": "Items of Concern by the Public (Information)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.01",
+     "text": "Purchase Orders/P-Card Purchases (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.10",
+     "text": "Misc. Financial Items (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Grants",
+     "number": "6.01",
+     "text": "Approval of Grant(s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Programs/Plans",
+     "number": "7.01",
+     "text": "Approval of Plan(s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Agreement/Contracts",
+     "number": "8.01",
+     "text": "Approval of Agreement/Contracts (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.01",
+     "text": "Request to Use School Bus (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.02",
+     "text": "Request to Use Buildings/Facilities (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.01",
+     "text": "Routine Personnel Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.02",
+     "text": "Substitute Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.11",
+     "text": "DROP Participants (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.13",
+     "text": "Establishment of Position (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.15",
+     "text": "Job Description Approval (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.24",
+     "text": "Approval /Acknowledge Out-Of -Field Teachers (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Public Hearing",
+     "number": "15.02",
+     "text": "Public Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Budget",
+     "number": "16.04",
+     "text": "Final Budget Hearing (Action)",
+     "topics": []
+    },
+    {
+     "section": "Items of Interest/Request By Board and Superintendent",
+     "number": "30.01",
+     "text": "Items of Interest/Request by Board and Superintendent",
+     "topics": []
+    },
+    {
+     "section": "Adjournment",
+     "number": "40.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Executive Session",
+     "number": "42.01",
+     "text": "Executive Session",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Closed Hearing",
+     "number": "43.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Executive Session",
+     "number": "44.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Signatures",
+     "number": "50.01",
+     "text": "Signatures",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T23:48-04:00",
+   "agenda_first_seen": "2026-10-01T23:48-04:00"
   },
   {
    "id": "bocc:146",
@@ -749,6 +1283,192 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "school:DXWQVP6B2DF2",
+   "source": "school",
+   "body": "School Board of Taylor County",
+   "body_short": "School Board",
+   "title": "September 22 Regular School Board Meeting, and Executive Session",
+   "start": "2026-09-22T17:15:00-04:00",
+   "location": "Administrative Complex, School Board Meeting Room, 318 North Clark Street, Perry FL",
+   "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2",
+   "documents": [
+    {
+     "label": "Agenda (BoardDocs)",
+     "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.01",
+     "text": "Roll Call (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.02",
+     "text": "Prayer and Pledge (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.03",
+     "text": "Adoption of the Agenda (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.04",
+     "text": "Approval of Minutes (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.06",
+     "text": "Presentations (Presentation)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.08",
+     "text": "Workshop (Discussion)",
+     "topics": []
+    },
+    {
+     "section": "Items of Concern By Public",
+     "number": "3.01",
+     "text": "Items of Concern by the Public (Information)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.01",
+     "text": "Purchase Orders/P-Card Purchases (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.06",
+     "text": "Financial Report (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Grants",
+     "number": "6.01",
+     "text": "Approval of Grant (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.01",
+     "text": "Request to Use School Bus (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.02",
+     "text": "Request to Use Buildings/Facilities (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Requests",
+     "number": "9.04",
+     "text": "Other Requests (Action, Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.01",
+     "text": "Routine Personnel Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.02",
+     "text": "Substitute Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.05",
+     "text": "Appointment of Administrative Personnel (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.11",
+     "text": "DROP Participants (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.13",
+     "text": "Establishment of Position (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.15",
+     "text": "Job Description Approval (Action)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.26",
+     "text": "Approval of Salary Schedule (Action)",
+     "topics": []
+    },
+    {
+     "section": "Acknowledgment of Items",
+     "number": "18.01",
+     "text": "Acknowledgement of Item (s) (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Items of Interest/Request By Board and Superintendent",
+     "number": "30.01",
+     "text": "Items of Interest/Request by Board and Superintendent",
+     "topics": []
+    },
+    {
+     "section": "Adjournment",
+     "number": "40.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Executive Session",
+     "number": "42.01",
+     "text": "Executive Session",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Closed Hearing",
+     "number": "43.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Executive Session",
+     "number": "44.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Signatures",
+     "number": "50.01",
+     "text": "Signatures",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T23:48-04:00",
+   "agenda_first_seen": "2026-10-01T23:48-04:00"
   },
   {
    "id": "bocc:159",
@@ -1215,6 +1935,150 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "school:DYCP6Y63285C",
+   "source": "school",
+   "body": "School Board of Taylor County",
+   "body_short": "School Board",
+   "title": "October 6, 2026 Regular School Board Meeting and Executive Session",
+   "start": "2026-10-06T17:15:00-04:00",
+   "location": "Administrative Complex, School Board Meeting Room, 318 North Clark Street, Perry FL",
+   "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DYCP6Y63285C",
+   "documents": [
+    {
+     "label": "Agenda (BoardDocs)",
+     "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DYCP6Y63285C"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.01",
+     "text": "Roll Call (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.02",
+     "text": "Prayer and Pledge (Procedural)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.03",
+     "text": "Adoption of the Agenda (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.04",
+     "text": "Approval of Minutes (Action)",
+     "topics": []
+    },
+    {
+     "section": "Opening Meeting Items",
+     "number": "2.08",
+     "text": "Workshop (Discussion)",
+     "topics": []
+    },
+    {
+     "section": "Items of Concern By Public",
+     "number": "3.01",
+     "text": "Items of Concern by the Public (Information)",
+     "topics": []
+    },
+    {
+     "section": "Routine Financial Items",
+     "number": "4.01",
+     "text": "Purchase Orders/P-Card Purchases (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Grants",
+     "number": "6.03",
+     "text": "Acknowledgment of Grant Funds Received (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Agreement/Contracts",
+     "number": "8.01",
+     "text": "Approval of Agreement/Contracts (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.01",
+     "text": "Routine Personnel Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.02",
+     "text": "Substitute Listing (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.11",
+     "text": "DROP Participants (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.17",
+     "text": "Termination of Employment/Suspension of Employment (Consent)",
+     "topics": []
+    },
+    {
+     "section": "Personnel",
+     "number": "12.26",
+     "text": "Approval of Salary Schedule",
+     "topics": []
+    },
+    {
+     "section": "Items of Interest/Request By Board and Superintendent",
+     "number": "30.01",
+     "text": "Items of Interest/Request by Board and Superintendent",
+     "topics": []
+    },
+    {
+     "section": "Adjournment",
+     "number": "40.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Executive Session",
+     "number": "42.01",
+     "text": "Executive Session",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Closed Hearing",
+     "number": "43.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Adjournment After Executive Session",
+     "number": "44.01",
+     "text": "Adjournment Time",
+     "topics": []
+    },
+    {
+     "section": "Signatures",
+     "number": "50.01",
+     "text": "Signatures",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T23:48-04:00",
+   "agenda_first_seen": "2026-10-01T23:48-04:00"
   },
   {
    "id": "tcda:20261015",
