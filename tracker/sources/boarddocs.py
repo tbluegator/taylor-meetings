@@ -21,12 +21,19 @@ def base(cfg: dict) -> str:
 
 
 def parse_time(description: str) -> tuple[int, int]:
-    m = re.search(r"(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m", description or "", re.I)
+    m = re.search(r"\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m", description or "", re.I)
     if not m:
         return 17, 15
     h, mnt = int(m.group(1)), int(m.group(2) or 0)
-    if m.group(3).lower() == "p" and h != 12:
+    # Only 1-12 is a valid 12-hour clock hour; anything else (e.g. a stray
+    # "13:00 pm" or a number caught from an address) is not a real time.
+    if not (1 <= h <= 12) or mnt > 59:
+        return 17, 15
+    pm = m.group(3).lower() == "p"
+    if pm and h != 12:        # 1-11 pm -> 13-23
         h += 12
+    elif not pm and h == 12:  # 12 am -> 0 (midnight)
+        h = 0
     return h, mnt
 
 

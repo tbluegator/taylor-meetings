@@ -60,6 +60,23 @@ def test_boarddocs_list_and_agenda():
     assert salary.section == "Personnel" and salary.text == "Approval of Salary Schedule"
 
 
+def test_boarddocs_parse_time():
+    # Normal 12-hour times.
+    assert boarddocs.parse_time("Perry FL5:15 p.m.") == (17, 15)
+    assert boarddocs.parse_time("starts 9 a.m.") == (9, 0)
+    assert boarddocs.parse_time("noon 12 p.m.") == (12, 0)
+    assert boarddocs.parse_time("midnight 12 a.m.") == (0, 0)
+    # No time -> default.
+    assert boarddocs.parse_time("no time listed") == (17, 15)
+    # Malformed hours must fall back, not overflow past 23 (the live crash).
+    assert boarddocs.parse_time("Perry FL 13:00 p.m.") == (17, 15)
+    assert boarddocs.parse_time("Meeting at 17:15 p.m.") == (17, 15)
+    # Every result must be a valid time of day.
+    for desc in ["5:15 p.m.", "13:00 pm", "99 pm", "12 a.m.", ""]:
+        h, mnt = boarddocs.parse_time(desc)
+        dt.datetime(2026, 1, 1, h, mnt, tzinfo=TZ)
+
+
 def test_perry_finds_special_meeting_via_rss():
     ms = perry.fetch(SRC["perry"], START, END, http=FixtureSession(FIX))
     ids = {m.id for m in ms}
