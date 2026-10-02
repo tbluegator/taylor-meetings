@@ -1,0 +1,41 @@
+name: Diagnose sources
+
+# Manual-only. Checks each source a few ways and prints what the server answers,
+# so a blocked or changed site can be diagnosed without guessing.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Where this runner's traffic comes from
+        run: curl -s https://ipinfo.io/json | python3 -c "import json,sys; d=json.load(sys.stdin); print('Network:', d.get('org'), '|', d.get('city'), d.get('region'))" || true
+
+      - name: Check each URL
+        run: |
+          UA_PROJECT="TaylorMeetings/1.0 (personal civic project; polite, a few requests per run)"
+          check () {
+            label="$1"; url="$2"; ua="$3"
+            out=$(curl -s -o /tmp/body -D /tmp/head -w "%{http_code}" -A "$ua" --max-time 20 "$url" || echo "ERR")
+            server=$(grep -i '^server:' /tmp/head | head -1 | tr -d '\r')
+            vendor=$(grep -iE '^(cf-ray|cf-mitigated|x-iinfo|x-cdn|x-amz-cf-id|x-amzn-waf|akamai|x-akamai|x-sucuri-id|x-cache)' /tmp/head | tr -d '\r' | tr '\n' ' ')
+            snippet=$(head -c 300 /tmp/body | tr '\n\r\t' '   ' | sed 's/  */ /g' | cut -c1-160)
+            printf '%-4s %-38s %s | %s %s\n      body: %s\n' "$out" "$label" "$url" "$server" "$vendor" "$snippet"
+          }
+          for ua in "$UA_PROJECT" "curl/8"; do
+            echo "=== User-Agent: $ua ==="
+            check "Perry home"            "https://www.cityofperry.net/" "$ua"
+            check "Perry meetings"        "https://www.cityofperry.net/meetings" "$ua"
+            check "Perry RSS"             "https://www.cityofperry.net/rss.xml" "$ua"
+            check "Perry agenda PDF"      "https://www.cityofperry.net/media/1181" "$ua"
+            check "BoardDocs robots"      "https://go.boarddocs.com/robots.txt" "$ua"
+            check "BoardDocs public"      "https://go.boarddocs.com/fl/taylor/Board.nsf/Public" "$ua"
+            check "BoardDocs meeting list" "https://go.boarddocs.com/fl/taylor/Board.nsf/BD-GETMeetingsListForSEO?open" "$ua"
+            check "Control: CivicClerk"   "https://taylorcofl.api.civicclerk.com/v1/Events?\$top=1" "$ua"
+            check "Control: county site"  "https://www.taylorcountygov.com/" "$ua"
+          done
