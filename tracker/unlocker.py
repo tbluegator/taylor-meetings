@@ -67,8 +67,11 @@ class UnlockerSession:
             print(f"[unlocker:dump] api_status={r.status_code} ctype={ctype} "
                   f"len={len(r.content)} preview={preview!r}", file=sys.stderr)
         resp = UnlockerResponse(r.status_code, r.content)
-        print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B  {url}",
-              file=sys.stderr)
+        low = resp.content[:300000].lower()
+        has_media = "Y" if b"/media/" in low else "N"
+        has_agenda = "Y" if b"agenda" in low else "N"
+        print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B "
+              f"media={has_media} agenda={has_agenda}  {url}", file=sys.stderr)
         return resp
 
 
