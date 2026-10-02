@@ -1,0 +1,1356 @@
+{
+ "generated": "2026-10-01T22:02-04:00",
+ "meetings": [
+  {
+   "id": "bocc:208",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "One Time Event",
+   "start": "2026-08-11T17:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/208/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=553,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=588,plainText=false)"
+    }
+   ],
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/3c10a889a2.mp4",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "4",
+     "text": "THE BOARD TO DISCUSS HEALTH INSURANCE PLAN OPTIONS, AS AGENDAED BY LAWANDA PEMBERTON, COUNTY ADMINISTRATOR",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "5",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:158",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-08-18T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/158/files",
+   "documents": [
+    {
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=556,plainText=false)"
+    },
+    {
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=558,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=610,plainText=false)"
+    }
+   ],
+   "video_url": "https://taylorcofl.portal.civicclerk.com/event/158/media",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "4",
+     "text": "APPROVAL OF MINUTES JULY 21, 2026; JULY 28, 2026; JULY 30, 2026; AUGUST 3, 2026.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "EXAMINATIONAL AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "THE BOARD TO REVIEW AND CONSIDER APPROVAL THE TAYLOR COUNTY LANDFILL DECLARATION OF RESTRICTIVE COVENANT, AS REQUIRED BY THE FLORIDA DEPARTMENT OF ENVIRONMENTAL PROTECTION, AS AGENDAED BY KENNETH DUDLEY, COUNTY ENGINEER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO CONSIDER APPROVING A LEASE WITH SHANE WILLIAMSON TO LEASE LAND FOR HIS SHADE HANGAR AT THE AIRPORT, AS AGENDAED BY WARD KETRING, AIRPORT MANAGER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTIONS TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND, AIRPORT FUND, MSTU FUND, SOLID WASTE FUND, LANDFILL FUND, ROAD & BRIDGE FUND, SECONDARY ROAD PAVING FUND AND AIRPORT ENTERPRISE FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTION TO REFLECT A SHORTFALL OF MONIES IN THE AIRPORT FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO CONSIDER A TRANSFER FROM RESERVES FOR CONTINGENCY FROM THE GENERAL FUND RESERVES IN THE AMOUNT OF $75,000, FOR THE REMAINING INVOICES TO JAMES MOORE (AUDITOR).",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF A TRANSFER FROM RESERVE FOR CONTINGENCY FROM THE GENERAL FUND, FOR THE PAYMENT OF THE DEDUCTIBLE IN THE INSURANCE CLAIM GC2024277951-F, IN THE AMOUNT OF $5,000, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF EXTENSION OF LEASE AGREEMENT WITH DAVID HALL FOR THE SPRING WARRIOR BOAT RAMP, AS AGENDAED BY LAWANDA PEMBERTON, COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF T-HANGAR LEASE WITH BILLY CARNLEY AT THE AIRPORT, AS AGENDAED BY WARD KETRING, AIRPORT MANAGER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "14",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF SHERIFF'S BUDGET AMENDMENT TWO, AS AGENDAED BY TAYLOR COUNTY SHERIFF'S OFFICE CFO, JOHN KETRING.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "15",
+     "text": "THE BOARD TO RECEIVE STATEMENT OF QUALIFICATIONS (SOQ) FOR THE STEINHATCHEE COMMERCIAL SEAFOOD FACILITY PLANNING AND FEASIBILITY STUDY AT 6:00 P.M., AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "16",
+     "text": "THE BOARD TO RECEIVE STATEMENTS OF QUALIFICATIONS TO PROVIDE PHASE 1 HAZARD MITIGATION GRANT PROGRAM ENGINEERING DESIGN SERVICES FOR FOUR PROJECTS FUNDED THROUGH THE FEMA HAZARD MITIGATION GRANT PROGRAM, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "17",
+     "text": "THE BOARD TO HOLD THE FIRST OF TWO PUBLIC MEETINGS/HEARINGS AT 6:15 P.M. TO DISCUSS AND RECEIVE PUBLIC INPUT FOR THE POSSIBLE GRANT SUBMISSION TO THE 2027-2028 FUNDING CYCLE OF THE FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) REQUESTING FUNDING ASSISTANCE FOR PHASE 1 OF STEINHATCHEE COASTAL PARK, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "PUBLIC REQUESTS",
+     "number": "18",
+     "text": "THE BOARD TO HEAR PRESENTATION FROM THE ARMY CORPS OF ENGINEERS REGARDING THE PROPOSED FEDERAL CHANNEL DREDGING PROJECT AND A BUDGET TRANSFER FROM RESERVE FROM CONTINGENCY IN THE AMOUNT OF $1,879,411.76 FOR THE TAYLOR COUNTY COST SHARE, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "PUBLIC REQUESTS",
+     "number": "19",
+     "text": "THE BOARD TO CONSIDER REQUEST TO HOLD PUBLIC HEARING TO CONSIDER REQUEST TO ABANDON PUBLIC RIGHT-OF-WAY LOCATED AT GRANGER ROAD SE IN STEINHATCHEE, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSTITUTIONAL OFFICERS/OTHER GOVERNMENTAL UNITS",
+     "number": "20",
+     "text": "THE BOARD TO DISCUSS FY27 BUDGET, AS AGENDAED BY THE CLERK OF COURT.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO REVIEW AND CONSIDER APPROVAL OF THE AIRPORT IMPROVEMENT PROGRAM (AIP) GRANT NUMBER 3-12-0064-025-2026 FROM THE FEDERAL AVIATION ADMINISTRATION (FAA) IN THE AMOUNT OF $1,334,049 FOR THE SHIFT TAXIWAY A CONSTRUCTION PROJECT AT PERRY-FOLEY AIRPORT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "22",
+     "text": "THE BOARD TO REVIEW AND CONSIDER APPROVAL OF THE INFRASTRUCTURE INVESTMENT AND JOBS ACT GRANT NUMBER 3-12-0064-024-2026 FROM THE FEDERAL AVIATION ADMINISTRATION (FAA) IN THE AMOUNT OF $406,311 FOR THE SHIFT TAXIWAY A CONSTRUCTION PROJECT AT PERRY-FOLEY AIRPORT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "23",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT CONSENT FINAL JUDGEMENT FOR GRACELAND, LLC VS TAYLOR COUNTY, AS AGENDAED BY CONRAD BISHOP II, COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "24",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT CONTRACT WITH VDCI MOSQUITO MANAGEMENT FOR MOSQUITO CONTROL SERVICES, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "25",
+     "text": "THE BOARD TO DISCUSS THE PLACEMENT OF SCHOOL ZONE CAMERAS BY THE CITY OF PERRY IN COUNTY RIGHT-OF-WAY, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "26",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Taxes & reserves"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "tcda:20260820",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2026-08-20T12:00:00-04:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:171",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Workshop",
+   "start": "2026-08-25T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/171/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=560,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=562,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=589,plainText=false)"
+    }
+   ],
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/c16f1e7a26.mp4",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "DATA CENTER DISCUSSION A. Welcome, purpose, and meeting participation ground rules. 1. Purpose: to share information about data centers (what they are, benefits, impacts, challenges to be aware of, and approaches to address them) presented in a format that allows diverse perspectives to be shared and we are not told \u201cwhat to think,\u201d but \u201cwhat to think about,\u201d so that Taylor County citizens and elected leaders are better informed and can use that information to make better decisions with the best interests of the county in mind. 2. This meeting is informational. No official action will be taken. 3. Due to the potential audience size, we are following the guidelines laid out in the BOCC's 2026 Rules of Procedure for workshop sessions to ensure everyone is given the opportunity to participate. If you have come with a comment, please ensure you have completed a \u201crequest to speak\u201d form. 4. Participation ground rules: a. We treat each other with dignity and respect; we are all here to learn. b. Presenters have up to 15 minutes each. c. Questions and comments will follow speaker presentations. d. Questions from county commissioners will immediately follow. e. Audience comments utilizing \u201crequest to speak\u201d forms are next. f. Come to the microphone to speak; share your name and home address; 3-minute time limit; please cite source(s) of information. Only speak once on each topic. g. No interruptions of speakers. B. Educational presentations on modern data centers, known concerns, potential benefits and protections communities should consider. Introduction of speakers: 1. Bob Cate, retired Executive Director, TCDA 2. James Taylor, CEO, Florida Technology Council 3. Dr. Mark McNees, Sustainability Entrepreneur in Residence, Florida State University 4. Dr. Ted Kury, Director of Energy Studies for the Public Utilities Research Center, University of Florida 5. Dr. Nathan Palardy, Department of Food and Resource Economics, University of Florida C. Ray Curtis \u2013 An online tool to assess data center impacts. D. Board of County Commissioners\u2019 questions. E. Public Comments. F. Closing Comments by Board of County Commissioners. G. Next Steps Forward.",
+     "topics": [
+      "Data centers"
+     ]
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Data centers"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:146",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-09-08T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/146/files",
+   "documents": [
+    {
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=582,plainText=false)"
+    },
+    {
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=583,plainText=false)"
+    }
+   ],
+   "video_url": "https://taylorcofl.portal.civicclerk.com/event/146/media",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "4",
+     "text": "APPROVAL OF MINUTES OF AUGUST 11, 2026, AUGUST 18, 2026, AND AUGUST 25, 2026.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE FISCAL YEAR 2026/2027 EMPA EM AGREEMENT, AS AGENDAED BY DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE ANNUAL END OF YEAR RECAPITULATION OF ERRORS AND INSOLVENCIES FOR ALL AD VALOREM & NON-AD VALOREM ROLLS IN OUR COUNTY FOR 2025, AS AGENDAED BY MARK WIGGINS, TAX COLLECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF T-HANGAR LEASE WITH ANDRE SMITH, AS AGENDAED BY WARD KETRING, AIRPORT MANAGER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "The board to consider the signature of the second addendum for Michael baker international services agreement for the third year gis regional two project, AS AGENDAED BY DAKOTA BEMBRY, 911 COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO REVIEW AND APPROVE STATE FINANCIAL ASSISTANCE AGREEMENT SC00CEX AMENDMENT 2 FOR THE COURTHOUSE IMPROVEMENT PROJECT TO INCREASE THE BUDGET FROM $1,264,000 TO $2,064,000 TO FULLY FUND THE REPLACEMENT OF THE AIR HANDLER UNITS (AHU'S) AND DUCT WORK IN THE COURTHOUSE, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "the board to consider the approval for signature of the state-funded agreement for support for fiscally constrained counties' psaos dms-p3-26-07-11 between the state of florida department of management services and Taylor county, AS AGENDAED BY DAKOTA BEMBRY, 911 COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE SHORTLIST OF CONTRACTORS FOR THE CONSTRUCTION OF FIRE STATION 7, AS AGENDAED BY FIRE CHIEF, DAN CASSEL.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "THE BOARD TO REVIEW AND APPROVE STATEMENT OF QUALIFICATIONS (SOQ) FOR THE COMMUNITY DEVELOPMENT BLOCK GRANT DISASTER RECOVERY (CDBG-DR) REBUILD FLORIDA INFRASTRUCTURE PROGRAM FOR THE SPECIAL NEEDS EMERGENCY SHELTER. THE SOQ IS FOR THE PROCUREMENT OF PROFESSIONAL ARCHITECTURAL, ENGINEERING, AND RELATED DESIGN SERVICES FOR THE PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "14",
+     "text": "THE BOARD TO REVIEW AND APPROVE STATEMENT OF QUALIFICATIONS (SOQ) FOR THE COMMUNITY DEVELOPMENT BLOCK GRANT DISASTER RECOVERY (CDBG-DR) REBUILD FLORIDA INFRASTRUCTURE PROGRAM FOR THE STEINHATCHEE ROADS PROJECT-FOURTH AND FIFTH AVENUE NW. THE SOQ IS FOR THE PROCUREMENT OF PROFESSIONAL ENGINEERING AND RELATED SERVICES FOR THE PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "15",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE BY-LAWS FOR 2026-2027 FOR THE LOCAL COORDINATING BOARD (LCB) FOR THE TRANSPORTATION DISADVANTAGED, AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "16",
+     "text": "THE BOARD TO REVIEW AND APPROVE GRIEVANCE PROCEDURES FOR FY 2026-2027 FOR THE LOCAL COORDINATING BOARD FOR THE TRANSPORTATION DISADVANTAGED, AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "17",
+     "text": "THE BOARD TO CONSIDER APPROVAL TO TRANSFER FROM AIRPORT FUEL RESERVES IN THE AMOUNT OF $20,000 TO ALLOW FOR THE PURCHASE OF FUEL FOR THE REMAINDER OF THE FISCAL YEAR, AS AGENDAED BY LAWANDA PEMBERTON, COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "18",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF CONSTRUCTION ENGINEERING AND INSPECTION SERVICES TASK ORDER FROM RS&H FOR THE 13TH AND CENTRAL USACE FLOODPLAIN MITIGATION PROJECT TO ADDRESS FLOODING WITHIN THE STEINHATCHEE COMMUNITY USING AMERICAN RESCUE PLAN ACT FUNDING, AS AGENDAED BY KENNETH DUDLEY, COUNTY ENGINEER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF FISCAL YEAR 2026-2027 STATE AID TO LIBRARIES AGREEMENT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "20",
+     "text": "THE BOARD TO APPROVE CERTIFICATE OF NON-AD VALOREM ASSESSMENT ROLL FOR BOWDEN SUBDIVISION, DEERWOOD AT THE BEACHES SUBDIVISION, GULF COAST ESTATES SUBDIVISION, OAK RIDGE ESTATES SUBDIVISION, OCEAN POND SUBDIVISION, SCALLOP BAY SUBDIVISION, STEINHATCHEE ACRES SUBDIVISION, STRICKLAND'S LANDING SUBDIVISION, WARRIOR CREEK, AND SOLID WASTE, AS AGENDAED BY MARK WIGGINS, TAX COLLECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF REQUEST TO ADVERTISE A REQUEST FOR QUALIFICATIONS (RFQ) FOR PROFESSIONAL DESIGN, ENGINEERING & PERMITTING SERVICES FOR THE HODGES PARK REHABILITATION AT KEATON BEACH, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "22",
+     "text": "THE BOARD TO APPROVE THE PAYMENT TO DEPARTMENT OF THE ARMY, U.S. ARMY CORPS OF ENGINEERS, IN THE AMOUNT OF $1,879,411.76, FOR THE APPROVED MAINTENANCE DREDGING, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "23",
+     "text": "THE BOARD TO CONSIDER TRANSFER FROM GENERAL FUND RESERVES FOR CONTINGENCY IN THE AMOUNT OF $39,000 AND THE PAYMENT OF INVOICES TO BEAZLEY SECURITY, LLC AND CONSTANGY, BROOKS, SMITH & PROPHETE, REGARDING THE CYBERSECURITY INCIDENT (PA), AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "24",
+     "text": "THE BOARD TO HOLD THE SECOND OF TWO PUBLIC MEETINGS/HEARINGS AT 6:00 P.M. TO DISCUSS AND RECEIVE PUBLIC INPUT FOR THE POSSIBLE GRANT SUBMISSION TO THE 2026-2028 FUNDING CYCLE OF THE FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) REQUESTING FUNDING ASSISTANCE FOR PHASE 1 OF STEINHATCHEE COASTAL PARK, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "25",
+     "text": "THE BOARD TO RECEIVE BIDS FOR ASH STREET WIDENING/RESURFACING LAP/SCOP PROJECT, SET FOR THIS DATE AT 6:05 P.M., OR AS SOON THEREAFTER AS POSSIBLE, AS AGENDAED BY KENNETH DUDLEY, COUNTY ENGINEER.",
+     "topics": []
+    },
+    {
+     "section": "CONSTITUTIONAL OFFICERS/OTHER GOVERNMENTAL UNITS",
+     "number": "26",
+     "text": "THE BOARD TO DISCUSS FY27 BUDGET, AS AGENDAED BY GARY KNOWLES, CLERK OF COURT.",
+     "topics": []
+    },
+    {
+     "section": "CONSTITUTIONAL OFFICERS/OTHER GOVERNMENTAL UNITS",
+     "number": "27",
+     "text": "THE BOARD TO CONSIDER REAPPOINTMENT OF ONE MEMBER TO THE BIG BEND WATER AUTHORITY BOARD OF DIRECTORS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "28",
+     "text": "THE BOARD TO DISCUSS DATA CENTER NEXT STEPS, AS AGENDAED BY COMMISSIONER ENGLISH.",
+     "topics": [
+      "Data centers"
+     ]
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "29",
+     "text": "THE BOARD TO DISCUSS DATA CENTER MORATORIUM AND LAND DEVELOPMENT CODE REVISIONS, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": [
+      "Data centers",
+      "Land use & zoning"
+     ]
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "30",
+     "text": "THE BOARD TO DISCUSS PRESSBOX AT THE SPORTS COMPLEX, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "31",
+     "text": "THE BOARD TO DISCUSS LARGE DEBRIS IN THE GULF, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "32",
+     "text": "THE BOARD TO DISCUSS PROPERTY BOUNDARIES, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "33",
+     "text": "THE BOARD TO DISCUSS POTENTIAL PURCHASE OF PROPERTY LOCATED AT THE FORMER BLUE CREEK BAPTIST CHURCH FOR THE DEVELOPMENT OF A COMMUNITY CENTER, AS AGENDAED BY COMMISSIONER NEWMAN.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "34",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE BID COMMITTEE'S RECOMMENDATION TO MOVE FORWARD WITH EXECUTING A CONTRACT WITH LAMPL HERBERT FOR THE COMPLETION OF THE STEINHATCHEE COMMERCIAL SEAFOOD FACILITY PLANNING AND FEASIBILITY STUDY, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "35",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE BID COMMITTEE'S RANKING AND OF THE HMGP STORMWATER GRANT PROPOSALS AND AUTHORIZE THE COUNTY ADMINISTRATOR AND COUNTY ATTORNEY TO PREPARE CONTRACT AND NEGOTIATE WITH THE TOP RANKED RESPONSIVE FIRM FOR THE DESIGN OF THE HAZARD MITIGATION GRANT AWARD PROJECTS, WITH CONDITIONS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Fenholloway & water"
+     ]
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "36",
+     "text": "THE BOARD TO CONSIDER LEGAL ACTION IN REGARD TO CODE ENFORCEMENT CASE TAYLOR COUNTY VERSUS BARBARA CRUCE, TERRY JOBE AND JESSIE JOBE, AS AGENDAED BY THE COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "37",
+     "text": "THE BOARD TO CONSIDER LEGAL ACTION IN REGARD TO CODE ENFORCEMENT CASE TAYLOR COUNTY VERSUS PEGGY VALENTINE AND KATHY HARRISON, AS AGENDAED BY THE COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "38",
+     "text": "THE BOARD TO CONSIDER LEGAL ACTION IN REGARD TO CODE ENFORCEMENT CASE TAYLOR COUNTY VERSUS SG GRANITE GROUP, AS AGENDAED BY THE COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "39",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF PROPOSED SATISFACTION OF CODE ENFORCEMENT ORDER FOR TAYLOR COUNTY VERSUS THE ESTATE OF JANICE HOUCK, AS AGENDAED BY THE COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "40",
+     "text": "THE BOARD TO RECEIVE UPDATE ON PETITION FILED WITH FDEP AND TO CONSIDER AUTHORIZING THE COUNTY ATTORNEY TO PREPARE AND FILE AND AMENDED PETITION ON THE COUNTY'S BEHALF ON OR BEFORE THE SEPTEMBER 16TH DEADLINE AND: TO AUTHORIZE THE COUNTY ADMINISTRATOR AND THE COUNTY ATTORNEY TO PROCEED WITH RETAINING AN APPROPRIATE EXPERT WITNESS AND ANY LEGAL ASSISTANCE NEEDED TO SUPPORT THE AMENDED PETITION, WITH TERMS OF ENGAGEMENT TO BE BROUGHT BACK TO THE BOARD FOR RATIFICATION, AS AGENDAED BY THE COUNTY ATTORNEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "41",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "42",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS TAYLOR COUNTY JAIL CATASTROPHIC INMATE MEDICAL INSURANCE AND THE BOARD TO CONSIDER APPROVAL, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Data centers",
+    "Land use & zoning",
+    "Fenholloway & water"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:210",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Special Budget Meeting",
+   "start": "2026-09-14T17:01:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/210/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=584,plainText=false)"
+    }
+   ],
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/4dcd68f891.mp4",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "4",
+     "text": "THE BOARD TO HOLD THE FIRST OF TWO (2) PUBLIC HEARINGS ON THE TENTATIVE MILLAGE AND BUDGET FOR FY 2026/2027, SET FOR THIRD DATE AT 5:01 P.M.: A. TENTATIVELY ADOPT MILLAGE FOR FY 26/27 B. TENTATIVELY ADOPT BUDGET FOR FY 26/27",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Taxes & reserves"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "tcda:20260917",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2026-09-17T12:00:00-04:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:211",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Special Budget Meeting",
+   "start": "2026-09-21T17:01:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/211/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=586,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=596,plainText=false)"
+    }
+   ],
+   "video_url": "https://taylorcofl.portal.civicclerk.com/event/211/media",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "4",
+     "text": "THE BOARD TO HOLD THE SECOND AND FINAL PUBLIC HEARING ON THE MILLAGE AND BUDGET FOR FY 2026/2027, SET FOR THIS DATE AT 5:01 P.M. A. ADOPT FINAL MILLAGE FOR FT 2026/2027. B. ADOPT THE FINAL ASSESSMENT RESOLUTION FOR WARRIOR CREEK SUBDIVISION, OCEAN POND SUBDIVISION, STRICKLAND'S LANDING SUBDIVISION, OAKRIDGE ESTATES UNIT ONE SUBDIVISION, BOWDEN SUBDIVISION, STEINHATCHEE ACRES SUBDIVISION, GULF COAST ESTATES SUBDIVISION AND SCALLOP BAY SUBDIVISION, FOR 2026/2027. C. ADOPT SOLID WASTE ASSESSMENT FOR FY 2026/2027 AT $178.00. D. ADOPT FINAL BUDGET FOR FY 2026/2027.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Taxes & reserves"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:159",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-09-22T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/159/files",
+   "documents": [
+    {
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=599,plainText=false)"
+    },
+    {
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=603,plainText=false)"
+    }
+   ],
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/7a7c61abdc.mp4",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "AWARDS/RECOGNITIONS",
+     "number": "4",
+     "text": "RECOGNITION OF VICTOR BLANCO, UF/IFAS MARINE EXTENSION AGENT \u2014 AMERICAN FISHERIES SOCIETY AWARD FOR EXCELLENCE IN PUBLIC OUTREACH.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF SHERIFF'S BUDGET AMENDMENT THREE, AS AGENDAED BY JOHN KETRING, SHERIFF FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "THE BOARD TO REVIEW AND CONSIDER APPROVAL OF THE REQUEST FOR PROPOSAL (RFP) FOR THE TAYLOR COUNTY HORSEMEN'S ARENA IMPROVEMENTS AND PARK DEVELOPMENT PROJECT. THE PROJECT WILL BE FUNDED WITH A FLORIDA DEPARTMENT OF ENVIRONMENTAL PROTECTION (FDEP), FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) GRANT IN THE AMOUNT OF $200,000, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTION TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE ANNUAL CORE CONTRACT BETWEEN THE FLORIDA DEPARTMENT OF HEALTH (FDOH) IN TAYLOR COUNTY AND THE TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS, AS AGENDAED BY TONYA HOBBY, HEALTH OFFICER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF MODIFICATION NUMBER ONE TO HMGP STATE MATCH CONTRACT H1270, FOLEY CUT OFF ROAD RISK REDUCTION, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF MODIFICATION NUMBER ONE TO THE HMGP STATE MATCH SUBGRANT AGREEMENT H1419 (FDEM / TAYLOR COUNTY, FEMA PROJECT #4734-137-R, WILDER CREEK FLOOD RISK REDUCTION, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF PROFESSIONAL SERVICES AGREEMENT WITH LOCKLEAR AND ASSOCIATES FOR FOUR HAZARD MITIGATION GRANT STORMWATER PROJECTS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Fenholloway & water"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "BOARD TO CONSIDER APPROVAL TO RENEW THE INMATE MEDICAL COVERAGE (CORRECTIONAL INMATE MEDICAL INSURANCE / CIMI) POLICY FOR THE TAYLOR COUNTY JAIL AND TAYLOR COUNTY BOCC WITH SIRIUSPOINT AMERICA INSURANCE COMPANY, EFFECTIVE 10/01/2026 THROUGH 09/30/2027, AND TO AUTHORIZE PAYMENT OF THE ANNUAL PREMIUM OF $22,663.20 TO KING RISK PARTNERS, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "14",
+     "text": "THE BOARD TO RECEIVE REQUEST FOR PROPOSALS (RFP) AT 6:00 P.M. FOR THE CONSTRUCTION OF ONE PICKLEBALL COURT AT SOUTHSIDE PARK WITH A BID ADDITIVE OF A SECOND COURT IF FUNDING IS AVAILABLE, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "PUBLIC REQUESTS",
+     "number": "15",
+     "text": "THE TAYLOR COUNTY HEALTH DEPARTMENT TO PROVIDE THE BOARD WITH A BRIEF UPDATE ON INITIATIVES AND PROGRAMS OFFERED, AS AGENDAED BY KATRINA FILLYAW, PUBLIC HEALTH SERVICES MANAGER FOR FLORIDA DEPARTMENT OF HEALTH",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "16",
+     "text": "THE BOARD TO DISCUSS AND CONSIDER APPROVAL OF TASK WORK ORDER (TASK ASSIGNMENT 2026-1) WITH NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) FOR PROFESSIONAL PLANNING SERVICES RELATED TO DATA CENTERS AND LARGE LOAD (ENERGY) CUSTOMERS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Data centers"
+     ]
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "17",
+     "text": "STAFF REQUESTS BOARD DISCUSSION AND DIRECTION ON REVISING THE COUNTY'S PLANNING APPLICATION FEE SCHEDULE SO THAT FEES CHARGED TO APPLICANTS MORE CLOSELY REFLECT THE COST OF PROFESSIONAL PLANNING REVIEW SERVICES BILLED TO THE COUNTY BY NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) UNDER THE COUNTY'S CONTINUING CONSULTANT CONTRACT, AND DIRECTION TO STAFF AND THE COUNTY ATTORNEY TO PREPARE THE APPROPRIATE RESOLUTION AMENDMENT FOR ADOPTION AT A FUTURE MEETING, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "18",
+     "text": "THE BOARD TO APPROVE AWARDING A CONTRACT TO OLD WORLD CRAFTSMAN IN THE AMOUNT OF $1,387,965 FOR THE DOCTORS' MEMORIAL HOSPITAL ROOFING RETROFIT, HARDENING, AND REPAIR PROJECT WHICH IS FULLY FUNDED WITH A FLORIDA COMMERCE COMMUNITY DEVELOPMENT BLOCK GRANT (CDBG) MIT GRANT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO APPROVE CONSTRUCTION AGREEMENT CONTRACT BETWEEN TAYLOR COUNTY BOCC AND OLD WORLD CRAFTSMAN, INC. IN THE AMOUNT OF $1,387,965 FOR THE DOCTORS' MEMORIAL HOSPITAL ROOFING RETROFIT, HARDENING, AND REPAIR PROJECT WHICH IS FULLY FUNDED WITH A FLORIDA COMMERCE CDBG-MIT GRANT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "20",
+     "text": "THE BOARD TO DISCUSS BOARD MEETING ROOM ACOUSTICS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO CONSIDER REQUEST TO ALLOW FOOD TRUCK VENDORS AT THE STEINHATCHEE FARMERS MARKET, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Fenholloway & water",
+    "Data centers"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:212",
+   "source": "bocc",
+   "body": "Value Adjustment Board",
+   "body_short": "VAB",
+   "title": "Organizational",
+   "start": "2026-09-28T17:30:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/212/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=611,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=612,plainText=false)"
+    }
+   ],
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/eb63f9e6b4.mp4",
+   "agenda_items": [
+    {
+     "section": "VAB AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "3",
+     "text": "VAB MEETING CALLED TO ORDER BY CHAIR",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "4",
+     "text": "APPROVAL OF AGENDA",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "5",
+     "text": "RATIFY THE APPOINTMENT OF SALLY J. ROBERTS AS ATTORNEY TO THE VAB (VAB ATTORNEY CONTRACT APPROVED IN 2025 FOR THREE (3) YEARS, 2026, 2027, AND 2028). (COPY OF EXECUTED AGREEMENT INCLUDED IN THE VAB MANUAL)",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "6",
+     "text": "INTRODUCTION OF VAB BOARD MEMBERS, CLERK, AND THEIR CONTACT INFORMATION. (INFORMATION LIST INCLUDED IN THE VAB MANUAL)",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "7",
+     "text": "THE CLERK TO ADVISE THAT SPECIAL MAGISTRATES ARE NOT REQUIRED TO BE USED BY THE VAB IN TAYLOR COUNTY.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "8",
+     "text": "THE CLERK TO FURNISH TO PUBLIC AND VAB MEMBERS: A. \u201cUNIFORM POLICIES & PROCEDURES\u201d OF HEARINGS, AS ADOPTED BY THE DEPARTMENT OF REVENUE (DOR), PER CHAPTER 12D-9 F.A.C., B. RULE CHAPTER 12D-10 F.A.C. CONTAINING THE RULES APPLICABLE TO THE REQUIREMENTS FOR HEARINGS AND DECISIONS, C. RULE CHAPTER 12D-51 F.A.C., CONTAINING GUIDELINE DOCUMENTS, AS ADOPTED, D. CHAPTERS 286 AND 192 THRU 195 F.S., AS REFERENCE INFORMATION CONTAINING THE GUIDELINES AND STATUTES APPLICABLE TO ASSESSMENTS AND ASSESSMENT ADMINISTRATION, (ALL RULES AND F.S. FURNISHED TO THE VAB AND THE PUBLIC BY THE CLERK, ARE INCLUDED IN THE VAB MANUAL) E. GOVERNMENT-IN-THE-SUNSHINE MANUALS CONTAINING REQUIREMENTS OF FLORIDA\u2019S GOVERNMENT IN THE SUNSHINE AND OPEN GOVERNMENT LAWS. THE CLERK ADVISED THAT: (THE GOVERNMENT-IN-THE-SUNSHINE MANUAL, 2025 EDITION, CAN BE FOUND ON-LINE AT myfloridalegal.com)",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "9",
+     "text": "VAB TO ADOPT RESOLUTION SETTING FILING FEE (NOT TO EXCEED $50) FOR FILING PETITIONS TO THE VAB.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "10",
+     "text": "VAB ATTORNEY, SALLY ROBERTS, TO PRESENT GENERAL INFORMATION OF FLORIDA'S PROPERTY TAX SYSTEM, RESPECTIVE ROLES WITHIN THIS SYSTEM, TAXPAYER OPPORTUNITIES TO PARTICIPATE IN THE SYSTEM, AND PROPERTY TAXPAYER RIGHTS.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "11",
+     "text": "THE CLERK TO DISCUSS ANY NEW OR REVISED PROCEDURES AND FORMS, TAKING TESTIMONY ON, ADOPTING OR RATIFYING THE PROCEDURES AND FORMS AND MAKING SAID PROCEDURES AND FORMS AVAILABLE TO THE PUBLIC, INCLUDED IN THE VAB MANUAL AND ON THE VAB CLERK'S WEBSITE.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "12",
+     "text": "THE CLERK TO ANNOUNCE THE SCHEDULE FOR HEARING OF PETITIONS TO THE VAB, AS FOLLOWS: MONDAY, OCTOBER 12, 2026 AT 5:30 P.M. TUESDAY, OCTOBER 13, 2026 AT 5:30 P.M. (IF NECESSARY) MONDAY, OCTOBER 19, 2026 AT 5:30 P.M. (IF NECESSARY) A. THE CLERK TO ADVISE THAT THE DEADLINE TO FILE PETITIONS TO THE VAB WAS TUESDAY, SEPTEMBER 15, 2026, AT 5:00 P.M., AND STATED THAT TEN (10) PETITIONS WERE FILED PRIOR TO THE DEADLINE AND EIGHT (8) WITHDREW. THERE WAS ONE (1) PETITION FILED AFTER THE DEADLINE. B. THE CLERK TO ADVISE THAT THERE IS THE POSSIBILITY THAT VAB ACTIVITIES MAY HAVE TO BE RESCHEDULED. C. THE CLERK TO ADVISE OF THE REQUIREMENT THAT THE VAB STAY IN SESSION UNTIL ALL PETITIONS HAVE BEEN HEARD. THE VAB MAY ALSO HOLD ADDITIONAL MEETINGS FOR THE PURPOSE OF ADDRESSING ADMINISTRATIVE MATTERS.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "13",
+     "text": "THE VAB TO APPROVE THE 1ST CERTIFICATION OF THE 2026 REAL PROPERTY CERTIFICATES.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "14",
+     "text": "THE VAB BOARD TO APPROVE THE 1ST CERTIFICATION OF THE 2026 TANGIBLE PERSONAL PROPERTY CERTIFICATES.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "15",
+     "text": "COMMENTS FROM THE PUBLIC.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "bocc:172",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Workshop",
+   "start": "2026-09-29T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/172/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:147",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-10-05T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/147/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=617,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=618,plainText=false)"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "4",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "APPROVAL OF MINUTES SEPTEMBER 8, 2026; SEPTEMBER 14, 2026; SEPTEMBER 21, 2026, and September 22, 2026.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE 2027 VOLUNTEER FLORIDA DISASTER FUND RECOVERY GRANT APPLICATION FROM HURRICANE HELENE AND IDALIA. EXTENSION OF CURRENT VF GRANT, AS AGENDAED BY EMERGENCY MANAGEMENT DIRECTOR DR. DANNY GLOVER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE MEMORANDUM OF AGREEMENT WITH BIG BEND HEALTH COALITION FOR PROJECT FUNDING, AS AGENDAED BY DR. DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE SUNSHINE HEALTH GRANT 2026, AS AGENDAED BY DR. DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER APPROVAL FOR MODIFICATION NO. 1 TO TWO HAZARD MITIGATION GRANT PROGRAM STATE MATCH SUBGRANT AGREEMENTS, REINSTATING AND EXTENDING EACH THROUGH JUNE 30, 2027 AT NO LOCAL COST, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO APPROVE THE TRANSPORTATION DISADVANTAGED SERVICE PLAN (TDSP) 2026-2031 AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF PURCHASE AND INSTALLATION OF A REPLACEMENT STANDBY GENERATOR AND AUTOMATIC TRANSFER SWITCH FOR THE PERRY-FOLEY AIRPORT FBO BUILDING FROM GENSERVE, INC., AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO CONSIDER BUDGET TRANSFER FROM AIRPORT RESERVES TO AIRPORT FUEL FOR FISCAL YEAR 2025-2026, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF A BUDGET TRANSFER FROM GENERAL FUND RESERVE FOR CONTINGENCIES IN THE AMOUNT OF $46,508.00 TO FUND TASK WORK ORDER 2026-1 WITH NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) FOR PROFESSIONAL PLANNING SERVICES RELATED TO DATA CENTERS , AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Data centers",
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "14",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE FISCAL YEAR 2027 LOCAL GOVERNMENT COMPREHENSIVE PLANNING SERVICES AGREEMENT BETWEEN THE BOARD OF COUNTY COMMISSIONERS OF TAYLOR COUNTY, FLORIDA AND THE NORTH CENTRAL FLORIDA REGIONAL PLANNING COUNCIL, IN THE ANNUAL AMOUNT OF $12,500, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Land use & zoning"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "15",
+     "text": "THE BOARD TO CONSIDER AWARD OF THE ASH STREET SIDEWALK AND ROADWAY RECONSTRUCTION PROJECT UNDER THE FDOT LOCAL AGENCY PROGRAM AND SMALL COUNTY OUTREACH PROGRAM, AS AGENDAED BY KENNETH DUDLEY, COUNTY ENGINEER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "16",
+     "text": "THE BOARD TO RATIFY THE COUNTY ADMINISTRATOR'S SIGNATURE ON THE FLORIDA DEPARTMENT OF AGRICULTURE AND CONSUMER SERVICES (FDACS) ANNUAL CERTIFIED BUDGET FOR MOSQUITO CONTROL FOR FISCAL YEAR 2026-2027, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "17",
+     "text": "THE BOARD TO APPROVE THE BID COMMITTEE RECOMMENDATION TO AWARD A CONTRACT TO LIVE OAK MANAGEMENT GROUP LLC IN THE AMOUNT OF $61,900 FOR THE DESIGN/BUILD CONSTRUCTION OF ONE PICKLEBALL COURT AT SOUTHSIDE PARK, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "18",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF PLACING SPEED HUMPS AT DEKLE BEACH, AS AGENDAED BY COMMISSIONER NEWMAN.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO REVIEW AND APPROVE CONTRACT FOR PROFESSIONAL SERVICES BETWEEN TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS AND LAMPL HERBERT CONSULTANTS, INC. FOR THE COMPLETION OF THE STEINHATCHEE COMMERCIAL SEAFOOD PLANNING AND FEASIBILITY STUDY PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "20",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF A FDOT SUPPLEMENTAL FUNDING AGREEMENT FOR THE ASH STREET SIDEWALK AND ROADWAY RECONSTRUCTION PROJECT AND ADOPTION OF A RESOLUTION AUTHORIZING ITS EXECUTION BY THE CHAIR OF THE BOARD OF COUNTY COMMISSIONERS, AS AGENDAED BY THE COUNTY ENGINEER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO RECEIVE THE GRANTS PROJECT REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "22",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [
+    "Data centers",
+    "Taxes & reserves",
+    "Land use & zoning"
+   ],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": "2026-10-01T22:02-04:00"
+  },
+  {
+   "id": "tcda:20261015",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2026-10-15T12:00:00-04:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:160",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-10-20T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/160/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:173",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Workshop",
+   "start": "2026-10-27T18:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/173/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:148",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-11-02T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/148/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:161",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-11-17T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/161/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "tcda:20261119",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2026-11-19T12:00:00-05:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:149",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-12-07T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/149/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  }
+ ]
+}

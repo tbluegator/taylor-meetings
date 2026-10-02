@@ -1,0 +1,41 @@
+{
+ "generated": "2026-10-01T22:02-04:00",
+ "sources": {
+  "bocc": {
+   "ok": true,
+   "count": 15,
+   "checked": "2026-10-01T22:02-04:00",
+   "last_ok": "2026-10-01T22:02-04:00"
+  },
+  "perry": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/meetings",
+   "checked": "2026-10-01T22:02-04:00",
+   "last_ok": ""
+  },
+  "school": {
+   "ok": false,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://go.boarddocs.com/fl/taylor/Board.nsf/BD-GETMeetingsListForSEO?open",
+   "checked": "2026-10-01T22:02-04:00",
+   "last_ok": ""
+  },
+  "tcda": {
+   "ok": true,
+   "count": 4,
+   "checked": "2026-10-01T22:02-04:00",
+   "last_ok": "2026-10-01T22:02-04:00"
+  }
+ },
+ "problems": [
+  {
+   "level": "error",
+   "source": "perry",
+   "message": "Perry City Council: could not fetch (HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/meetings). Showing the last data we had."
+  },
+  {
+   "level": "error",
+   "source": "school",
+   "message": "School Board of Taylor County: could not fetch (HTTPError: 403 Client Error: Forbidden for url: https://go.boarddocs.com/fl/taylor/Board.nsf/BD-GETMeetingsListForSEO?open). Showing the last data we had."
+  }
+ ]
+}
