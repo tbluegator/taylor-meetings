@@ -42,8 +42,9 @@ sources:
     name: "Perry City Council"
     short: "City"
     base: "https://www.cityofperry.net"
-    browser: true        # city edge filter 403s plain crawler requests; send browser-like headers
-    unlocker: { zone: "muni_meetings" }   # route via Bright Data Web Unlocker (needs BRIGHTDATA_API_KEY) to beat the IP 403
+    # Discovery uses the Cloudflare-exempt /calendar/json feed; agenda pages/PDFs
+    # are behind Cloudflare, fetched via ScraperAPI (needs SCRAPERAPI_KEY secret).
+    scraperapi: true
     location: "City Council Room, 224 S. Jefferson St., Perry"
     regular_schedule: { weekday: 1, nths: [2, 4], time: "17:00" }   # 2nd & 4th Tuesday, 5:00 pm
     youtube_channel_id: "UCyrP7iFkXExKHqFjc3nAbBA"

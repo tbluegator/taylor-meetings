@@ -14,8 +14,8 @@ import traceback
 
 import yaml
 
-from . import health, render, topics, unlocker
-from .models import TZ, Meeting, browser_session, session
+from . import health, render, scraperapi, topics
+from .models import TZ, Meeting, session
 from .sources import boarddocs, civicclerk, perry, recurring, youtube
 
 FETCHERS = {
@@ -46,15 +46,13 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             status[src["id"]] = {"ok": True, "paused": True, "count": 0, "checked": stamp}
             continue
         try:
-            if getattr(http, "is_fixture", False):
-                src_http = http                       # tests/offline: always fixtures
-            elif (unlocked := unlocker.session_for(src)) is not None:
-                src_http = unlocked                   # route through Web Unlocker
-            elif src.get("browser"):
-                src_http = browser_session()          # browser-like headers only
+            if src["type"] == "perry_civicplus":
+                # Discovery via the free /calendar feed (http); agenda pages via a
+                # Cloudflare-solving service. In tests the fixture serves both.
+                solver = http if getattr(http, "is_fixture", False) else scraperapi.session_for(src)
+                got = perry.fetch(src, start, end, http=http, solver=solver, known=previous)
             else:
-                src_http = http
-            got = FETCHERS[src["type"]](src, start, end, http=src_http)
+                got = FETCHERS[src["type"]](src, start, end, http=http)
             if src.get("youtube_channel_id"):
                 try:
                     youtube.attach(got, youtube.fetch_videos(src["youtube_channel_id"], http=http))

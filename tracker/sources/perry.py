@@ -1,61 +1,44 @@
 """Perry City Council via the city's CivicPlus (Drupal) website.
 
-Meetings are found three ways, so one change on the city site doesn't blind us:
-  1. /rss.xml        - the site feed lists the 10 newest meeting pages, including
-                       special meetings off the regular schedule (e.g. Thu Sep 10, 2026)
-  2. /meetings       - upcoming meetings table
-  3. regular dates   - 2nd & 4th Tuesday URLs, tried directly
+The site sits behind a Cloudflare managed challenge: the meeting pages and agenda
+PDFs return a JS challenge to any non-browser client, from any IP. Only the
+/calendar feeds are challenge-exempt. So discovery uses the free /calendar/json
+feed (no Cloudflare), and the agenda pages + PDFs are fetched through a
+Cloudflare-solving service (ScraperAPI) passed in as `solver`.
+
 Each meeting page links the agenda PDF (/media/NNNN) and often a Dropbox packet.
-This is the most fragile source: a site redesign means updating the selectors here.
+To keep paid solver requests low, a meeting whose agenda was already captured on
+a prior run (passed in via `known`) is reused without re-fetching. Without a
+solver, the source still lists the schedule from the feed, minus agendas.
 """
 from __future__ import annotations
 
 import datetime as dt
+import json
 import re
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from ..models import TZ, AgendaItem, Document, Meeting, clean_text, local_iso, months_between, nth_weekdays, session
+from ..models import TZ, AgendaItem, Document, Meeting, clean_text, local_iso, session
 
 SLUG = re.compile(r"/meeting/([a-z0-9-]*?(\d{8}))\b")
 
 
-def parse_listing(html: str) -> list[str]:
-    """Return meeting page paths found on the upcoming-meetings page."""
-    soup = BeautifulSoup(html, "lxml")
-    paths = []
-    for a in soup.select("a[href*='/meeting/']"):
-        href = a.get("href", "")
-        if SLUG.search(href) and href not in paths:
-            paths.append(href)
-    return paths
-
-
-def parse_rss(xml: str) -> list[str]:
-    import xml.etree.ElementTree as ET
-    from urllib.parse import urlparse
+def parse_calendar_json(raw: str | list, start: dt.date, end: dt.date) -> list[tuple]:
+    """Meetings from the Cloudflare-exempt /calendar/json feed, as
+    (date, path, title) tuples in the window. The date comes from the slug
+    (YYYYMMDD); the time of day is refined later from the meeting page."""
+    rows = json.loads(raw) if isinstance(raw, str) else raw
     out = []
-    if not xml or not xml.strip():
-        return out                      # empty feed: fall back to other paths
-    try:
-        root = ET.fromstring(xml)
-    except ET.ParseError:
-        return out                      # not XML (challenge page, truncated): skip
-    for item in root.iter("item"):
-        link = (item.findtext("link") or "").strip()
-        if SLUG.search(link):
-            out.append(urlparse(link).path)
-    return out
-
-
-def candidate_paths(cfg: dict, start: dt.date, end: dt.date) -> list[str]:
-    sched = cfg["regular_schedule"]
-    out = []
-    for y, m in months_between(start, end):
-        for d in nth_weekdays(y, m, sched["weekday"], sched["nths"]):
-            if start <= d <= end:
-                out.append(f"/perry-city-council/meeting/city-council-meeting-{d:%Y%m%d}")
+    for r in rows:
+        path = (r.get("link") or "").strip()
+        m = SLUG.search(path)
+        if not m:
+            continue                    # irregular/old slug without a YYYYMMDD date
+        day = dt.datetime.strptime(m.group(2), "%Y%m%d").date()
+        if start <= day <= end:
+            out.append((day, path, (r.get("title") or "").strip()))
     return out
 
 
@@ -155,27 +138,50 @@ def agenda_items_from_pdf(pdf_bytes: bytes) -> list[AgendaItem]:
     return parse_agenda_text(text)
 
 
-def fetch(cfg: dict, start: dt.date, end: dt.date, http=None) -> list[Meeting]:
+def _feed_only(cfg: dict, day: dt.date, path: str, title: str) -> Meeting:
+    """A meeting from the feed alone, when no solver is available: schedule and
+    link, default time, no agenda."""
+    return Meeting(
+        id=f"{cfg['id']}:{day:%Y%m%d}",
+        source=cfg["id"], body=cfg["name"], body_short=cfg["short"],
+        title=title or f"City Council Meeting {day:%Y.%m.%d}",
+        start=local_iso(day, cfg["regular_schedule"]["time"]),
+        location=cfg.get("location", ""),
+        url=urljoin(cfg["base"], path),
+    )
+
+
+def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
+          solver=None, known=None) -> list[Meeting]:
     http = http or session()
-    listing = http.get(urljoin(cfg["base"], "/meetings"), timeout=30)
-    listing.raise_for_status()
-    found = parse_listing(listing.text)
-    rss = http.get(urljoin(cfg["base"], "/rss.xml"), timeout=30)
-    if rss.ok:
-        found += parse_rss(rss.text)
-    paths = list(dict.fromkeys(found + candidate_paths(cfg, start, end)))
+    known = known or {}
+    feed = http.get(urljoin(cfg["base"], "/calendar/json"), timeout=30)
+    feed.raise_for_status()
+    entries = parse_calendar_json(feed.text, start, end)
     meetings = []
-    for path in paths:
-        r = http.get(urljoin(cfg["base"], path), timeout=30)
-        if r.status_code == 404:
-            continue            # no meeting on that regular date (holiday, cancelled)
-        r.raise_for_status()
+    for day, path, title in entries:
+        mid = f"{cfg['id']}:{day:%Y%m%d}"
+        prev = known.get(mid)
+        # Reuse a prior run's result once its agenda is captured, so we don't
+        # spend a paid solver request re-fetching a meeting we already have.
+        if prev is not None and prev.agenda_posted and prev.agenda_items:
+            meetings.append(prev)
+            continue
+        if solver is None:
+            meetings.append(_feed_only(cfg, day, path, title))
+            continue
+        r = solver.get(urljoin(cfg["base"], path), timeout=70)
+        if getattr(r, "status_code", 0) == 404 or not r.ok:
+            # Page not reachable this run: keep prior data if any, else feed-only.
+            meetings.append(prev or _feed_only(cfg, day, path, title))
+            continue
         m = parse_meeting(r.text, path, cfg)
-        if not m or not (start <= m.start_dt.date() <= end):
+        if not m:
+            meetings.append(prev or _feed_only(cfg, day, path, title))
             continue
         agenda = next((d for d in m.documents if "/media/" in d.url), None)
         if agenda:
-            pdf = http.get(agenda.url, timeout=60)
+            pdf = solver.get(agenda.url, timeout=90)
             if pdf.ok and pdf.content[:4] == b"%PDF":
                 try:
                     m.agenda_items = agenda_items_from_pdf(pdf.content)

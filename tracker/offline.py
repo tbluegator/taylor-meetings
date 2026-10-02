@@ -41,6 +41,8 @@ class FixtureSession:
             return self._file(f"civicclerk_meeting_{m.group(1)}.json")
         if "BD-GETMeetingsListForSEO" in url:
             return self._file("boarddocs_meetings.json")
+        if url.rstrip("/").endswith("cityofperry.net/calendar/json"):
+            return self._file("perry_calendar.json")
         if url.endswith("cityofperry.net/rss.xml"):
             return self._file("perry_rss.xml")
         if m := re.search(r"cityofperry\.net/media/(\d+)$", url):

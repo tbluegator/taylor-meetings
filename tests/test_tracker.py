@@ -77,15 +77,25 @@ def test_boarddocs_parse_time():
         dt.datetime(2026, 1, 1, h, mnt, tzinfo=TZ)
 
 
-def test_perry_finds_special_meeting_via_rss():
-    ms = perry.fetch(SRC["perry"], START, END, http=FixtureSession(FIX))
+def test_perry_finds_special_meeting_via_feed():
+    fix = FixtureSession(FIX)
+    ms = perry.fetch(SRC["perry"], START, END, http=fix, solver=fix)
     ids = {m.id for m in ms}
     assert "perry:20260910" in ids        # a Thursday, off the regular schedule
-    assert "perry:20260908" not in ids    # regular date with no meeting page
+    assert "perry:20260908" not in ids    # regular date not in the feed, not invented
+
+
+def test_perry_feed_only_without_solver():
+    # No solver (no API key): still lists the schedule from the feed, no agendas.
+    ms = perry.fetch(SRC["perry"], START, END, http=FixtureSession(FIX), solver=None)
+    sep22 = next(m for m in ms if m.id == "perry:20260922")
+    assert sep22.url.endswith("city-council-meeting-20260922")
+    assert sep22.agenda_items == [] and not sep22.agenda_posted
 
 
 def test_perry_documents_and_agenda_pdf():
-    ms = perry.fetch(SRC["perry"], START, END, http=FixtureSession(FIX))
+    fix = FixtureSession(FIX)
+    ms = perry.fetch(SRC["perry"], START, END, http=fix, solver=fix)
     sep22 = next(m for m in ms if m.id == "perry:20260922")
     labels = [d.label for d in sep22.documents]
     assert labels == ["Agenda Packet (Dropbox)", "Agenda"]

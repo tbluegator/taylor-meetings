@@ -38,7 +38,7 @@ jobs:
       - name: Fetch sources and build site
         id: build
         env:
-          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: |
           python -m tracker.build || echo "health_failed=1" >> "$GITHUB_OUTPUT"
 
