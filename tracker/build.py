@@ -14,7 +14,7 @@ import traceback
 
 import yaml
 
-from . import health, render, scrapfly, topics
+from . import health, render, scraperapi, scrapfly, topics
 from .models import TZ, Meeting, session
 from .sources import boarddocs, civicclerk, perry, recurring, youtube
 
@@ -47,10 +47,17 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             continue
         try:
             if src["type"] == "perry_civicplus":
-                # Discovery via the free /calendar feed (http); agenda pages via a
-                # Cloudflare-solving service. In tests the fixture serves both.
-                solver = http if getattr(http, "is_fixture", False) else scrapfly.session_for(src)
-                got = perry.fetch(src, start, end, http=http, solver=solver, known=previous)
+                # Everything on the site is behind Cloudflare. Feed + meeting pages
+                # go through the cheaper ScraperAPI; agenda PDFs through Scrapfly
+                # (returns binary). In tests the fixture serves all of it.
+                if getattr(http, "is_fixture", False):
+                    page_solver = pdf_solver = http
+                else:
+                    page_solver = scraperapi.session_for(src)
+                    pdf_solver = scrapfly.session_for(src)
+                got = perry.fetch(src, start, end, http=http,
+                                  page_solver=page_solver, pdf_solver=pdf_solver,
+                                  known=previous)
             else:
                 got = FETCHERS[src["type"]](src, start, end, http=http)
             if src.get("youtube_channel_id"):

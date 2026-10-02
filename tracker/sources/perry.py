@@ -161,13 +161,16 @@ def _feed_only(cfg: dict, day: dt.date, path: str, title: str) -> Meeting:
 
 
 def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
-          solver=None, known=None) -> list[Meeting]:
+          page_solver=None, pdf_solver=None, known=None) -> list[Meeting]:
+    """Discover from the /calendar feed and read meeting pages via page_solver
+    (a cheap CF-clearing HTML fetcher, e.g. ScraperAPI); fetch the agenda PDFs
+    via pdf_solver (e.g. Scrapfly, which returns binary). Everything on the site
+    is behind Cloudflare, so the feed goes through page_solver too. A meeting
+    whose agenda was already captured (in `known`) is reused, so paid requests
+    fall mostly on new agendas."""
     http = http or session()
     known = known or {}
-    # The feed is Cloudflare-exempt only from un-flagged IPs; from a datacenter
-    # runner it is challenged like everything else, so fetch it via the solver
-    # when one is available.
-    feed = (solver or http).get(urljoin(cfg["base"], "/calendar/json"), timeout=30)
+    feed = (page_solver or http).get(urljoin(cfg["base"], "/calendar/json"), timeout=40)
     feed.raise_for_status()
     entries = parse_calendar_json(feed.text, start, end)
     meetings = []
@@ -175,16 +178,15 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
         mid = f"{cfg['id']}:{day:%Y%m%d}"
         prev = known.get(mid)
         # Reuse a prior run's result once its agenda is captured, so we don't
-        # spend a paid solver request re-fetching a meeting we already have.
+        # re-fetch (and re-pay for) a meeting we already have in full.
         if prev is not None and prev.agenda_posted and prev.agenda_items:
             meetings.append(prev)
             continue
-        if solver is None:
+        if page_solver is None:
             meetings.append(_feed_only(cfg, day, path, title))
             continue
-        r = solver.get(urljoin(cfg["base"], path), timeout=70)
+        r = page_solver.get(urljoin(cfg["base"], path), timeout=70)
         if getattr(r, "status_code", 0) == 404 or not r.ok:
-            # Page not reachable this run: keep prior data if any, else feed-only.
             meetings.append(prev or _feed_only(cfg, day, path, title))
             continue
         m = parse_meeting(r.text, path, cfg)
@@ -192,8 +194,8 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
             meetings.append(prev or _feed_only(cfg, day, path, title))
             continue
         agenda = next((d for d in m.documents if "/media/" in d.url), None)
-        if agenda:
-            pdf = solver.get(agenda.url, timeout=90)
+        if agenda and pdf_solver is not None:
+            pdf = pdf_solver.get(agenda.url, timeout=120)
             if pdf.ok and pdf.content[:4] == b"%PDF":
                 try:
                     m.agenda_items = agenda_items_from_pdf(pdf.content)
