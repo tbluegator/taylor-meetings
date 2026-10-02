@@ -29,7 +29,16 @@ def parse_calendar_json(raw: str | list, start: dt.date, end: dt.date) -> list[t
     """Meetings from the Cloudflare-exempt /calendar/json feed, as
     (date, path, title) tuples in the window. The date comes from the slug
     (YYYYMMDD); the time of day is refined later from the meeting page."""
-    rows = json.loads(raw) if isinstance(raw, str) else raw
+    if isinstance(raw, str):
+        try:
+            rows = json.loads(raw)
+        except ValueError:
+            # A CF-solver may return the JSON wrapped in a rendered HTML page;
+            # pull the JSON array back out.
+            m = re.search(r"\[.*\]", raw, re.S)
+            rows = json.loads(m.group(0)) if m else []
+    else:
+        rows = raw
     out = []
     for r in rows:
         path = (r.get("link") or "").strip()
@@ -155,7 +164,10 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
           solver=None, known=None) -> list[Meeting]:
     http = http or session()
     known = known or {}
-    feed = http.get(urljoin(cfg["base"], "/calendar/json"), timeout=30)
+    # The feed is Cloudflare-exempt only from un-flagged IPs; from a datacenter
+    # runner it is challenged like everything else, so fetch it via the solver
+    # when one is available.
+    feed = (solver or http).get(urljoin(cfg["base"], "/calendar/json"), timeout=30)
     feed.raise_for_status()
     entries = parse_calendar_json(feed.text, start, end)
     meetings = []
