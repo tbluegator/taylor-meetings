@@ -1,123 +1,36 @@
 {
- "generated": "2026-10-02T00:51-04:00",
+ "generated": "2026-10-02T00:55-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-02T00:51-04:00",
-   "last_ok": "2026-10-02T00:51-04:00"
+   "checked": "2026-10-02T00:55-04:00",
+   "last_ok": "2026-10-02T00:55-04:00"
   },
   "perry": {
-   "ok": true,
-   "count": 9,
-   "checked": "2026-10-02T00:51-04:00",
-   "fetches": [
-    {
-     "url": "https://www.cityofperry.net/meetings",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false,
-     "ctype": "?",
-     "preview": "",
-     "brd_headers": {
-      "x-brd-err-code": "client_10000",
-      "x-brd-err-msg": "Invalid authentication: check credentials and retry. Bright Data credentials include your account ID, zone name and password",
-      "x-brd-error": "Authentication failed",
-      "x-brd-status-code": "407"
-     }
-    },
-    {
-     "url": "https://www.cityofperry.net/rss.xml",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260811",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260825",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260908",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260922",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261013",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261027",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261110",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261124",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    },
-    {
-     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261208",
-     "status": 200,
-     "bytes": 0,
-     "media": false,
-     "agenda": false
-    }
-   ],
+   "ok": false,
+   "error": "HTTPError: Web Unlocker error [client_10000]: Invalid authentication: check credentials and retry. Bright Data credentials include your account ID, zone name and password",
+   "checked": "2026-10-02T00:55-04:00",
    "last_ok": "2026-10-02T00:51-04:00"
   },
   "school": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-02T00:51-04:00",
-   "last_ok": "2026-10-02T00:51-04:00"
+   "checked": "2026-10-02T00:55-04:00",
+   "last_ok": "2026-10-02T00:55-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-02T00:51-04:00",
-   "last_ok": "2026-10-02T00:51-04:00"
+   "checked": "2026-10-02T00:55-04:00",
+   "last_ok": "2026-10-02T00:55-04:00"
   }
  },
  "problems": [
   {
    "level": "error",
    "source": "perry",
-   "message": "Perry City Council: none of the last 30 days of meetings has an agenda. The agenda links may have moved."
+   "message": "Perry City Council: could not fetch (HTTPError: Web Unlocker error [client_10000]: Invalid authentication: check credentials and retry. Bright Data credentials include your account ID, zone name and password). Showing the last data we had."
   }
  ]
 }
