@@ -70,6 +70,33 @@ def session() -> requests.Session:
     return s
 
 
+def browser_session() -> requests.Session:
+    """A session that looks like a real Chrome browser.
+
+    Some sites (e.g. Perry's CivicPlus site behind an edge filter) reject the
+    plain crawler session. This sends the header set a browser sends and drops
+    the bot-identifying From header. Does not change the source IP, so it only
+    helps when the block keys on headers rather than purely on IP range.
+    """
+    s = requests.Session()
+    s.headers.update({
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+                  "image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Ch-Ua": '"Chromium";v="129", "Not=A?Brand";v="8", "Google Chrome";v="129"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+    })
+    return s
+
+
 def clean_text(s: str | None) -> str:
     """Strip tags, zero-width chars and extra whitespace from agenda HTML snippets."""
     if not s:

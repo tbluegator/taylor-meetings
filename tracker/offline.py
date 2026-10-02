@@ -24,6 +24,8 @@ class FakeResponse:
 
 
 class FixtureSession:
+    is_fixture = True
+
     def __init__(self, folder: pathlib.Path):
         self.folder = folder
 

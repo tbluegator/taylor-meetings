@@ -42,6 +42,7 @@ sources:
     name: "Perry City Council"
     short: "City"
     base: "https://www.cityofperry.net"
+    browser: true        # city edge filter 403s plain crawler requests; send browser-like headers
     location: "City Council Room, 224 S. Jefferson St., Perry"
     regular_schedule: { weekday: 1, nths: [2, 4], time: "17:00" }   # 2nd & 4th Tuesday, 5:00 pm
     youtube_channel_id: "UCyrP7iFkXExKHqFjc3nAbBA"

@@ -15,7 +15,7 @@ import traceback
 import yaml
 
 from . import health, render, topics
-from .models import TZ, Meeting, session
+from .models import TZ, Meeting, browser_session, session
 from .sources import boarddocs, civicclerk, perry, recurring, youtube
 
 FETCHERS = {
@@ -46,7 +46,8 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             status[src["id"]] = {"ok": True, "paused": True, "count": 0, "checked": stamp}
             continue
         try:
-            got = FETCHERS[src["type"]](src, start, end, http=http)
+            src_http = browser_session() if src.get("browser") and not getattr(http, "is_fixture", False) else http
+            got = FETCHERS[src["type"]](src, start, end, http=src_http)
             if src.get("youtube_channel_id"):
                 try:
                     youtube.attach(got, youtube.fetch_videos(src["youtube_channel_id"], http=http))
