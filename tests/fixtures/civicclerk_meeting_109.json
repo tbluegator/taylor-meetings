@@ -1,0 +1,205 @@
+{
+ "id": 109,
+ "items": [
+  {
+   "agendaObjectItemName": "AGENDA",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "<span style=\"text-transform: uppercase;\">Prayer</span>",
+     "agendaObjectItemOutlineNumber": "1.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "<span style=\"text-transform: uppercase;\">Pledge of Allegiance</span>",
+     "agendaObjectItemOutlineNumber": "2.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "<span style=\"text-transform: uppercase;\">Approval of Agenda</span>",
+     "agendaObjectItemOutlineNumber": "3.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "AWARDS/RECOGNITIONS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "RECOGNITION OF VICTOR BLANCO, UF/IFAS MARINE EXTENSION AGENT \u2014 AMERICAN FISHERIES SOCIETY AWARD FOR EXCELLENCE IN PUBLIC OUTREACH.",
+     "agendaObjectItemOutlineNumber": "4.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "CONSENT ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF SHERIFF'S BUDGET AMENDMENT THREE, AS AGENDAED BY JOHN KETRING, SHERIFF FINANCE DIRECTOR.",
+     "agendaObjectItemOutlineNumber": "5.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO REVIEW AND CONSIDER APPROVAL OF THE REQUEST FOR PROPOSAL (RFP) FOR THE TAYLOR COUNTY HORSEMEN'S ARENA IMPROVEMENTS AND PARK DEVELOPMENT PROJECT. THE PROJECT WILL BE FUNDED WITH A FLORIDA DEPARTMENT OF ENVIRONMENTAL PROTECTION (FDEP), FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) GRANT IN THE AMOUNT OF $200,000, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "6.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTION TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "agendaObjectItemOutlineNumber": "7.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF THE ANNUAL CORE CONTRACT BETWEEN THE FLORIDA DEPARTMENT OF HEALTH (FDOH) IN TAYLOR COUNTY AND THE TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS, AS AGENDAED BY TONYA HOBBY, HEALTH OFFICER.",
+     "agendaObjectItemOutlineNumber": "8.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF MODIFICATION NUMBER ONE TO HMGP STATE MATCH CONTRACT H1270, FOLEY CUT OFF ROAD RISK REDUCTION, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "9.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "<span style=\"margin-left:0in;\">THE BOARD TO CONSIDER APPROVAL OF MODIFICATION NUMBER ONE TO THE HMGP STATE MATCH SUBGRANT AGREEMENT H1419 (FDEM / TAYLOR COUNTY, FEMA PROJECT #4734-137-R, WILDER CREEK FLOOD RISK REDUCTION, AS AGENDAED BY THE COUNTY ADMINISTRATOR.</span>",
+     "agendaObjectItemOutlineNumber": "10.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "\u200bTHE BOARD TO CONSIDER APPROVAL OF PROFESSIONAL SERVICES AGREEMENT WITH LOCKLEAR AND ASSOCIATES FOR FOUR HAZARD MITIGATION GRANT \u200bSTORMWATER PROJECTS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "11.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "BOARD TO CONSIDER APPROVAL TO RENEW THE INMATE MEDICAL COVERAGE (CORRECTIONAL INMATE MEDICAL INSURANCE / CIMI) POLICY FOR THE TAYLOR COUNTY JAIL AND TAYLOR COUNTY BOCC WITH SIRIUSPOINT AMERICA INSURANCE COMPANY, EFFECTIVE 10/01/2026 THROUGH 09/30/2027, AND TO AUTHORIZE PAYMENT OF THE ANNUAL PREMIUM OF $22,663.20 TO KING RISK PARTNERS, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "12.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "agendaObjectItemOutlineNumber": "13.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "BIDS/PUBLIC HEARINGS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO RECEIVE REQUEST FOR PROPOSALS (RFP) AT 6:00 P.M. FOR THE CONSTRUCTION OF ONE PICKLEBALL COURT AT SOUTHSIDE PARK WITH A BID ADDITIVE OF A SECOND COURT IF FUNDING IS AVAILABLE, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "14.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "PUBLIC REQUESTS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE TAYLOR COUNTY HEALTH DEPARTMENT TO PROVIDE THE BOARD WITH A BRIEF UPDATE ON INITIATIVES AND PROGRAMS  OFFERED, AS AGENDAED BY KATRINA FILLYAW, PUBLIC HEALTH SERVICES MANAGER FOR FLORIDA DEPARTMENT OF HEALTH",
+     "agendaObjectItemOutlineNumber": "15.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "GENERAL BUSINESS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO DISCUSS AND CONSIDER APPROVAL OF TASK WORK ORDER (TASK ASSIGNMENT 2026-1) WITH NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) FOR PROFESSIONAL PLANNING SERVICES RELATED TO DATA CENTERS AND LARGE LOAD (ENERGY) CUSTOMERS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "16.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "STAFF REQUESTS BOARD DISCUSSION AND DIRECTION ON REVISING THE COUNTY'S PLANNING APPLICATION FEE SCHEDULE SO THAT FEES CHARGED TO APPLICANTS MORE CLOSELY REFLECT THE COST OF PROFESSIONAL PLANNING REVIEW SERVICES BILLED TO THE COUNTY BY NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) UNDER THE COUNTY'S CONTINUING CONSULTANT CONTRACT, AND DIRECTION TO STAFF AND THE COUNTY ATTORNEY TO PREPARE THE APPROPRIATE RESOLUTION AMENDMENT FOR ADOPTION AT A FUTURE MEETING, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "17.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COUNTY STAFF ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO APPROVE AWARDING A CONTRACT TO OLD WORLD CRAFTSMAN IN THE AMOUNT OF $1,387,965 FOR THE DOCTORS' MEMORIAL HOSPITAL ROOFING RETROFIT, HARDENING, AND REPAIR PROJECT WHICH IS FULLY FUNDED WITH A FLORIDA COMMERCE COMMUNITY DEVELOPMENT BLOCK GRANT (CDBG) MIT GRANT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "18.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO APPROVE CONSTRUCTION AGREEMENT CONTRACT BETWEEN TAYLOR COUNTY BOCC AND OLD WORLD CRAFTSMAN, INC. IN THE AMOUNT OF $1,387,965 FOR THE DOCTORS' MEMORIAL HOSPITAL ROOFING RETROFIT, HARDENING, AND REPAIR PROJECT WHICH IS FULLY FUNDED WITH A FLORIDA COMMERCE CDBG-MIT GRANT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "19.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COUNTY ADMINISTRATOR ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO DISCUSS BOARD MEETING ROOM ACOUSTICS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "20.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER REQUEST TO ALLOW FOOD TRUCK VENDORS AT THE STEINHATCHEE FARMERS MARKET, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "21.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COMMENTS AND CONCERNS FROM THE PUBLIC FOR  NON-AGENDAED ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  },
+  {
+   "agendaObjectItemName": "BOARD INFORMATIONAL ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  },
+  {
+   "agendaObjectItemName": "ADJOURN:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  }
+ ]
+}

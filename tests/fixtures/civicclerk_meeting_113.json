@@ -1,0 +1,197 @@
+{
+ "id": 113,
+ "items": [
+  {
+   "agendaObjectItemName": "AGENDA",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "Prayer",
+     "agendaObjectItemOutlineNumber": "1.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "Pledge of Allegiance",
+     "agendaObjectItemOutlineNumber": "2.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "Approval of Agenda",
+     "agendaObjectItemOutlineNumber": "3.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "CONSENT ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "agendaObjectItemOutlineNumber": "4.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "APPROVAL OF MINUTES SEPTEMBER 8, 2026; SEPTEMBER 14, 2026; SEPTEMBER 21, 2026, and September 22, 2026.",
+     "agendaObjectItemOutlineNumber": "5.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF THE 2027 VOLUNTEER FLORIDA DISASTER FUND RECOVERY GRANT APPLICATION FROM HURRICANE HELENE AND IDALIA. EXTENSION OF CURRENT VF GRANT, AS AGENDAED BY EMERGENCY MANAGEMENT DIRECTOR DR. DANNY GLOVER.",
+     "agendaObjectItemOutlineNumber": "6.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF THE MEMORANDUM OF AGREEMENT WITH BIG BEND HEALTH COALITION FOR PROJECT FUNDING, AS AGENDAED BY DR. DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "agendaObjectItemOutlineNumber": "7.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF THE SUNSHINE HEALTH GRANT 2026, AS AGENDAED BY DR. DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "agendaObjectItemOutlineNumber": "8.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL FOR MODIFICATION NO. 1 TO TWO HAZARD MITIGATION GRANT PROGRAM STATE MATCH SUBGRANT AGREEMENTS, REINSTATING AND EXTENDING EACH THROUGH JUNE 30, 2027 AT NO LOCAL COST, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "9.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO APPROVE THE TRANSPORTATION DISADVANTAGED SERVICE PLAN (TDSP) 2026-2031 AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "agendaObjectItemOutlineNumber": "10.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF PURCHASE AND INSTALLATION OF A REPLACEMENT STANDBY GENERATOR AND AUTOMATIC TRANSFER SWITCH FOR THE PERRY-FOLEY AIRPORT FBO BUILDING FROM GENSERVE, INC., AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "11.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER BUDGET TRANSFER FROM AIRPORT RESERVES TO AIRPORT FUEL FOR FISCAL YEAR 2025-2026, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "12.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF A BUDGET TRANSFER FROM GENERAL FUND RESERVE FOR CONTINGENCIES IN THE AMOUNT OF $46,508.00 TO FUND TASK WORK ORDER 2026-1 WITH NORTH FLORIDA PROFESSIONAL SERVICES, INC. (NFPS) FOR PROFESSIONAL PLANNING SERVICES RELATED TO DATA CENTERS , AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "13.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF THE FISCAL YEAR 2027 LOCAL GOVERNMENT COMPREHENSIVE PLANNING SERVICES AGREEMENT BETWEEN THE BOARD OF COUNTY COMMISSIONERS OF TAYLOR COUNTY, FLORIDA AND THE NORTH CENTRAL FLORIDA REGIONAL PLANNING COUNCIL, IN THE ANNUAL AMOUNT OF $12,500, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "14.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER AWARD OF THE ASH STREET SIDEWALK AND ROADWAY RECONSTRUCTION PROJECT UNDER THE FDOT LOCAL AGENCY PROGRAM AND SMALL COUNTY OUTREACH PROGRAM, AS AGENDAED BY KENNETH DUDLEY, COUNTY ENGINEER.",
+     "agendaObjectItemOutlineNumber": "15.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO RATIFY THE COUNTY ADMINISTRATOR'S SIGNATURE ON THE FLORIDA DEPARTMENT OF AGRICULTURE AND CONSUMER SERVICES (FDACS) ANNUAL CERTIFIED BUDGET FOR MOSQUITO CONTROL FOR FISCAL YEAR 2026-2027, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "16.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "BIDS/PUBLIC HEARINGS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO APPROVE THE BID COMMITTEE RECOMMENDATION TO AWARD A CONTRACT TO LIVE OAK MANAGEMENT GROUP LLC IN THE AMOUNT OF $61,900 FOR THE DESIGN/BUILD CONSTRUCTION OF ONE PICKLEBALL COURT AT SOUTHSIDE PARK, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "17.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "GENERAL BUSINESS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF PLACING SPEED HUMPS AT DEKLE BEACH, AS AGENDAED BY COMMISSIONER NEWMAN.",
+     "agendaObjectItemOutlineNumber": "18.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COUNTY STAFF ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO REVIEW AND APPROVE CONTRACT FOR PROFESSIONAL SERVICES BETWEEN TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS AND LAMPL HERBERT CONSULTANTS, INC. FOR THE COMPLETION OF THE STEINHATCHEE COMMERCIAL SEAFOOD PLANNING AND FEASIBILITY STUDY PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "agendaObjectItemOutlineNumber": "19.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE BOARD TO CONSIDER APPROVAL OF A FDOT SUPPLEMENTAL FUNDING AGREEMENT FOR THE ASH STREET SIDEWALK AND ROADWAY RECONSTRUCTION PROJECT AND ADOPTION OF A RESOLUTION AUTHORIZING ITS EXECUTION BY THE CHAIR OF THE BOARD OF COUNTY COMMISSIONERS, AS AGENDAED BY THE COUNTY ENGINEER.",
+     "agendaObjectItemOutlineNumber": "20.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COUNTY ADMINISTRATOR ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": [
+    {
+     "agendaObjectItemName": "THE BOARD TO RECEIVE THE GRANTS PROJECT REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "agendaObjectItemOutlineNumber": "21.",
+     "isSection": 0,
+     "childItems": []
+    },
+    {
+     "agendaObjectItemName": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
+     "agendaObjectItemOutlineNumber": "22.",
+     "isSection": 0,
+     "childItems": []
+    }
+   ]
+  },
+  {
+   "agendaObjectItemName": "COMMENTS AND CONCERNS FROM THE PUBLIC FOR  NON-AGENDAED ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  },
+  {
+   "agendaObjectItemName": "BOARD INFORMATIONAL ITEMS:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  },
+  {
+   "agendaObjectItemName": "ADJOURN:",
+   "agendaObjectItemOutlineNumber": "",
+   "isSection": 1,
+   "childItems": []
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "@odata.context": "fixture: captured 2026-10-01 from taylorcofl.api.civicclerk.com (trimmed fields)",
+ "value": [
+  {
+   "id": 148,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-11-02T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 0,
+   "hasAgenda": false,
+   "hasMedia": false,
+   "mediaSourcePathMp4": "",
+   "publishedFiles": [],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 173,
+   "eventName": "Board of Commissioners Workshop",
+   "startDateTime": "2026-10-27T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 115,
+   "hasAgenda": true,
+   "hasMedia": false,
+   "mediaSourcePathMp4": "",
+   "publishedFiles": [],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 160,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-10-20T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 114,
+   "hasAgenda": true,
+   "hasMedia": false,
+   "mediaSourcePathMp4": "",
+   "publishedFiles": [],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 147,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-10-05T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 113,
+   "hasAgenda": true,
+   "hasMedia": false,
+   "mediaSourcePathMp4": "",
+   "publishedFiles": [
+    {
+     "fileId": 617,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-10-01T16:32:02.9Z"
+    },
+    {
+     "fileId": 618,
+     "name": "Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-10-01T16:32:02.9Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 172,
+   "eventName": "Board of Commissioners Workshop",
+   "startDateTime": "2026-09-29T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 110,
+   "hasAgenda": true,
+   "hasMedia": false,
+   "mediaSourcePathMp4": "",
+   "publishedFiles": [],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 212,
+   "eventName": "Organizational",
+   "startDateTime": "2026-09-28T17:30:00Z",
+   "categoryName": "Value Adjustment Board",
+   "agendaId": 112,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "https://cpmedia.azureedge.net/taylorcofl/eb63f9e6b4.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 611,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-09-24T15:56:01.667Z"
+    },
+    {
+     "fileId": 612,
+     "name": "Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-09-24T15:56:01.667Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 159,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-09-22T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 109,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "https://cpmedia.azureedge.net/taylorcofl/7a7c61abdc.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 599,
+     "name": "Amended Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-09-17T11:51:16.887Z"
+    },
+    {
+     "fileId": 603,
+     "name": "Amended Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-09-17T12:05:31.677Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 211,
+   "eventName": "Special Budget Meeting",
+   "startDateTime": "2026-09-21T17:01:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 111,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "stream/TAYLORCOFL/9c29aa6a-1215-4249-9771-9369358027e8.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 586,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-09-09T11:21:51.503Z"
+    },
+    {
+     "fileId": 596,
+     "name": "Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-09-16T15:17:00.14Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 210,
+   "eventName": "Special Budget Meeting",
+   "startDateTime": "2026-09-14T17:01:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 108,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "https://cpmedia.azureedge.net/taylorcofl/4dcd68f891.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 584,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-09-09T10:26:50.143Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 146,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-09-08T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 107,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "stream/TAYLORCOFL/bd566250-afbd-49be-83d4-9f3cbde45937.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 582,
+     "name": "Amended Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-09-08T11:33:09.357Z"
+    },
+    {
+     "fileId": 583,
+     "name": "Amended Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-09-08T11:33:09.357Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 171,
+   "eventName": "Board of Commissioners Workshop",
+   "startDateTime": "2026-08-25T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 105,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "https://cpmedia.azureedge.net/taylorcofl/c16f1e7a26.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 560,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-08-21T14:17:58.54Z"
+    },
+    {
+     "fileId": 562,
+     "name": "Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-08-21T17:06:46.097Z"
+    },
+    {
+     "fileId": 589,
+     "name": "Minutes",
+     "type": "Minutes",
+     "publishOn": "2026-09-10T15:22:05.703Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 158,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-08-18T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 104,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "stream/TAYLORCOFL/f8041cd6-ba7f-4778-9745-94855bfd592e.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 556,
+     "name": "Amended Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-08-14T09:27:45.897Z"
+    },
+    {
+     "fileId": 558,
+     "name": "Amended Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-08-14T09:30:10.383Z"
+    },
+    {
+     "fileId": 610,
+     "name": "Minutes",
+     "type": "Minutes",
+     "publishOn": "2026-09-24T14:06:34.407Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 208,
+   "eventName": "One Time Event",
+   "startDateTime": "2026-08-11T17:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 106,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "https://cpmedia.azureedge.net/taylorcofl/3c10a889a2.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 553,
+     "name": "Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-08-06T17:11:18.82Z"
+    },
+    {
+     "fileId": 588,
+     "name": "Minutes",
+     "type": "Minutes",
+     "publishOn": "2026-09-10T15:16:47.673Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  },
+  {
+   "id": 145,
+   "eventName": "Board of Commissioners Meeting",
+   "startDateTime": "2026-08-03T18:00:00Z",
+   "categoryName": "Board of Commissioners",
+   "agendaId": 103,
+   "hasAgenda": true,
+   "hasMedia": true,
+   "mediaSourcePathMp4": "stream/TAYLORCOFL/72e86feb-114c-4725-8191-8cb2564424ac.mp4",
+   "publishedFiles": [
+    {
+     "fileId": 539,
+     "name": "Amended Agenda",
+     "type": "Agenda",
+     "publishOn": "2026-08-02T10:04:37.92Z"
+    },
+    {
+     "fileId": 540,
+     "name": "Amended Agenda Packet",
+     "type": "Agenda Packet",
+     "publishOn": "2026-08-02T10:04:37.92Z"
+    },
+    {
+     "fileId": 587,
+     "name": "Minutes",
+     "type": "Minutes",
+     "publishOn": "2026-09-10T10:59:33.907Z"
+    }
+   ],
+   "isPublished": "Published",
+   "isDeleted": false,
+   "youtubeVideoId": ""
+  }
+ ]
+}

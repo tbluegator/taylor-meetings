@@ -1,0 +1,293 @@
+{%- macro board_chip(m) -%}
+<span class="board" data-b="{{ m.source }}"><i aria-hidden="true"></i>{{ m.body_short }}</span>
+{%- endmacro -%}
+{%- macro meeting_card(v, past=false) -%}
+{%- set m = v.m -%}
+<article class="mtg{% if v.watched %} has-watch{% endif %}" data-board="{{ m.source }}" data-watch="{{ 1 if v.watched else 0 }}" id="m-{{ m.id | replace(':','-') }}">
+  <div class="when" aria-label="{{ v.long_date }}">
+    <span class="dow">{{ v.day_label }}</span>
+    <span class="dom">{{ v.start.day }}</span>
+    <span class="mon">{{ v.start.strftime('%b') }}</span>
+  </div>
+  <div class="body">
+    <div class="meta">
+      {{ board_chip(m) }}
+      <span class="status s-{{ v.status[0] }}">{{ v.status[1] }}</span>
+      {%- if not past and v.days_away == 0 %}<span class="soon">Today</span>{% elif not past and v.days_away == 1 %}<span class="soon">Tomorrow</span>{% endif %}
+    </div>
+    <h3><a href="{{ m.url }}" rel="noopener">{{ m.title }}</a></h3>
+    <p class="sub">{{ m.body }} · {{ v.time }}{% if m.location %} · {{ m.location }}{% endif %}</p>
+    {%- if v.watched %}
+    <ul class="hits">
+      {%- for i in v.watched %}
+      <li><span class="tag">{{ i.topics | join(', ') }}</span><span class="num">{{ i.number }}</span> {{ i.text | truncate(260, true, '…') }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- if m.note %}<p class="note">{{ m.note }}</p>{% endif %}
+    <div class="links">
+      {%- for d in m.documents %}<a href="{{ d.url }}" rel="noopener">{{ d.label }}</a>{% endfor %}
+      {%- if m.video_url %}<a href="{{ m.video_url }}" rel="noopener" class="vid">Video</a>{% endif %}
+    </div>
+    {%- if v.sections %}
+    <details>
+      <summary>Full agenda · {{ m.agenda_items | length }} items{% if v.watched %} · {{ v.watched | length }} watched{% endif %}</summary>
+      {%- for s in v.sections %}
+      {%- if s.name %}<h4>{{ s.name }}</h4>{% endif %}
+      <ol class="items">
+        {%- for i in s['items'] %}
+        <li{% if i.topics %} class="w"{% endif %}><span class="num">{{ i.number }}</span><span class="txt">{{ i.text }}</span></li>
+        {%- endfor %}
+      </ol>
+      {%- endfor %}
+    </details>
+    {%- endif %}
+  </div>
+</article>
+{%- endmacro -%}
+{% if standalone %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="{{ site.tagline }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}: new agendas" href="feed.xml">
+{% endif %}<title>{{ site.title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column; each meeting is a row with a date block at left,
+   like a posted public-notice board. Watched-topic hits are the one loud element. */
+:root {
+  --bg: #f4f6f3; --surface: #ffffff; --ink: #17211c; --muted: #58655d; --line: #d9dfd8;
+  --accent: #1d5a43; --accent-ink: #ffffff;
+  --watch: #a5520a; --watch-bg: #fff2e3; --watch-line: #f0c999;
+  --ok: #2c6e49; --warn: #8a6100; --bad: #a33a2a;
+  --b-bocc: #1d5a43; --b-perry: #2f5d8c; --b-school: #6d4a94; --b-tcda: #7a6a2f;
+  --font-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1513; --surface: #161e1b; --ink: #e5ece7; --muted: #9aa8a0; --line: #27322d;
+  --accent: #78c7a1; --accent-ink: #0f1513;
+  --watch: #f2a65a; --watch-bg: #2a1d0f; --watch-line: #5a3b18;
+  --ok: #7fcf9f; --warn: #e0b54f; --bad: #ef8a78;
+  --b-bocc: #78c7a1; --b-perry: #86b2e0; --b-school: #b99ae0; --b-tcda: #d1bd78;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1513; --surface: #161e1b; --ink: #e5ece7; --muted: #9aa8a0; --line: #27322d;
+  --accent: #78c7a1; --accent-ink: #0f1513;
+  --watch: #f2a65a; --watch-bg: #2a1d0f; --watch-line: #5a3b18;
+  --ok: #7fcf9f; --warn: #e0b54f; --bad: #ef8a78;
+  --b-bocc: #78c7a1; --b-perry: #86b2e0; --b-school: #b99ae0; --b-tcda: #d1bd78;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.55 var(--font-body); }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 52rem; margin: 0 auto; padding-inline: 16px; padding-block: 0 4rem; }
+
+header.top { padding-block: 2.25rem 1.25rem; display: grid; gap: .5rem; }
+.eyebrow { font: 500 .75rem/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-weight: 800; font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.02; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
+.tagline { margin: 0; color: var(--muted); max-width: 38rem; }
+.subscribe { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; }
+.subscribe a { font-size: .875rem; font-weight: 600; text-decoration: none; padding: .4rem .75rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); }
+.subscribe a:hover { border-color: var(--accent); }
+
+h2 { font-size: 1.125rem; font-weight: 800; margin: 0; letter-spacing: -.005em; }
+section { display: grid; gap: .875rem; margin-top: 2.25rem; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem; }
+.sec-note { color: var(--muted); font-size: .875rem; margin: 0; }
+
+/* Watch list: the loud part */
+.watch { background: var(--watch-bg); border: 1px solid var(--watch-line); border-radius: var(--r); padding: 1rem 1.125rem; display: grid; gap: .75rem; }
+.watch h2 { color: var(--watch); }
+.watch ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+.watch li { display: grid; gap: .2rem; }
+.watch .w-meta { font-size: .8125rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: .25rem .5rem; align-items: center; }
+.watch .w-text { font-size: .9375rem; }
+.watch .w-text a { color: var(--ink); text-decoration-color: var(--watch-line); }
+.tag { font: 500 .6875rem/1 var(--font-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--watch); border: 1px solid var(--watch-line); border-radius: 4px; padding: .2rem .35rem; white-space: nowrap; }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; }
+.filters button { font: 600 .8125rem/1 var(--font-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .5rem .8rem; cursor: pointer; display: inline-flex; gap: .4rem; align-items: center; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters button i { width: .55rem; height: .55rem; border-radius: 50%; display: inline-block; }
+
+/* Meeting rows */
+.list { display: grid; gap: .625rem; }
+.mtg { display: grid; grid-template-columns: 3.75rem minmax(0, 1fr); gap: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 1rem; }
+.mtg.has-watch { border-color: var(--watch-line); }
+.when { display: grid; justify-items: center; align-content: start; gap: .1rem; padding-top: .1rem; font-variant-numeric: tabular-nums; }
+.when .dow, .when .mon { font: 500 .6875rem/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.when .dom { font-size: 1.75rem; font-weight: 800; line-height: 1; }
+.body { min-width: 0; display: grid; gap: .35rem; }
+.meta { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.board { font-size: .75rem; font-weight: 600; display: inline-flex; align-items: center; gap: .35rem; }
+.board i, .filters button i { background: var(--muted); }
+[data-b="bocc"] i, button[data-f="bocc"] i { background: var(--b-bocc); }
+[data-b="perry"] i, button[data-f="perry"] i { background: var(--b-perry); }
+[data-b="school"] i, button[data-f="school"] i { background: var(--b-school); }
+[data-b="tcda"] i, button[data-f="tcda"] i { background: var(--b-tcda); }
+.board i { width: .55rem; height: .55rem; border-radius: 50%; }
+.status, .soon { font: 500 .6875rem/1 var(--font-mono); letter-spacing: .03em; padding: .25rem .4rem; border-radius: 4px; border: 1px solid var(--line); color: var(--muted); }
+.s-posted { color: var(--ok); border-color: currentColor; }
+.s-pending { color: var(--warn); border-color: currentColor; }
+.s-missing { color: var(--bad); border-color: currentColor; }
+.soon { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+.mtg h3 { margin: 0; font-size: 1.0625rem; font-weight: 700; line-height: 1.3; text-wrap: balance; }
+.mtg h3 a { color: var(--ink); text-decoration: none; }
+.mtg h3 a:hover { text-decoration: underline; }
+.sub { margin: 0; color: var(--muted); font-size: .875rem; }
+.note { margin: .25rem 0 0; font-size: .875rem; padding: .5rem .7rem; border-left: 3px solid var(--b-tcda); background: var(--bg); border-radius: 0 6px 6px 0; }
+.hits { list-style: none; margin: .35rem 0 0; padding: .6rem .7rem; background: var(--watch-bg); border-radius: 6px; display: grid; gap: .45rem; font-size: .875rem; }
+.hits li { display: block; }
+.hits .tag { margin-right: .35rem; }
+.num { font: 500 .8125rem/1.5 var(--font-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.links { display: flex; flex-wrap: wrap; gap: .3rem .9rem; font-size: .875rem; font-weight: 600; margin-top: .2rem; }
+.links a { text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.links a::after { content: " ↗"; font-weight: 400; opacity: .6; }
+details { margin-top: .35rem; border-top: 1px dashed var(--line); padding-top: .5rem; }
+summary { cursor: pointer; font-size: .8125rem; font-weight: 600; color: var(--muted); }
+summary:hover { color: var(--ink); }
+details h4 { font: 500 .6875rem/1.3 var(--font-mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 1rem 0 .35rem; }
+.items { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.items li { display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: .5rem; font-size: .875rem; line-height: 1.45; }
+.items li .txt { overflow-wrap: anywhere; }
+.items li.w { background: var(--watch-bg); border-radius: 4px; padding: .25rem .35rem; margin-inline: -.35rem; }
+.empty { color: var(--muted); font-size: .9375rem; padding: 1rem; border: 1px dashed var(--line); border-radius: var(--r); }
+
+/* Source health */
+.health { width: 100%; border-collapse: collapse; font-size: .875rem; }
+.health-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.health th, .health td { text-align: left; padding: .6rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.health tr:last-child td { border-bottom: 0; }
+.health th { font: 500 .6875rem/1 var(--font-mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.dot { display: inline-block; width: .55rem; height: .55rem; border-radius: 50%; margin-right: .35rem; background: var(--ok); }
+.dot.err { background: var(--bad); } .dot.warn { background: var(--warn); }
+.health .msg { color: var(--muted); font-size: .8125rem; margin: .2rem 0 0; }
+footer { margin-top: 2.5rem; color: var(--muted); font-size: .8125rem; display: grid; gap: .5rem; max-width: 40rem; }
+footer p { margin: 0; }
+@media (max-width: 480px) {
+  .mtg { grid-template-columns: 2.75rem minmax(0, 1fr); gap: .75rem; padding: .875rem; }
+  .when .dom { font-size: 1.4rem; }
+  .items li { grid-template-columns: 2.5rem minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: no-preference) { .filters button { transition: background .15s, color .15s; } }
+</style>
+{% if standalone %}</head>
+<body>{% endif %}
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Taylor County · City of Perry · Updated {{ checked }}</span>
+    <h1>{{ site.title }}</h1>
+    <p class="tagline">{{ site.tagline }} Unofficial; always check the linked source documents.</p>
+    <nav class="subscribe" aria-label="Subscribe">
+      <a href="feed.xml">RSS: new agendas</a>
+      <a href="meetings.ics">Add to calendar (.ics)</a>
+    </nav>
+  </header>
+
+  {% if watch %}
+  <section class="watch" aria-labelledby="watch-h">
+    <div class="sec-head"><h2 id="watch-h">On upcoming agendas: watched topics</h2></div>
+    <ul>
+      {%- for v, i in watch %}
+      <li>
+        <div class="w-meta"><span class="tag">{{ i.topics | join(', ') }}</span>{{ board_chip(v.m) }}<span>{{ v.long_date }} · Item <span class="num">{{ i.number }}</span>{% if i.section %} · {{ i.section | title }}{% endif %}</span></div>
+        <div class="w-text"><a href="#m-{{ v.m.id | replace(':','-') }}">{{ i.text | truncate(300, true, '…') }}</a></div>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section aria-labelledby="up-h">
+    <div class="sec-head">
+      <h2 id="up-h">Coming up</h2>
+      <div class="filters" role="group" aria-label="Show boards">
+        <button type="button" id="f-all" data-f="all" aria-pressed="true">All boards</button>
+        {%- for b in boards %}
+        <button type="button" id="f-{{ b.id }}" data-f="{{ b.id }}" aria-pressed="false"><i aria-hidden="true"></i>{{ b.short }}</button>
+        {%- endfor %}
+        <button type="button" id="f-watch" data-f="watch" aria-pressed="false">Watched topics only</button>
+      </div>
+    </div>
+    <div class="list" data-list>
+      {%- for v in upcoming %}{{ meeting_card(v) }}{% endfor %}
+      <p class="empty" hidden data-empty>No meetings match this filter.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="past-h">
+    <div class="sec-head"><h2 id="past-h">Last 45 days</h2><p class="sec-note">Videos and minutes appear here as the boards post them.</p></div>
+    <div class="list" data-list>
+      {%- for v in recent %}{{ meeting_card(v, past=true) }}{% endfor %}
+      <p class="empty" hidden data-empty>No meetings match this filter.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="src-h">
+    <div class="sec-head"><h2 id="src-h">Where this comes from</h2><p class="sec-note">Checked automatically several times a day.</p></div>
+    <div class="health-wrap">
+      <table class="health">
+        <thead><tr><th scope="col">Board</th><th scope="col">Official source</th><th scope="col">Last check</th></tr></thead>
+        <tbody>
+        {%- for s in sources %}
+          {%- set errs = s.problems | selectattr('level', 'equalto', 'error') | list %}
+          <tr>
+            <td>{{ board_chip({'source': s.cfg.id, 'body_short': s.cfg.short}) }}<div class="msg">{{ s.cfg.name }}</div></td>
+            <td>{% if s.cfg.type == 'civicclerk' %}<a href="https://{{ s.cfg.tenant }}.portal.civicclerk.com/" rel="noopener">CivicClerk portal</a>
+                {% elif s.cfg.type == 'boarddocs' %}<a href="https://go.boarddocs.com/{{ s.cfg.site }}/Board.nsf/Public" rel="noopener">BoardDocs</a>
+                {% elif s.cfg.type == 'perry_civicplus' %}<a href="{{ s.cfg.base }}/meetings" rel="noopener">cityofperry.net</a>
+                {% else %}<a href="{{ s.cfg.info_url }}" rel="noopener">tcdaperry.com</a> <span class="msg">(schedule only)</span>{% endif %}</td>
+            <td><span class="dot{% if errs %} err{% elif s.problems %} warn{% endif %}"></span>{% if s.st.ok %}OK{% else %}Failed{% endif %}
+              {%- for p in s.problems %}<p class="msg">{{ p.message }}</p>{% endfor %}</td>
+          </tr>
+        {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>A personal civic project. Not affiliated with Taylor County, the City of Perry, the School Board, or TCDA. Agenda text is copied from the official sources as published; the official documents control.</p>
+    <p>Watched topics: {{ topics | join(' · ') }}.</p>
+  </footer>
+</div>
+<script>
+(() => {
+  const btns = [...document.querySelectorAll('.filters button')];
+  const lists = [...document.querySelectorAll('[data-list]')];
+  let board = 'all', watchOnly = false;
+  try { const s = JSON.parse(localStorage.getItem('tm-filter') || '{}'); board = s.board || 'all'; watchOnly = !!s.watchOnly; } catch (e) {}
+  function apply() {
+    btns.forEach(b => {
+      const f = b.dataset.f;
+      b.setAttribute('aria-pressed', String(f === 'watch' ? watchOnly : f === board));
+    });
+    lists.forEach(list => {
+      let shown = 0;
+      list.querySelectorAll('.mtg').forEach(el => {
+        const ok = (board === 'all' || el.dataset.board === board) && (!watchOnly || el.dataset.watch === '1');
+        el.hidden = !ok; if (ok) shown++;
+      });
+      const empty = list.querySelector('[data-empty]'); if (empty) empty.hidden = shown > 0;
+    });
+    try { localStorage.setItem('tm-filter', JSON.stringify({ board, watchOnly })); } catch (e) {}
+  }
+  btns.forEach(b => b.addEventListener('click', () => {
+    if (b.dataset.f === 'watch') watchOnly = !watchOnly; else board = b.dataset.f;
+    apply();
+  }));
+  apply();
+})();
+</script>
+{% if standalone %}</body>
+</html>{% endif %}

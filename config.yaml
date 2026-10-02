@@ -1,0 +1,67 @@
+# Taylor Meetings — what to track and what to flag.
+# Edit this file to add boards or topics; no code changes needed for either.
+
+site:
+  title: "Taylor Meetings"
+  tagline: "Agendas and meetings for Taylor County and the City of Perry, gathered automatically from official sources."
+  base_url: "https://YOUR-GITHUB-USERNAME.github.io/taylor-meetings/"   # set after first deploy
+  timezone: "America/New_York"
+
+# How far back and forward to look on each run.
+window:
+  past_days: 60
+  future_days: 75
+
+# Topics are matched (case-insensitive) against agenda item text.
+# Matching items are highlighted on the site and flagged in the feed.
+# Keep this list short: broad topics (e.g. every budget transfer) bury the items you care about.
+topics:
+  Data centers:   ["data center", "data centers", "large load", "hyperscale"]
+  Surveillance & license plate cameras: ["flock", "license plate", "alpr", "lpr camera"]
+  Land use & zoning: ["rezoning", "rezone", "future land use", "comprehensive plan", "land development code", "variance", "site plan", "planned unit development"]
+  Fenholloway & water: ["fenholloway", "wastewater", "stormwater", "water quality", "suwannee river water management"]
+  Taxes & reserves: ["millage", "reserve for contingenc", "tax rate", "special assessment"]
+  # Broader options, off by default (uncomment to use):
+  # Contracts & bids: ["award a contract", "award of", "request for proposal", "rfp", "bid committee"]
+
+sources:
+  - id: bocc
+    type: civicclerk
+    name: "Board of County Commissioners"
+    short: "BOCC"
+    tenant: "taylorcofl"
+    # CivicClerk category -> how it shows on the site
+    categories:
+      "Board of Commissioners": { name: "Board of County Commissioners", short: "BOCC" }
+      "Value Adjustment Board": { name: "Value Adjustment Board", short: "VAB" }
+    location: "Taylor County Administrative Complex, 201 E. Green St., Perry"
+    expect_agenda_days_before: 3     # Florida practice: packets out ~72 hours ahead
+
+  - id: perry
+    type: perry_civicplus
+    name: "Perry City Council"
+    short: "City"
+    base: "https://www.cityofperry.net"
+    location: "City Council Room, 224 S. Jefferson St., Perry"
+    regular_schedule: { weekday: 1, nths: [2, 4], time: "17:00" }   # 2nd & 4th Tuesday, 5:00 pm
+    youtube_channel_id: "UCyrP7iFkXExKHqFjc3nAbBA"
+    expect_agenda_days_before: 3
+
+  - id: school
+    type: boarddocs
+    name: "School Board of Taylor County"
+    short: "School Board"
+    site: "fl/taylor"
+    committee_id: "AA6GZA4633D3"
+    location: "School Board Meeting Room, 318 N. Clark St., Perry"
+    youtube_channel_id: ""          # fill in the district's channel ID to attach videos
+    expect_agenda_days_before: 5
+
+  - id: tcda
+    type: recurring
+    name: "Taylor County Development Authority"
+    short: "TCDA"
+    location: "TCDA office"
+    schedule: { weekday: 3, nths: [3], time: "12:00" }   # 3rd Thursday, noon
+    info_url: "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    note: "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. § 189.069(2)(a))."
