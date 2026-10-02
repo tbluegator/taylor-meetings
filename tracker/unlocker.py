@@ -47,8 +47,6 @@ class UnlockerSession:
     def __init__(self, zone: str, token: str, timeout: int = 60):
         self.zone = zone
         self.timeout = timeout
-        self._dumped = 0
-        self.log: list[dict] = []
         self.api = requests.Session()
         self.api.headers["Authorization"] = f"Bearer {token}"
 
@@ -59,26 +57,16 @@ class UnlockerSession:
         r = self.api.post(API, json=payload, timeout=timeout or self.timeout)
         # A non-2xx from the API itself (bad key, bad zone) is a real failure.
         r.raise_for_status()
+        # Web Unlocker reports auth/zone errors as HTTP 200 with the real error in
+        # x-brd-* headers and an empty body. Surface that as a real failure so the
+        # source status shows the true cause instead of silent empty pages.
+        brd_err = r.headers.get("x-brd-err-msg") or r.headers.get("x-brd-error")
+        if brd_err and not r.content:
+            code = r.headers.get("x-brd-err-code", "?")
+            raise requests.HTTPError(f"Web Unlocker error [{code}]: {brd_err}")
         resp = UnlockerResponse(r.status_code, r.content)
-        low = resp.content[:300000].lower()
-        has_media = b"/media/" in low
-        has_agenda = b"agenda" in low
-        entry = {"url": url, "status": resp.status_code,
-                 "bytes": len(resp.content), "media": has_media,
-                 "agenda": has_agenda}
-        # On the first fetch, capture why an empty/odd body happened: content-type,
-        # a preview, and any Bright Data diagnostic headers.
-        if self._dumped < 1:
-            self._dumped += 1
-            entry["ctype"] = r.headers.get("content-type", "?")
-            entry["preview"] = r.text[:300]
-            entry["brd_headers"] = {k: v for k, v in r.headers.items()
-                                    if k.lower().startswith(("x-brd", "x-response",
-                                                             "x-unblock", "x-luminati"))}
-        self.log.append(entry)
-        print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B "
-              f"media={'Y' if has_media else 'N'} agenda={'Y' if has_agenda else 'N'}"
-              f"  {url}", file=sys.stderr)
+        print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B  {url}",
+              file=sys.stderr)
         return resp
 
 
