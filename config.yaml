@@ -4,7 +4,7 @@
 site:
   title: "Taylor Meetings"
   tagline: "Agendas and meetings for Taylor County and the City of Perry, gathered automatically from official sources."
-  base_url: "https://YOUR-GITHUB-USERNAME.github.io/taylor-meetings/"   # set after first deploy
+  base_url: "https://tbluegator.github.io/taylor-meetings/"
   timezone: "America/New_York"
 
 # How far back and forward to look on each run.
