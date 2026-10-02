@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T07:39-04:00",
+ "generated": "2026-10-02T07:42-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -230,14 +230,19 @@
    "start": "2026-08-11T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260811",
-   "documents": [],
-   "video_url": "",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1136"
+    }
+   ],
+   "video_url": "https://www.youtube.com/watch?v=Ag2UdTedhEQ",
    "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-02T07:42-04:00"
   },
   {
    "id": "school:DWTKZX545B9B",
@@ -649,14 +654,19 @@
    "start": "2026-08-25T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260825",
-   "documents": [],
-   "video_url": "",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1166"
+    }
+   ],
+   "video_url": "https://www.youtube.com/watch?v=XqMa7RgCDv0",
    "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-02T07:42-04:00"
   },
   {
    "id": "bocc:171",
@@ -1208,6 +1218,29 @@
    "agenda_first_seen": "2026-10-01T22:02-04:00"
   },
   {
+   "id": "perry:20260910",
+   "source": "perry",
+   "body": "Perry City Council",
+   "body_short": "City",
+   "title": "City Council Meeting 2026.09.10",
+   "start": "2026-09-10T17:00:00-04:00",
+   "location": "City Council Room, 224 S. Jefferson St., Perry",
+   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260910",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1176"
+    }
+   ],
+   "video_url": "https://www.youtube.com/watch?v=sHLF4TqUXrw",
+   "agenda_items": [],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-02T07:42-04:00",
+   "agenda_first_seen": "2026-10-02T07:42-04:00"
+  },
+  {
    "id": "bocc:210",
    "source": "bocc",
    "body": "Board of County Commissioners",
@@ -1347,14 +1380,23 @@
    "start": "2026-09-22T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260922",
-   "documents": [],
-   "video_url": "",
+   "documents": [
+    {
+     "label": "Agenda Packet (Dropbox)",
+     "url": "https://www.dropbox.com/scl/fo/bk41zbxffzagd5czchw3q/AO3-oP2lvxN667_50lLG7rY?rlkey=mun4tcfpxk80jcn8bcvwp3754&dl=0"
+    },
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1181"
+    }
+   ],
+   "video_url": "https://www.youtube.com/watch?v=wGV5UtIJKLg",
    "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-02T07:42-04:00"
   },
   {
    "id": "school:DXWQVP6B2DF2",
@@ -2322,24 +2364,6 @@
    "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
-   "agenda_first_seen": ""
-  },
-  {
-   "id": "perry:20261124",
-   "source": "perry",
-   "body": "Perry City Council",
-   "body_short": "City",
-   "title": "City Council Meeting 2026.11.24",
-   "start": "2026-11-24T17:00:00-05:00",
-   "location": "City Council Room, 224 S. Jefferson St., Perry",
-   "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261124",
-   "documents": [],
-   "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
-   "note": "",
-   "topics": [],
-   "first_seen": "2026-10-02T00:21-04:00",
    "agenda_first_seen": ""
   },
   {
