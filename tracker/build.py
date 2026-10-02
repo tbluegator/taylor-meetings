@@ -14,7 +14,7 @@ import traceback
 
 import yaml
 
-from . import health, render, topics
+from . import health, render, topics, unlocker
 from .models import TZ, Meeting, browser_session, session
 from .sources import boarddocs, civicclerk, perry, recurring, youtube
 
@@ -46,7 +46,14 @@ def run(cfg: dict, now: dt.datetime, http, data_dir: pathlib.Path, site_dir: pat
             status[src["id"]] = {"ok": True, "paused": True, "count": 0, "checked": stamp}
             continue
         try:
-            src_http = browser_session() if src.get("browser") and not getattr(http, "is_fixture", False) else http
+            if getattr(http, "is_fixture", False):
+                src_http = http                       # tests/offline: always fixtures
+            elif (unlocked := unlocker.session_for(src)) is not None:
+                src_http = unlocked                   # route through Web Unlocker
+            elif src.get("browser"):
+                src_http = browser_session()          # browser-like headers only
+            else:
+                src_http = http
             got = FETCHERS[src["type"]](src, start, end, http=src_http)
             if src.get("youtube_channel_id"):
                 try:
