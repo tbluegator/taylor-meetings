@@ -55,7 +55,7 @@ sources:
     site: "fl/taylor"
     committee_id: "AA6GZA4633D3"
     location: "School Board Meeting Room, 318 N. Clark St., Perry"
-    youtube_channel_id: ""          # fill in the district's channel ID to attach videos
+    youtube_channel_id: "UCQGw6YQ2f1XUp2kRmHYXB7A"   # Taylor County Florida School System
     expect_agenda_days_before: 5
 
   - id: tcda
