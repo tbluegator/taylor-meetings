@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-02T00:01-04:00",
+ "generated": "2026-10-02T00:15-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-02T00:01-04:00",
-   "last_ok": "2026-10-02T00:01-04:00"
+   "checked": "2026-10-02T00:15-04:00",
+   "last_ok": "2026-10-02T00:15-04:00"
   },
   "perry": {
    "ok": false,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/meetings",
-   "checked": "2026-10-02T00:01-04:00",
+   "error": "ParseError: no element found: line 1, column 0",
+   "checked": "2026-10-02T00:15-04:00",
    "last_ok": ""
   },
   "school": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-02T00:01-04:00",
-   "last_ok": "2026-10-02T00:01-04:00"
+   "checked": "2026-10-02T00:15-04:00",
+   "last_ok": "2026-10-02T00:15-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-02T00:01-04:00",
-   "last_ok": "2026-10-02T00:01-04:00"
+   "checked": "2026-10-02T00:15-04:00",
+   "last_ok": "2026-10-02T00:15-04:00"
   }
  },
  "problems": [
   {
    "level": "error",
    "source": "perry",
-   "message": "Perry City Council: could not fetch (HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/meetings). Showing the last data we had."
+   "message": "Perry City Council: could not fetch (ParseError: no element found: line 1, column 0). Showing the last data we had."
   }
  ]
 }
