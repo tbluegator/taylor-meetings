@@ -59,21 +59,23 @@ class UnlockerSession:
         r = self.api.post(API, json=payload, timeout=timeout or self.timeout)
         # A non-2xx from the API itself (bad key, bad zone) is a real failure.
         r.raise_for_status()
-        # One-time verbose dump of the first couple of responses, so the Actions
-        # log shows exactly what Bright Data returns if something looks wrong.
-        if self._dumped < 2:
-            self._dumped += 1
-            ctype = r.headers.get("content-type", "?")
-            preview = r.text[:200].replace("\n", " ")
-            print(f"[unlocker:dump] api_status={r.status_code} ctype={ctype} "
-                  f"len={len(r.content)} preview={preview!r}", file=sys.stderr)
         resp = UnlockerResponse(r.status_code, r.content)
         low = resp.content[:300000].lower()
         has_media = b"/media/" in low
         has_agenda = b"agenda" in low
-        self.log.append({"url": url, "status": resp.status_code,
-                         "bytes": len(resp.content), "media": has_media,
-                         "agenda": has_agenda})
+        entry = {"url": url, "status": resp.status_code,
+                 "bytes": len(resp.content), "media": has_media,
+                 "agenda": has_agenda}
+        # On the first fetch, capture why an empty/odd body happened: content-type,
+        # a preview, and any Bright Data diagnostic headers.
+        if self._dumped < 1:
+            self._dumped += 1
+            entry["ctype"] = r.headers.get("content-type", "?")
+            entry["preview"] = r.text[:300]
+            entry["brd_headers"] = {k: v for k, v in r.headers.items()
+                                    if k.lower().startswith(("x-brd", "x-response",
+                                                             "x-unblock", "x-luminati"))}
+        self.log.append(entry)
         print(f"[unlocker] {resp.status_code} {len(resp.content):>7}B "
               f"media={'Y' if has_media else 'N'} agenda={'Y' if has_agenda else 'N'}"
               f"  {url}", file=sys.stderr)
