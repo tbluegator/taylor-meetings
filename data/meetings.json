@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T08:58-04:00",
+ "generated": "2026-10-02T09:02-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -230,19 +230,14 @@
    "start": "2026-08-11T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260811",
-   "documents": [
-    {
-     "label": "Agenda",
-     "url": "https://www.cityofperry.net/media/1136"
-    }
-   ],
+   "documents": [],
    "video_url": "https://www.youtube.com/watch?v=Ag2UdTedhEQ",
    "agenda_items": [],
-   "agenda_posted": true,
+   "agenda_posted": false,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": "2026-10-02T07:42-04:00"
+   "agenda_first_seen": ""
   },
   {
    "id": "school:DWTKZX545B9B",
@@ -654,19 +649,14 @@
    "start": "2026-08-25T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260825",
-   "documents": [
-    {
-     "label": "Agenda",
-     "url": "https://www.cityofperry.net/media/1166"
-    }
-   ],
+   "documents": [],
    "video_url": "https://www.youtube.com/watch?v=XqMa7RgCDv0",
    "agenda_items": [],
-   "agenda_posted": true,
+   "agenda_posted": false,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": "2026-10-02T07:42-04:00"
+   "agenda_first_seen": ""
   },
   {
    "id": "bocc:171",
@@ -1226,19 +1216,14 @@
    "start": "2026-09-10T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260910",
-   "documents": [
-    {
-     "label": "Agenda",
-     "url": "https://www.cityofperry.net/media/1176"
-    }
-   ],
+   "documents": [],
    "video_url": "https://www.youtube.com/watch?v=sHLF4TqUXrw",
    "agenda_items": [],
-   "agenda_posted": true,
+   "agenda_posted": false,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T07:42-04:00",
-   "agenda_first_seen": "2026-10-02T07:42-04:00"
+   "agenda_first_seen": ""
   },
   {
    "id": "bocc:210",
@@ -1380,23 +1365,14 @@
    "start": "2026-09-22T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260922",
-   "documents": [
-    {
-     "label": "Agenda Packet (Dropbox)",
-     "url": "https://www.dropbox.com/scl/fo/bk41zbxffzagd5czchw3q/AO3-oP2lvxN667_50lLG7rY?rlkey=mun4tcfpxk80jcn8bcvwp3754&dl=0"
-    },
-    {
-     "label": "Agenda",
-     "url": "https://www.cityofperry.net/media/1181"
-    }
-   ],
+   "documents": [],
    "video_url": "https://www.youtube.com/watch?v=wGV5UtIJKLg",
    "agenda_items": [],
-   "agenda_posted": true,
+   "agenda_posted": false,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": "2026-10-02T07:42-04:00"
+   "agenda_first_seen": ""
   },
   {
    "id": "school:DXWQVP6B2DF2",

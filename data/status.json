@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-02T08:58-04:00",
+ "generated": "2026-10-02T09:02-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-02T08:58-04:00",
-   "last_ok": "2026-10-02T08:58-04:00"
+   "checked": "2026-10-02T09:02-04:00",
+   "last_ok": "2026-10-02T09:02-04:00"
   },
   "perry": {
-   "ok": false,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/calendar/json",
-   "checked": "2026-10-02T08:58-04:00",
-   "last_ok": "2026-10-02T07:42-04:00"
+   "ok": true,
+   "count": 8,
+   "checked": "2026-10-02T09:02-04:00",
+   "last_ok": "2026-10-02T09:02-04:00"
   },
   "school": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-02T08:58-04:00",
-   "last_ok": "2026-10-02T08:58-04:00"
+   "checked": "2026-10-02T09:02-04:00",
+   "last_ok": "2026-10-02T09:02-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-02T08:58-04:00",
-   "last_ok": "2026-10-02T08:58-04:00"
+   "checked": "2026-10-02T09:02-04:00",
+   "last_ok": "2026-10-02T09:02-04:00"
   }
  },
  "problems": [
   {
    "level": "error",
    "source": "perry",
-   "message": "Perry City Council: could not fetch (HTTPError: 403 Client Error: Forbidden for url: https://www.cityofperry.net/calendar/json). Showing the last data we had."
+   "message": "Perry City Council: none of the last 30 days of meetings has an agenda. The agenda links may have moved."
   }
  ]
 }
