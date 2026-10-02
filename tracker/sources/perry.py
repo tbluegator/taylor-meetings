@@ -170,7 +170,11 @@ def fetch(cfg: dict, start: dt.date, end: dt.date, http=None,
     fall mostly on new agendas."""
     http = http or session()
     known = known or {}
-    feed = (page_solver or http).get(urljoin(cfg["base"], "/calendar/json"), timeout=40)
+    # ScraperAPI clears Cloudflare for HTML documents but not for the JSON feed
+    # endpoint (CF challenges an XHR path harder), so fetch the feed through the
+    # more robust pdf_solver (Scrapfly) when available.
+    feed = (pdf_solver or page_solver or http).get(
+        urljoin(cfg["base"], "/calendar/json"), timeout=60)
     feed.raise_for_status()
     entries = parse_calendar_json(feed.text, start, end)
     meetings = []
