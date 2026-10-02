@@ -1,29 +1,108 @@
 {
- "generated": "2026-10-02T00:32-04:00",
+ "generated": "2026-10-02T00:48-04:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-10-02T00:32-04:00",
-   "last_ok": "2026-10-02T00:32-04:00"
+   "checked": "2026-10-02T00:48-04:00",
+   "last_ok": "2026-10-02T00:48-04:00"
   },
   "perry": {
    "ok": true,
    "count": 9,
-   "checked": "2026-10-02T00:32-04:00",
-   "last_ok": "2026-10-02T00:32-04:00"
+   "checked": "2026-10-02T00:48-04:00",
+   "fetches": [
+    {
+     "url": "https://www.cityofperry.net/meetings",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/rss.xml",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260811",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260825",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260908",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20260922",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261013",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261027",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261110",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261124",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    },
+    {
+     "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261208",
+     "status": 200,
+     "bytes": 0,
+     "media": false,
+     "agenda": false
+    }
+   ],
+   "last_ok": "2026-10-02T00:48-04:00"
   },
   "school": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-02T00:32-04:00",
-   "last_ok": "2026-10-02T00:32-04:00"
+   "checked": "2026-10-02T00:48-04:00",
+   "last_ok": "2026-10-02T00:48-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-02T00:32-04:00",
-   "last_ok": "2026-10-02T00:32-04:00"
+   "checked": "2026-10-02T00:48-04:00",
+   "last_ok": "2026-10-02T00:48-04:00"
   }
  },
  "problems": [
