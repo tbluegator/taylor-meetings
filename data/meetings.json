@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T21:13-04:00",
+ "generated": "2026-10-03T10:44-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -16,7 +16,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWDKES517CB4"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=He5HOPAEY1E",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -344,7 +344,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DWTKZX545B9B"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=Xzm-gdoKjJM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1869,7 +1869,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -2856,6 +2856,29 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "tcda:20261217",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2026-12-17T12:00:00-05:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-10-03T10:44-04:00",
    "agenda_first_seen": ""
   }
  ]
