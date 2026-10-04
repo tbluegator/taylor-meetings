@@ -1,30 +1,36 @@
 {
- "generated": "2026-10-03T20:40-04:00",
+ "generated": "2026-10-04T11:23-04:00",
  "sources": {
   "bocc": {
-   "ok": true,
-   "count": 15,
-   "checked": "2026-10-03T20:40-04:00",
+   "ok": false,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='taylorcofl.api.civicclerk.com', port=443): Read timed out. (read timeout=30)",
+   "checked": "2026-10-04T11:23-04:00",
    "last_ok": "2026-10-03T20:40-04:00"
   },
   "perry": {
    "ok": true,
    "count": 9,
-   "checked": "2026-10-03T20:40-04:00",
-   "last_ok": "2026-10-03T20:40-04:00"
+   "checked": "2026-10-04T11:23-04:00",
+   "last_ok": "2026-10-04T11:23-04:00"
   },
   "school": {
    "ok": true,
-   "count": 5,
-   "checked": "2026-10-03T20:40-04:00",
-   "last_ok": "2026-10-03T20:40-04:00"
+   "count": 4,
+   "checked": "2026-10-04T11:23-04:00",
+   "last_ok": "2026-10-04T11:23-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-03T20:40-04:00",
-   "last_ok": "2026-10-03T20:40-04:00"
+   "checked": "2026-10-04T11:23-04:00",
+   "last_ok": "2026-10-04T11:23-04:00"
   }
  },
- "problems": []
+ "problems": [
+  {
+   "level": "error",
+   "source": "bocc",
+   "message": "Board of County Commissioners: could not fetch (ReadTimeout: HTTPSConnectionPool(host='taylorcofl.api.civicclerk.com', port=443): Read timed out. (read timeout=30)). Showing the last data we had."
+  }
+ ]
 }
