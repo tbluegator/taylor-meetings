@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-04T15:39-04:00",
+ "generated": "2026-10-04T20:57-04:00",
  "sources": {
   "bocc": {
    "ok": false,
    "error": "ReadTimeout: HTTPSConnectionPool(host='taylorcofl.api.civicclerk.com', port=443): Read timed out. (read timeout=30)",
-   "checked": "2026-10-04T15:39-04:00",
+   "checked": "2026-10-04T20:57-04:00",
    "last_ok": "2026-10-03T20:40-04:00"
   },
   "perry": {
    "ok": true,
    "count": 9,
-   "checked": "2026-10-04T15:39-04:00",
-   "last_ok": "2026-10-04T15:39-04:00"
+   "checked": "2026-10-04T20:57-04:00",
+   "last_ok": "2026-10-04T20:57-04:00"
   },
   "school": {
    "ok": true,
    "count": 4,
-   "checked": "2026-10-04T15:39-04:00",
-   "last_ok": "2026-10-04T15:39-04:00"
+   "checked": "2026-10-04T20:57-04:00",
+   "last_ok": "2026-10-04T20:57-04:00"
   },
   "tcda": {
    "ok": true,
    "count": 5,
-   "checked": "2026-10-04T15:39-04:00",
-   "last_ok": "2026-10-04T15:39-04:00"
+   "checked": "2026-10-04T20:57-04:00",
+   "last_ok": "2026-10-04T20:57-04:00"
   }
  },
  "problems": [
