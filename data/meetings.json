@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T20:57-04:00",
+ "generated": "2026-10-05T15:18-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2348,12 +2348,12 @@
    "url": "https://taylorcofl.portal.civicclerk.com/event/147/files",
    "documents": [
     {
-     "label": "Agenda",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=617,plainText=false)"
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=619,plainText=false)"
     },
     {
-     "label": "Agenda Packet",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=618,plainText=false)"
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=620,plainText=false)"
     }
    ],
    "video_url": "",
@@ -2472,26 +2472,32 @@
      "topics": []
     },
     {
-     "section": "COUNTY STAFF ITEMS",
+     "section": "GENERAL BUSINESS",
      "number": "19",
-     "text": "THE BOARD TO REVIEW AND APPROVE CONTRACT FOR PROFESSIONAL SERVICES BETWEEN TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS AND LAMPL HERBERT CONSULTANTS, INC. FOR THE COMPLETION OF THE STEINHATCHEE COMMERCIAL SEAFOOD PLANNING AND FEASIBILITY STUDY PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF FY25 FINANCIAL STATEMENTS FROM TCDA AND THE RELEASE OF FY26 FUNDS OF $100,000.00, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
      "topics": []
     },
     {
      "section": "COUNTY STAFF ITEMS",
      "number": "20",
+     "text": "THE BOARD TO REVIEW AND APPROVE CONTRACT FOR PROFESSIONAL SERVICES BETWEEN TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS AND LAMPL HERBERT CONSULTANTS, INC. FOR THE COMPLETION OF THE STEINHATCHEE COMMERCIAL SEAFOOD PLANNING AND FEASIBILITY STUDY PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "21",
      "text": "THE BOARD TO CONSIDER APPROVAL OF A FDOT SUPPLEMENTAL FUNDING AGREEMENT FOR THE ASH STREET SIDEWALK AND ROADWAY RECONSTRUCTION PROJECT AND ADOPTION OF A RESOLUTION AUTHORIZING ITS EXECUTION BY THE CHAIR OF THE BOARD OF COUNTY COMMISSIONERS, AS AGENDAED BY THE COUNTY ENGINEER.",
      "topics": []
     },
     {
      "section": "COUNTY ADMINISTRATOR ITEMS",
-     "number": "21",
+     "number": "22",
      "text": "THE BOARD TO RECEIVE THE GRANTS PROJECT REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
      "topics": []
     },
     {
      "section": "COUNTY ADMINISTRATOR ITEMS",
-     "number": "22",
+     "number": "23",
      "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
      "topics": []
     }
