@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T21:57-04:00",
+ "generated": "2026-10-08T13:25-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2675,7 +2675,7 @@
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=624,plainText=false)"
     }
    ],
-   "video_url": "",
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/b34fa4f979.mp4",
    "agenda_items": [
     {
      "section": "AGENDA",
@@ -2937,6 +2937,24 @@
    "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
    "topics": [],
    "first_seen": "2026-10-03T10:44-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:162",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2026-12-22T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/162/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-08T13:25-04:00",
    "agenda_first_seen": ""
   }
  ]
