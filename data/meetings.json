@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T13:26-04:00",
+ "generated": "2026-10-07T21:57-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2655,6 +2655,58 @@
    "topics": [],
    "first_seen": "2026-10-01T23:48-04:00",
    "agenda_first_seen": "2026-10-01T23:48-04:00"
+  },
+  {
+   "id": "bocc:213",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Special Emergency Meeting",
+   "start": "2026-10-08T12:00:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/213/files",
+   "documents": [
+    {
+     "label": "AGENDA",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=623,plainText=false)"
+    },
+    {
+     "label": "AGENDA PACKET",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=624,plainText=false)"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUISNESS",
+     "number": "4",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF LOCAL STATE OF EMERGENCY (LSE) FOR TROPICAL STORM ISAIAS / DEVELOPING HURRICANE AS AGENDAED BY DR. DANNY GLOVER, EMERGENCY MANAGEMENT DIRECTOR.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-07T21:57-04:00",
+   "agenda_first_seen": "2026-10-07T21:57-04:00"
   },
   {
    "id": "perry:20261013",
