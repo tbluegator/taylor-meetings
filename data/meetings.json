@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T13:25-04:00",
+ "generated": "2026-10-08T22:12-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -1125,6 +1125,10 @@
     {
      "label": "Amended Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=583,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=630,plainText=false)"
     }
    ],
    "video_url": "https://taylorcofl.portal.civicclerk.com/event/146/media",
@@ -1566,6 +1570,10 @@
     {
      "label": "Agenda",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=584,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=628,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/4dcd68f891.mp4",
@@ -1645,6 +1653,10 @@
     {
      "label": "Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=596,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=629,plainText=false)"
     }
    ],
    "video_url": "https://taylorcofl.portal.civicclerk.com/event/211/media",
@@ -2057,6 +2069,10 @@
     {
      "label": "Amended Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=603,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=632,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/7a7c61abdc.mp4",
@@ -2675,7 +2691,7 @@
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=624,plainText=false)"
     }
    ],
-   "video_url": "https://cpmedia.azureedge.net/taylorcofl/b34fa4f979.mp4",
+   "video_url": "https://taylorcofl.portal.civicclerk.com/event/213/media",
    "agenda_items": [
     {
      "section": "AGENDA",
@@ -2748,6 +2764,108 @@
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:214",
+   "source": "bocc",
+   "body": "Value Adjustment Board",
+   "body_short": "VAB",
+   "title": "Value Adjustment Board",
+   "start": "2026-10-19T17:30:00-04:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/214/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=626,plainText=false)"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "VAB AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "3",
+     "text": "VAB MEETING CALLED TO ORDER BY CHAIR",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "4",
+     "text": "APPROVAL OF AGENDA",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "5",
+     "text": "THE CLERK TO INTRODUCE THOSE PRESENT AND GIVE AN OVERVIEW OF THE RULES OF PROCEDURE AND OTHER ADMINISTRATIVE ITEMS NECESSARY TO CONDUCT THIS MEETING.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "6",
+     "text": "ATTORNEY ROBERTS TO PROVIDE GENERAL INFORMATION REGARDING THE VAB, AND ADMINISTRATIVE REVIEW INSTRUCTIONS.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "7",
+     "text": "ATTORNEY ROBERTS TO ASK FOR ANY QUESTIONS REGARDING THE OVERVIEW OF THE PROCEDURES FOR THIS HEARING.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "8",
+     "text": "APPROVAL OF MINUTES OF THE ORGANIZATIONAL MEETING OF MONDAY, SEPTEMBER 28, 2026.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "9",
+     "text": "THE CLERK ADVISED THERE WERE A TOTAL OF 11 PETITIONS FILED AND ALL PETITIONS TO THE 2026 VAB HAVE BEEN WITHDRAWN EXCEPT 3 PETITIONS (SEE LIST OF PETITIONERS\u2019 BELOW).",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "10",
+     "text": "THE CLERK TO SWEAR IN ALL WITNESSES IN THIS PROCEEDING ON THE RECORD.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "11",
+     "text": "THE CLERK TO INTRODUCE ANY PETITIONS TO BE HEARD AND HEARING TO COMMENCE IF ALL PARTIES ARE PRESENT AND THE PETITION IS NOT WITHDRAWN OR SETTLED.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "12",
+     "text": "THE VAB TO APPROVE THE 2026 ASSESSMENT TAX ROLLS AND APPROVE EXECUTION OF ATTACHED CERTIFICATES, FOR REAL AND TANGIBLE PERSONAL PROPERTY.",
+     "topics": []
+    },
+    {
+     "section": "VAB AGENDA",
+     "number": "13",
+     "text": "COMMENTS FROM THE PUBLIC",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-08T22:12-04:00",
+   "agenda_first_seen": "2026-10-08T22:12-04:00"
   },
   {
    "id": "bocc:160",
