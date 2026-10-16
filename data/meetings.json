@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:54-04:00",
+ "generated": "2026-10-15T20:25-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2876,14 +2876,150 @@
    "start": "2026-10-20T18:00:00-04:00",
    "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
    "url": "https://taylorcofl.portal.civicclerk.com/event/160/files",
-   "documents": [],
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=634,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=635,plainText=false)"
+    }
+   ],
    "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "AWARDS/RECOGNITIONS",
+     "number": "4",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF DRAFT PROCLAMATION TO PROCLAIM THE WEEK OF OCTOBER 20TH AS FLORIDA FOREST FESTIVAL WEEK, AS AGENDAED BY DAWN PEREZ, PERRY-TAYLOR COUNTY CHAMBER OF COMMERCE.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "APPROVAL OF MINUTES OCTOBER 05, 2026 AND OCTOBER 8, 2026.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO APPROVE SATISFACTION OF LIEN AGREEMENT FOR EARTHA MAE WHITE WHO RECEIVED REHABILITATION ASSISTANCE THROUGH THE SHIP PROGRAM IN JUNE 1996, AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE TRANSFER FROM GENERAL FUND RESERVE FOR CONTINGENCY (FY2026) AND THE APPROVAL OF INVOICE PAYMENT TO ADAMS & REESE, FOR PROFESSIONAL SERVICES RENDERED THROUGH SEPTEMBER 30TH, REGARDING THE MATTER OF TAYLOR COUNTY V. FDEP AND FOLEY, IN THE AMOUNT OF $8,786.00, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE TRANSFER FROM GENERAL FUND RESERVE FOR CONTINGENCY (FY2026) AND THE APPROVAL OF INVOICE PAYMENT TO DAVIS, SCHNITKER, REEVES & BROWNING, P.A., FOR PROFESSIONAL SERVICES RENDERED REGARDING THE MATTER OF TAYLOR COUNTY V WILSON, IN THE AMOUNT OF $3,015.00, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTIONS (FY2026 & FY2027) TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO REVIEW AND APPROVE REQUEST FOR QUALIFICATIONS (RFQ) TO PROCURE A PROFESSIONAL FIRM FOR THE DESIGN AND ENGINEERING SERVICES FOR THE TAYLOR COUNTY SPECIAL NEEDS EMERGENCY SHELTER PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE REQUEST FOR QUALIFICATIONS (RFQ) TO PROCURE A PROFESSIONAL FIRM FOR THE DESIGN AND ENGINEERING SERVICES FOR THE STEINHATCHEE ROADS PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE TAYLOR COUNTY STORM-DEBRIS DETECTION AND REMOVAL IN SHALLOW NAVIGATIONAL WATERWAYS (FL) 2027 HURRICANE RESPONSE MARINE DEBRIS REMOVAL FUND GRANT PROPOSAL, AS AGENDAED BY VICTOR BLANCO.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "14",
+     "text": "THE BOARD TO RECEIVE TWO BIDS FOR FIRE STATE 7 CONSTRUCTION PHASE 2, SET FOR THIS DATE AT 6:00 P.M., OR AS SOON THEREAFTER, AS AGENDAED BY DAN CASSEL, COUNTY FIRE CHIEF.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "15",
+     "text": "THE BOARD TO RECEIVE STATEMENT OF QUALIFICATIONS (SOQ) FOR PROFESSIONAL DESIGN ENGINEERING & PERMITTING SERVICES- HODGES PARK REHABILITATION AT KEATON BEACH, SET FOR THIS DATE AT 6:05 P.M., OR AS SOON THEREAFTER AS POSSIBLE, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "PUBLIC REQUESTS",
+     "number": "16",
+     "text": "MICHAEL THRIFT, TAYLOR COUNTY SENIOR CITIZENS CENTER, TO ADDRESS THE BOARD REGARDING THE TAYLOR COUNTY SENIOR CITIZENS CENTER.",
+     "topics": []
+    },
+    {
+     "section": "CONSTITUTIONAL OFFICERS/OTHER GOVERNMENTAL UNITS",
+     "number": "17",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE BIG BEND WATER AUTHORITY PROPOSED BUDGET FOR 2026-2027",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "18",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE GRANT PRE-APPLICATION PACKAGE TO THE FEDERAL AVIATION ADMINISTRATION (FAA) REQUESTING $46,500 IN DISCRETIONARY FUNDING AND $300,00 IN NON-PRIMARY ENTITLEMENTS FOR FPY ALP AND MASTER PLAN UPDATE FOR PERRY-FOLEY AIRPORT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ATTORNEY ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO CONSIDER COUNTY ATTORNEY REQUEST FOR BOARD DIRECTION ON ENFORCEMENT OF THE CODE ENFORCEMENT MAGISTRATE'S ORDER FOR TAYLOR COUNTY V. PEGGY VALENTINE AND KATHY HARRISON.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "20",
+     "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
-   "topics": [],
+   "topics": [
+    "Taxes & reserves"
+   ],
    "first_seen": "2026-10-01T22:02-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-15T20:25-04:00"
   },
   {
    "id": "perry:20261027",
