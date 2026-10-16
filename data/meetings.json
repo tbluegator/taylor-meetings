@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T20:25-04:00",
+ "generated": "2026-10-16T10:52-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2733,14 +2733,132 @@
    "start": "2026-10-13T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261013",
-   "documents": [],
+   "documents": [
+    {
+     "label": "Agenda Packet (Dropbox)",
+     "url": "https://www.dropbox.com/scl/fo/sv23unk2xinecltpn5qq3/AJy8CHACe40z3dQj8kXSaK0?rlkey=1kkve1yorlgit2wetwo71g8ec&dl=0"
+    },
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1186"
+    }
+   ],
    "video_url": "https://www.youtube.com/watch?v=w2njT9Ig-ig",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "",
+     "number": "1",
+     "text": "Call to order. Reminder to silence phones.  Opening Prayer and Pledge of Allegiance to the Flag.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "2",
+     "text": "Roll Call.",
+     "topics": []
+    },
+    {
+     "section": "Approval of items on consent agenda",
+     "number": "3A",
+     "text": "Approval to Read by Title Only \u2013Resolution 2026-32, Resolution 2026-33, Resolution 2026-34, Ordinance 1065",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(A)",
+     "text": "Council to discuss Loughridge Town Hall meeting and plan for rental for Boys to Kings and Girls to Queens program, and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(B)",
+     "text": "Council to discuss National E-Waste Proclamation and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(C)",
+     "text": "Resolution 2026- 32-Aurtorizing City Manager to execute and submit applications and related documents to USDA, Rural Development, for City \u2018s water meter, generator and effluent disposal projects A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF PERRY, FLORIDA, AUTHORIZING JOHN HART, CITY MANAGER, TO EXECUTE AND SUBMIT APPLICATIONS AND RELATED DOCUMENTS TO THE UNITED STATES DEPARTMENT OF AGRICULTURE, RURAL DEVELOPMENT, FOR THE CITY\u2019S WATER METER, GENERATOR, AND EFFLUENT DISPOSAL PROJECTS; DESIGNATING THE CITY MANAGER AS THE CITY\u2019S AUTHORIZED REPRESENTATIVE FOR SUCH APPLICATIONS; PROVIDING LIMITATIONS ON SUCH AUTHORITY; AND PROVIDING AN EFFECTIVE DATE.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(D)",
+     "text": "Resolution 2026- 33-FRDAP Grant 2027-2028 for Loughridge Park A RESOLUTION AUTHORIZING THE SUBMISSION OF A FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) GRANT APPLICATION TO THE FLORIDA DEPARTMENT OF ENVIRONMENTAL PROTECTION (FDEP) FOR THE 2027-2028 PROGRAM YEAR.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(E)",
+     "text": "Resolution 2026-34-FRDAP Grant 2027-2028 for Gerald Walker (Jerkins) Park. A RESOLUTION AUTHORIZING THE SUBMISSION OF A FLORIDA RECREATION DEVELOPMENT ASSISTANCE PROGRAM (FRDAP) GRANT APPLICATION TO THE FLORIDA DEPARTMENT OF ENVIRONMENTAL PROTECTION (FDEP) FOR THE 2027-2028 PROGRAM YEAR.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(F)",
+     "text": "Council to approve agreement with North Central Florida Regional Planning Council and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(G)",
+     "text": "Ordinance No. 1065--Introduction and First Reading Ordinance AN ORDINANCE OF THE CITY OF PERRY, FLORIDA PERTAINING TO THE AMENDMENT OF UTILITY RATES, APPENDIX A, SCHEDULE OF FEES AND CHARGES; GARBAGE AND TRASH MONTHLY CHARGES; SEWER RATES AND CHARGES; WATER RATES AND OTHER CHARGES; GAS SUPPLIED BY CITY; PROVIDING FOR THE SEVERABILITY OF THE PARTS HEREOF IF DECLARED INVALID; REPEALING ORDINANCES IN CONFLICT; AND PROVIDING AN EFFECTIVE DATE.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(H)",
+     "text": "Council to appoint (1) citizen to serve on Planning and Zoning Board of Trustees and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(I)",
+     "text": "Council to appoint (1) citizen to serve on Perry Fire Pension Board of Trustees and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(J)",
+     "text": "Council to appoint (5) citizen to the Citizens Advisory Task Force and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(K)",
+     "text": "Approval of Minutes: September 22, 2026, Regular Session.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "7",
+     "text": "City Manager Report.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "8",
+     "text": "City Attorney Report.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "9",
+     "text": "City Council Requests.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "10",
+     "text": "Adjournment.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-16T10:52-04:00"
   },
   {
    "id": "tcda:20261015",
