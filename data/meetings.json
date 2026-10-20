@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T11:07-04:00",
+ "generated": "2026-10-20T16:00-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2996,12 +2996,12 @@
    "url": "https://taylorcofl.portal.civicclerk.com/event/160/files",
    "documents": [
     {
-     "label": "Agenda",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=634,plainText=false)"
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=636,plainText=false)"
     },
     {
-     "label": "Agenda Packet",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=635,plainText=false)"
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=638,plainText=false)"
     }
    ],
    "video_url": "",
@@ -3125,8 +3125,14 @@
      "topics": []
     },
     {
-     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "section": "COUNTY ATTORNEY ITEMS",
      "number": "20",
+     "text": "THE COUNTY ATTORNEY TO DISCUSS REPRESENTATION OF THE COUNTY IN CURTIS/SIMMONS VERSUS TAYLOR COUNTY, THE TAYLOR COUNTY SCHOOL BOARD, THE SUPERVISOR OF ELECTIONS AND THE CANVASSING BOARD.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "21",
      "text": "THE COUNTY ADMINISTRATOR TO DISCUSS INFORMATIONAL ITEMS",
      "topics": []
     }
