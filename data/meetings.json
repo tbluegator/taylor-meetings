@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T12:59-04:00",
+ "generated": "2026-10-19T21:06-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2898,7 +2898,7 @@
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=626,plainText=false)"
     }
    ],
-   "video_url": "",
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/db8da05d8c.mp4",
    "agenda_items": [
     {
      "section": "VAB AGENDA",
