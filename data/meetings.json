@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T16:00-04:00",
+ "generated": "2026-10-20T20:38-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -3004,7 +3004,7 @@
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=638,plainText=false)"
     }
    ],
-   "video_url": "",
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/415c0853af.mp4",
    "agenda_items": [
     {
      "section": "AGENDA",
@@ -3115,7 +3115,7 @@
     {
      "section": "COUNTY STAFF ITEMS",
      "number": "18",
-     "text": "THE BOARD TO REVIEW AND APPROVE THE GRANT PRE-APPLICATION PACKAGE TO THE FEDERAL AVIATION ADMINISTRATION (FAA) REQUESTING $46,500 IN DISCRETIONARY FUNDING AND $300,00 IN NON-PRIMARY ENTITLEMENTS FOR FPY ALP AND MASTER PLAN UPDATE FOR PERRY-FOLEY AIRPORT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE GRANT PRE-APPLICATION PACKAGE TO THE FEDERAL AVIATION ADMINISTRATION (FAA) REQUESTING $46,500 IN DISCRETIONARY FUNDING AND $300,000 IN NON-PRIMARY ENTITLEMENTS FOR FPY ALP AND MASTER PLAN UPDATE FOR PERRY-FOLEY AIRPORT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
      "topics": []
     },
     {
