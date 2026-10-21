@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T20:38-04:00",
+ "generated": "2026-10-21T11:18-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -3333,6 +3333,24 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-08T13:25-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:150",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2027-01-04T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/150/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-21T11:18-04:00",
    "agenda_first_seen": ""
   }
  ]
