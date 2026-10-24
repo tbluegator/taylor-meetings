@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T20:44-04:00",
+ "generated": "2026-10-24T10:01-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3158,14 +3158,156 @@
    "start": "2026-10-27T17:00:00-04:00",
    "location": "City Council Room, 224 S. Jefferson St., Perry",
    "url": "https://www.cityofperry.net/perry-city-council/meeting/city-council-meeting-20261027",
-   "documents": [],
+   "documents": [
+    {
+     "label": "Agenda Packet (Dropbox)",
+     "url": "https://www.dropbox.com/scl/fo/yv6cwxyc2kg93ro4m9a04/AKWfFynkdzaxwmkIRFQhd1Y?rlkey=pbz3vjh4j31qnzv5sxmjykaou&dl=0"
+    },
+    {
+     "label": "Agenda",
+     "url": "https://www.cityofperry.net/media/1216"
+    }
+   ],
    "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "",
+     "number": "1",
+     "text": "Call to order. Reminder to silence phones.  Opening Prayer and Pledge of Allegiance to the Flag.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "2",
+     "text": "Roll Call.",
+     "topics": []
+    },
+    {
+     "section": "Approval of items on consent agenda",
+     "number": "3A",
+     "text": "Approval to Read by Title Only \u2013Resolution 2026-35, Resolution 2026-36, Resolution 2026-37,Resolution 2026-38, Ordinance 1066, Ordinance 1067",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(A)",
+     "text": "Aaron Portwood with TCDA to give a quarterly update and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(B)",
+     "text": "Mike Thrift with Taylor Senior Center to address and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(C)",
+     "text": "Resolution 2026-35-DW 6022D Well Grant Agreement A RESOLUTION OF CITY OF PERRY, FLORIDA, RELATING TO THE STATE REVOLVING FUND LOAN PROGRAM; MAKING FINDINGS; AUTHORIZING THE LOAN APPLICATION; AUTHORIZING THE LOAN AGREEMENT; ESTABLISHING PLEDGED REVENUES; DESIGNATING AUTHORIZED REPRESENTATIVES; PROVIDING ASSURANCES; PROVIDING FOR CONFLICTS, SEVERABILITY, AND EFFECTIVE DATE.\u201d",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(D)",
+     "text": "Resolution 2026-36 -WW62027 Grant Agreement A RESOLUTION OF CITY OF PERRY, FLORIDA, RELATING TO THE STATE REVOLVING FUND LOAN PROGRAM; MAKING FINDINGS; AUTHORIZING THE LOAN APPLICATION; AUTHORIZING THE LOAN AGREEMENT; ESTABLISHING PLEDGED REVENUES; DESIGNATING AUTHORIZED REPRESENTATIVES; PROVIDING ASSURANCES; PROVIDING FOR CONFLICTS, SEVERABILITY, AND EFFECTIVE DATE.\u201d",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(E)",
+     "text": "Council to discuss FDOT Grant Agreement for Stephens St and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(F)",
+     "text": "Resolution 2026-38   FDOT Grant Agreement for Stephens St A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF PERRY, FLORIDA, AUTHORIZING THE EXECUTION OF A STATE-FUNDED GRANT AGREEMENT WITH THE FLORIDA DEPARTMENT OF TRANSPORTATION FOR THE REPAVING OF STEPHENS STREET; AUTHORIZING THE CITY MANAGER TO EXECUTE SAID AGREEMENT AND ANY RELATED DOCUMENTS; PROVIDING AN EFFECTIVE DATE.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(G)",
+     "text": "Resolution 2026-37- Budget Amendment -Emergency Repair for Gas Truck A RESOLUTION OF THE CITY COUNCIL AMENDING THE BUDGET OF THE CITY OF PERRY, FLORIDA, FOR THE FISCAL YEAR OCTOBER 1, 2026, THROUGH SEPTEMBER 30, 2027.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(H)",
+     "text": "Public Hearing and Final Read Ordinance No. 1066 AN ORDINANCE OF THE CITY OF PERRY, FLORIDA, CORRECTING A SCRIVENER'S ERROR IN ORDINANCE NO. 1065 RELATING TO GARBAGE UTILITY RATES; CONFIRMING THE CITY COUNCIL'S INTENT TO IMPLEMENT A FIVE PERCENT (5%) RATE INCREASE; AMENDING AND RESTATING THE AFFECTED RATE PROVISION; PROVIDING FOR CONFLICTS; PROVIDING FOR SEVERABILITY; PROVIDING FOR CODIFICATION; AND PROVIDING AN EFFECTIVE DATC.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(I)",
+     "text": "Ordinance No. 1067--Introduction and First Reading Ordinance AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF PERRY, TAYLOR COUNTY, FLORIDA REGARDING SURPLUS LANDS; CONVEYING CERTAIN LAND; AND TO PROVIDE AN EFFECTIVE DATE.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(J)",
+     "text": "Council to discuss Railroad Crossing 713405X transfer Agreement and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(K)",
+     "text": "Council to approve City Manager to sign L0580 Grant Agreement for CCTV Sewer Camera Truck and Council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(L)",
+     "text": "Council to appoint (1) citizen to serve on Planning and Zoning Board of Trustees and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(M)",
+     "text": "Council to appoint (1) citizen to serve on Perry Fire Pension Board of Trustees and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(N)",
+     "text": "Council to appoint (5) citizen to the Citizens Advisory Task Force and council to take any actions deemed necessary.",
+     "topics": []
+    },
+    {
+     "section": "General Business",
+     "number": "6(O)",
+     "text": "Approval of Minutes: October 10, 2026, Regular Session.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "7",
+     "text": "City Manager Report.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "8",
+     "text": "City Attorney Report.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "9",
+     "text": "City Council Requests.",
+     "topics": []
+    },
+    {
+     "section": "",
+     "number": "10",
+     "text": "Adjournment.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-24T10:01-04:00"
   },
   {
    "id": "bocc:173",
