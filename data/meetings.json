@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:57-04:00",
+ "generated": "2026-10-23T20:44-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3176,14 +3176,54 @@
    "start": "2026-10-27T18:00:00-04:00",
    "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
    "url": "https://taylorcofl.portal.civicclerk.com/event/173/files",
-   "documents": [],
+   "documents": [
+    {
+     "label": "Agenda ",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=640,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=641,plainText=false)"
+    }
+   ],
    "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "WORKSHOP TOPICS",
+     "number": "3",
+     "text": "THE BOARD TO DISCUSS THE DESIGN FOR THE NEW PUBLIC SAFETY FACILITY.",
+     "topics": []
+    },
+    {
+     "section": "WORKSHOP TOPICS",
+     "number": "4",
+     "text": "THE BOARD TO DISCUSS BIRD RACKS.",
+     "topics": []
+    },
+    {
+     "section": "WORKSHOP TOPICS",
+     "number": "5",
+     "text": "THE BOARD TO DISCUSS DRAFT RESOLUTIONS OF INTENT FOR FIRE AND/OR EMS ASSESSMENTS.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-23T20:44-04:00"
   },
   {
    "id": "bocc:148",
