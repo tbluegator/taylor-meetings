@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T11:53-04:00",
+ "generated": "2026-10-27T16:43-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -2374,6 +2374,10 @@
     {
      "label": "Amended Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=620,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=644,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/a7f522f3be.mp4",
@@ -2693,6 +2697,10 @@
     {
      "label": "AGENDA PACKET",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=624,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=643,plainText=false)"
     }
    ],
    "video_url": "https://taylorcofl.portal.civicclerk.com/event/213/media",
@@ -3383,6 +3391,24 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-01T22:02-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:215",
+   "source": "bocc",
+   "body": "General",
+   "body_short": "BOCC",
+   "title": "Special Workshop",
+   "start": "2026-11-04T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/215/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-10-27T16:43-04:00",
    "agenda_first_seen": ""
   },
   {
