@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T12:56-04:00",
+ "generated": "2026-10-29T21:58-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3388,14 +3388,154 @@
    "start": "2026-11-02T18:00:00-05:00",
    "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
    "url": "https://taylorcofl.portal.civicclerk.com/event/148/files",
-   "documents": [],
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=651,plainText=false)"
+    },
+    {
+     "label": "Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=652,plainText=false)"
+    }
+   ],
    "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "AWARDS/RECOGNITIONS",
+     "number": "4",
+     "text": "THE BOARD TO RECOGNIZE THE RETIREMENT OF BRENDA BAUMGARDNER AFTER 35 YEARS OF SERVICE, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "5",
+     "text": "APPROVAL OF MINUTES OCTOBER 19, 2026 AND OCTOBER 27, 2026.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF REVISED JOB DESCRIPTION FOR CALL-IN/SEASONAL PARK ATTENDANT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO APPROVE AND EXECUTE CONTRACT BETWEEN LIVE OAK MANAGEMENT GROUP AND TAYLOR COUNTY BOARD OF COUNTY COMMISSIONERS IN THE AMOUNT OF $61,900.00 FOR THE CONSTRUCTION OF ONE PICKLEBALL COURT AND ASSOCIATED INFRASTRUCTURE AT SOUTHSIDE PARK, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTION TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND (FY26), AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF V0244 AMENDMENT #02 WITH NWF HEALTH NETWORK FOR FY 2026-27 NON-QUALIFIED OPIOID SETTLEMENT FUNDS IN THE AMOUNT OF $63,885.00, AND THE REQUIRED SUPPORTING CERTIFICATIONS AND AFFIDAVITS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF TAYLOR COUNTY'S PARTICIPATION IN THE NATIONAL ALBERTSONS OPIOID SETTLEMENT (CLAIM NO. CL-2265540) AND TO AUTHORIZE THE CHAIRMAN TO EXECUTE THE SUBDIVISION SETTLEMENT PARTICIPATION DOCUMENTS, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE DRAFT FORM OF RESOLUTION OF INTENT TO USE THE UNIFORM METHOD OF COLLECTING NON-AD VALOREM SPECIAL ASSESSMENTS FOR FIRE SERVICES WITHIN THE UNINCORPORATED AREA OF THE COUNTY, PURSUANT TO SECTION 197.3632, FLORIDA STATUTES, AND TO AUTHORIZE ADVERTISING OF THE NOTICE OF INTENT FOR A PUBLIC HEARING ON DECEMBER 7, 2026, AS AGENDAED BY COUNTY ADMINISTRATOR.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "APPROVAL OF REQUEST FOR PROPOSALS (RFP) FOR CONSTRUCTION ENGINEERING AND INSPECTION (CEI) SERVICES \u2013 DOCTORS\u2019 MEMORIAL HOSPITAL ROOFING RETROFIT, HARDENING AND REPAIR PROJECT (FLORIDA COMMERCE CDBG-MIT AGREEMENT NO. I0183), AS AGENDAED BY THE GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "14",
+     "text": "THE BOARD TO REVIEW AND APPROVE RECEIVED REQUESTS FOR PROPOSALS (RFP) FOR THE TAYLOR COUNTY HORSEMEN'S ARENA IMPROVEMENTS AND PARK DEVELOPMENT PROJECT AT 6:00 P.M., OR AS SOON THEREAFTER, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "15",
+     "text": "THE BOARD TO DISCUSS MOSQUITO CONTROL, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "16",
+     "text": "THE BOARD TO DISCUSS THE VETERANS SERVICES OFFICE, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "17",
+     "text": "THE BOARD TO DISCUSS DEADMAN'S CURVE RECONSTRUCTION, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "18",
+     "text": "THE BOARD TO DISCUSS APPRAISAL RECEIVED FOR 14076 SPRING WARRIOR ROAD ALSO KNOW AS SPRING WARRIOR FISH CAMP ADJACENT TO THE COUNTY OWNED SPRING WARRIOR BOAT RAMP, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT TRAFFIC SIGNAL AND FLASHING BEACON MAINTENANCE AGREEMENT AND AUTHORIZE RESOLUTION, AS AGENDAED BY HANK EVANS, PUBLIC WORKS DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "20",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF THE SELECTION COMMITTEE'S RANKING OF FIRMS RESPONDING TO THE REQUEST FOR QUALIFICATIONS FOR PROFESSIONAL DESIGN, ENGINEERING & PERMITTING SERVICES FOR THE HODGES PARK REHABILITATION AT KEATON BEACH AUTHORIZATION TO NEGOTIATE A DESIGN SERVICES AGREEMENT WITH THE HIGHEST-RANKED FIRM, CONTINGENT ON EXPIRATION OF THE PROTEST PERIOD WITH NO PROTEST FILED, AGENDAED BY THE GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO RECIEVE THE GRANTS PROJECT REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
-   "topics": [],
+   "topics": [
+    "Taxes & reserves"
+   ],
    "first_seen": "2026-10-01T22:02-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-10-29T21:58-04:00"
   },
   {
    "id": "bocc:215",
