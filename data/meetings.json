@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T12:42-04:00",
+ "generated": "2026-10-30T21:36-04:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3390,12 +3390,12 @@
    "url": "https://taylorcofl.portal.civicclerk.com/event/148/files",
    "documents": [
     {
-     "label": "Agenda",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=651,plainText=false)"
+     "label": "Amended Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=656,plainText=false)"
     },
     {
-     "label": "Agenda Packet",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=652,plainText=false)"
+     "label": "Amended Agenda Packet",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=657,plainText=false)"
     }
    ],
    "video_url": "",
@@ -3505,26 +3505,32 @@
      "topics": []
     },
     {
-     "section": "COUNTY STAFF ITEMS",
+     "section": "GENERAL BUSINESS",
      "number": "18",
-     "text": "THE BOARD TO DISCUSS APPRAISAL RECEIVED FOR 14076 SPRING WARRIOR ROAD ALSO KNOW AS SPRING WARRIOR FISH CAMP ADJACENT TO THE COUNTY OWNED SPRING WARRIOR BOAT RAMP, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "text": "THE BOARD TO DISCUSS ASH STREET, AS AGENDAED BY COMMISSIONER FEAGLE.",
      "topics": []
     },
     {
      "section": "COUNTY STAFF ITEMS",
      "number": "19",
-     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT TRAFFIC SIGNAL AND FLASHING BEACON MAINTENANCE AGREEMENT AND AUTHORIZE RESOLUTION, AS AGENDAED BY HANK EVANS, PUBLIC WORKS DIRECTOR.",
+     "text": "THE BOARD TO DISCUSS APPRAISAL RECEIVED FOR 14076 SPRING WARRIOR ROAD ALSO KNOW AS SPRING WARRIOR FISH CAMP ADJACENT TO THE COUNTY OWNED SPRING WARRIOR BOAT RAMP, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
      "topics": []
     },
     {
      "section": "COUNTY STAFF ITEMS",
      "number": "20",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT TRAFFIC SIGNAL AND FLASHING BEACON MAINTENANCE AGREEMENT AND AUTHORIZE RESOLUTION, AS AGENDAED BY HANK EVANS, PUBLIC WORKS DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "21",
      "text": "THE BOARD TO CONSIDER APPROVAL OF THE SELECTION COMMITTEE'S RANKING OF FIRMS RESPONDING TO THE REQUEST FOR QUALIFICATIONS FOR PROFESSIONAL DESIGN, ENGINEERING & PERMITTING SERVICES FOR THE HODGES PARK REHABILITATION AT KEATON BEACH AUTHORIZATION TO NEGOTIATE A DESIGN SERVICES AGREEMENT WITH THE HIGHEST-RANKED FIRM, CONTINGENT ON EXPIRATION OF THE PROTEST PERIOD WITH NO PROTEST FILED, AGENDAED BY THE GRANTS WRITER.",
      "topics": []
     },
     {
      "section": "COUNTY ADMINISTRATOR ITEMS",
-     "number": "21",
+     "number": "22",
      "text": "THE BOARD TO RECIEVE THE GRANTS PROJECT REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
      "topics": []
     }
