@@ -1,36 +1,30 @@
 {
- "generated": "2026-11-01T20:31-05:00",
+ "generated": "2026-11-02T15:23-05:00",
  "sources": {
   "bocc": {
    "ok": true,
    "count": 15,
-   "checked": "2026-11-01T20:31-05:00",
-   "last_ok": "2026-11-01T20:31-05:00"
+   "checked": "2026-11-02T15:23-05:00",
+   "last_ok": "2026-11-02T15:23-05:00"
   },
   "perry": {
    "ok": true,
    "count": 9,
-   "checked": "2026-11-01T20:31-05:00",
-   "last_ok": "2026-11-01T20:31-05:00"
+   "checked": "2026-11-02T15:23-05:00",
+   "last_ok": "2026-11-02T15:23-05:00"
   },
   "school": {
    "ok": true,
    "count": 3,
-   "checked": "2026-11-01T20:31-05:00",
-   "last_ok": "2026-11-01T20:31-05:00"
+   "checked": "2026-11-02T15:23-05:00",
+   "last_ok": "2026-11-02T15:23-05:00"
   },
   "tcda": {
    "ok": true,
    "count": 4,
-   "checked": "2026-11-01T20:31-05:00",
-   "last_ok": "2026-11-01T20:31-05:00"
+   "checked": "2026-11-02T15:23-05:00",
+   "last_ok": "2026-11-02T15:23-05:00"
   }
  },
- "problems": [
-  {
-   "level": "warning",
-   "source": "bocc",
-   "message": "Board of County Commissioners: no agenda posted yet for Wed Nov 4 (Special Workshop)."
-  }
- ]
+ "problems": []
 }
