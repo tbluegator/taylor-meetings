@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T22:29-05:00",
+ "generated": "2026-11-03T12:51-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3542,6 +3542,36 @@
    ],
    "first_seen": "2026-10-01T22:02-04:00",
    "agenda_first_seen": "2026-10-29T21:58-04:00"
+  },
+  {
+   "id": "bocc:216",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Multiple Commissioner Attendance",
+   "start": "2026-11-04T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/216/files",
+   "documents": [
+    {
+     "label": "Agenda",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=660,plainText=false)"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "NOTICE OF MULTIPLE COMMISSIONERS IN ATTENDANCE",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-11-03T12:51-05:00",
+   "agenda_first_seen": "2026-11-03T12:51-05:00"
   },
   {
    "id": "perry:20261110",
