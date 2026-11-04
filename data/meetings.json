@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:51-05:00",
+ "generated": "2026-11-03T21:21-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
+   "video_url": "",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -2377,7 +2377,7 @@
     },
     {
      "label": "Minutes",
-     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=644,plainText=false)"
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=664,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/a7f522f3be.mp4",
@@ -3018,6 +3018,10 @@
     {
      "label": "Amended Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=638,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=661,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/415c0853af.mp4",
@@ -3338,6 +3342,10 @@
     {
      "label": "Agenda Packet",
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=641,plainText=false)"
+    },
+    {
+     "label": "Minutes",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=662,plainText=false)"
     }
    ],
    "video_url": "https://cpmedia.azureedge.net/taylorcofl/4e4b32f293.mp4",
