@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:29-05:00",
+ "generated": "2026-11-05T13:02-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3733,6 +3733,24 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-10-21T11:18-04:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:163",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Board of Commissioners Meeting",
+   "start": "2027-01-19T18:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/163/files",
+   "documents": [],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-11-05T13:02-05:00",
    "agenda_first_seen": ""
   }
  ]
