@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:57-05:00",
+ "generated": "2026-11-07T11:28-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -937,7 +937,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXGQHW69737F"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=KfoAColZdnM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3751,6 +3751,29 @@
    "note": "",
    "topics": [],
    "first_seen": "2026-11-05T13:02-05:00",
+   "agenda_first_seen": ""
+  },
+  {
+   "id": "tcda:20270121",
+   "source": "tcda",
+   "body": "Taylor County Development Authority",
+   "body_short": "TCDA",
+   "title": "Regular Board Meeting (standing schedule)",
+   "start": "2027-01-21T12:00:00-05:00",
+   "location": "TCDA office",
+   "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/",
+   "documents": [
+    {
+     "label": "Meeting info & Zoom link",
+     "url": "https://www.tcdaperry.com/board-meetings-and-zoom-meeting-link/"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [],
+   "agenda_posted": false,
+   "note": "TCDA does not post agendas online. As a registered special district, it is required to post each agenda on its website at least 7 days before the meeting (Fla. Stat. \u00a7 189.069(2)(a)).",
+   "topics": [],
+   "first_seen": "2026-11-07T11:28-05:00",
    "agenda_first_seen": ""
   }
  ]
