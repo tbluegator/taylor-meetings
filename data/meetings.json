@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:45-05:00",
+ "generated": "2026-11-09T15:45-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3598,6 +3598,58 @@
    "topics": [],
    "first_seen": "2026-10-02T00:21-04:00",
    "agenda_first_seen": ""
+  },
+  {
+   "id": "bocc:217",
+   "source": "bocc",
+   "body": "Board of County Commissioners",
+   "body_short": "BOCC",
+   "title": "Special Meeting",
+   "start": "2026-11-10T17:00:00-05:00",
+   "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
+   "url": "https://taylorcofl.portal.civicclerk.com/event/217/files",
+   "documents": [
+    {
+     "label": "AGENDA",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=668,plainText=false)"
+    },
+    {
+     "label": "AGENDA PACKET",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=669,plainText=false)"
+    }
+   ],
+   "video_url": "",
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "4",
+     "text": "THE BOARD TO DISCUSS AERIAL MOSQUITO SPRAYING, AS AGENDAED BY COMMISSIONER FEAGLE.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
+   "note": "",
+   "topics": [],
+   "first_seen": "2026-11-09T15:45-05:00",
+   "agenda_first_seen": "2026-11-09T15:45-05:00"
   },
   {
    "id": "bocc:161",
