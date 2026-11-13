@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T21:38-05:00",
+ "generated": "2026-11-13T12:45-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -1881,7 +1881,7 @@
      "url": "https://go.boarddocs.com/fl/taylor/Board.nsf/goto?open&id=DXWQVP6B2DF2"
     }
    ],
-   "video_url": "",
+   "video_url": "https://www.youtube.com/watch?v=c4zUqQJ5tzM",
    "agenda_items": [
     {
      "section": "Opening Meeting Items",
@@ -3660,14 +3660,172 @@
    "start": "2026-11-17T18:00:00-05:00",
    "location": "Taylor County Administrative Complex, 201 E. Green St., Perry",
    "url": "https://taylorcofl.portal.civicclerk.com/event/161/files",
-   "documents": [],
+   "documents": [
+    {
+     "label": "AGENDA",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=670,plainText=false)"
+    },
+    {
+     "label": "AGENDA PACKET",
+     "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=671,plainText=false)"
+    }
+   ],
    "video_url": "",
-   "agenda_items": [],
-   "agenda_posted": false,
+   "agenda_items": [
+    {
+     "section": "AGENDA",
+     "number": "1",
+     "text": "Prayer",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "2",
+     "text": "Pledge of Allegiance",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "3",
+     "text": "RE-ORGANIZATIONAL OF THE BOARD FOR FY 2026-2027. A. ELECTION OF A CHAIR B. ELECTION OF A VICE-CHAIR C. DISCUSSION OF BOARD PERSONNEL D. DISCUSSION REGARDING BOARD MEETING DATES AND TIMES AND APPROVE BOARD CALENDAR E. MISCELLANEOUS DISCUSSION (COMMITTEE APPOINTMENTS, ETC.) F. THE BOARD TO APPROVE ITS' RULES OF PROCEDURE",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "4",
+     "text": "Approval of Agenda",
+     "topics": []
+    },
+    {
+     "section": "AGENDA",
+     "number": "5",
+     "text": "THE BOARD TO RECEIVE AND ORDER FILED, THE REPORTS OF RECEIPTS, EXPENSES AND NET INCOME FOR SEPTEMBER 30, 2026, ON ALL CONSTITUTIONAL OFFICERS, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "6",
+     "text": "EXAMINATION AND APPROVAL OF INVOICES.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "7",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE 2026-2027 SMALL COUNTY CONSOLIDATED SOLID WASTE MANAGEMENT GRANT AGREEMENT CW128 IN THE AMOUNT OF $93,750, AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "8",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE FLORIDA COMMERCE ADMINISTRATIVE CLOSEOUT REPORT FOR THE CDBG SMALL CITIES PROGRAM-HOUSING REHABILITATION GRANT, AS AGENDAED BY JAMI EVANS, GRANTS COORDINATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "9",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF TRANSFER FROM GENERAL FUND RESERVE FOR CONTINGENCY AND THE PAYMENT APPROVAL TO ADAMS & REESE IN THE AMOUNT OF $6,770.00, FOR PROFESSIONAL SERVICES RENDERS THROUGH OCTOBER 31, 2026 IN THE MATTER OF TAYLOR COUNTY V FDEP AND FOLEY, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": [
+      "Taxes & reserves"
+     ]
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "10",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTIONS TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND (FY26) (GRANTS WERE APPROVED IN FY27 BUDGET, HOWEVER THERE ARE INVOICES TO BE APPROVED FOR SERVICES PROVIDED IN FY26, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "11",
+     "text": "THE BOARD TO CONSIDER ADOPTION OF RESOLUTION TO REFLECT UNANTICIPATED MONIES IN THE GENERAL FUND, AS AGENDAED BY DANNIELLE WELCH, COUNTY FINANCE DIRECTOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "12",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF FLORIDA DEPARTMENT OF AGRICULTURE AND CONSUMER SERVICES (FDACS) MOSQUITO CONTROL STATE FINANCIAL ASSISTANCE RECIPIENT AGREEMENT, FISCAL YEAR 2026-2027, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "13",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF A 3-YEAR CUSTOMER VALUE AGREEMENT WITH RINGPOWER FOR ANNUAL MAINTENANCE ON THE TAYLOR COUNTY JAIL GENERATOR, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "CONSENT ITEMS",
+     "number": "14",
+     "text": "THE BOARD TO RECEIVE THE FLORIDA FOREST SERVICE (FLORIDA DEPARTMENT OF AGRICULTURE AND CONSUMER SERVICES) REPORT, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "15",
+     "text": "THE BOARD TO RECEIVE STATEMENTS OF QUALIFICATIONS FOR PLANNING BOARD ATTORNEY SERVICES, SET FOR THIS DATE AT 6:00 P.M., OR AS SOON THEREAFTER AS POSSIBLE, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "BIDS/PUBLIC HEARINGS",
+     "number": "16",
+     "text": "THE BOARD TO APPROVE AWARDING LIVE OAK MANAGEMENT GROUP (LOMG) A CONTRACT IN THE AMOUNT OF $197,000 FOR TAYLOR COUNTY HORSEMEN'S ARENA IMPROVEMENTS AND PARK DEVELOPMENT PROJECT, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "17",
+     "text": "THE BOARD TO CONSIDER APPROVAL OF DRAFT DESIGN SERVICES AGREEMENT WITH LOCKLEAR & ASSOCIATES, INC. \u2013 HODGES PARK REHABILITATION AT KEATON BEACH, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "GENERAL BUSINESS",
+     "number": "18",
+     "text": "THE BOARD TO DISCUSS THE COUNTY ADMINISTRATOR EVALUATION POLICY, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "19",
+     "text": "THE BOARD TO REVIEW AND APPROVE AMENDED SHIP LOCAL HOUSING ASSISTANCE PLAN (LHAP) AND RESOLUTION WHICH INCLUDES A MANUFACTURED HOUSING STRATEGy AS REQUIRED BY FLORIDA HOUSING FINANCE CORPORATION FOR FISCAL YEARS 2026-2027 AND BEYOND, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "20",
+     "text": "THE BOARD TO REVIEW AND APPROVE FDOT SUPPLEMENTAL AGREEMENT NO. 3 FOR THE PROPOSED WIDENING/RESURFACING OF ASH STREET AND TO CONSIDER ADOPTION OF A RESOLUTION AUTHORIZING THE CHAIRPERSON TO ACCEPT THE AGREEMENT ON BEHALF OF THE BOCC, AS AGENDAED BY COUNTY ENGINEER, KENNETH DUDLEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "21",
+     "text": "THE BOARD TO REVIEW AND APPROVE FDOT SUPPLEMENTAL AGREEMENT NO. 4 FOR THE PROPOSED WIDENING/RESURFACING OF CEDAR ISLAND ROAD AND TO CONSIDER ADOPTION OF A RESOLUTION AUTHORIZING THE CHAIRPERSON TO ACCEPT THE AGREEMENT ON BEHALF OF THE BOCC, AS AGENDAED BY COUNTY ENGINEER, KENNETH DUDLEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "22",
+     "text": "THE BOARD TO REVIEW AND APPROVE FDOT SUPPLEMENTAL AGREEMENT NO. 4 FOR THE PROPOSED WIDENING/RESURFACING OF MCDANIEL ROAD AND TO CONSIDER ADOPTION OF A RESOLUTION AUTHORIZING THE CHAIRPERSON TO ACCEPT THE AGREEMENT ON BEHALF OF THE BOCC, AS AGENDAED BY COUNTY ENGINEER, KENNETH DUDLEY.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY STAFF ITEMS",
+     "number": "23",
+     "text": "THE BOARD TO REVIEW AND APPROVE THE SECOND AMENDMENT TO CONTRACT WITH ACCENTURE INFRASTRUCTURE AND CAPITAL PROJECTS, LLC FOR THE CONTINUED ADMINISTRATION OF THE SHIP PROGRAM FY 24/25 AND SHIP HHRP HELENE AND IDALIA, AS AGENDAED BY MELODY COX, GRANTS WRITER.",
+     "topics": []
+    },
+    {
+     "section": "COUNTY ADMINISTRATOR ITEMS",
+     "number": "24",
+     "text": "THE BOARD TO CONSIDER VETERANS SERVICES OFFICE \u2013 INCREASE IN PART-TIME HOURS FOR THE COUNTY VETERAN SERVICE OFFICER, AS AGENDAED BY THE COUNTY ADMINISTRATOR.",
+     "topics": []
+    }
+   ],
+   "agenda_posted": true,
    "note": "",
-   "topics": [],
+   "topics": [
+    "Taxes & reserves"
+   ],
    "first_seen": "2026-10-01T22:02-04:00",
-   "agenda_first_seen": ""
+   "agenda_first_seen": "2026-11-13T12:45-05:00"
   },
   {
    "id": "tcda:20261119",
