@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:11-05:00",
+ "generated": "2026-11-17T22:43-05:00",
  "meetings": [
   {
    "id": "school:DWDKES517CB4",
@@ -3670,7 +3670,7 @@
      "url": "https://taylorcofl.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=671,plainText=false)"
     }
    ],
-   "video_url": "",
+   "video_url": "https://cpmedia.azureedge.net/taylorcofl/ec975150d1.mp4",
    "agenda_items": [
     {
      "section": "AGENDA",
